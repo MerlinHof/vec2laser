@@ -1,0 +1,44 @@
+Connecting...
+Connected!
+Setting: $RST=$
+ok
+Setting: $23=3
+ok
+Setting: $3=3
+ok
+Setting: $30=100
+ok
+Setting: $$
+ok
+Sending: ; Prepare Job
+ok
+Sending: M5 ; Laser Off
+error:9
+Sending: G21 ; Millimeter
+error:9
+Sending: G90 ; Absolute Positioning
+error:9
+Sending: $H ; Homing
+ok
+Sending: G92 X0 Y0 ; Settings Home Point as Zero Point
+ok
+Sending: G0 X10 Y0
+ok
+Sending: G0 X10 Y77.066
+ok
+Sending: G0 X65 Y77.066
+ok
+Sending: G0 X65 Y0
+ok
+Sending: G0 X10 Y0
+ok
+Sending: G0 X10 Y0
+ok
+Sending: G0 X10 Y77.066
+ok
+Sending: G0 X65 Y77.066
+ok
+Sending: G0 X65 Y0
+ok
+Sending: G0 X10 Y0
+ok

@@ -1,0 +1,7672 @@
+Connecting...
+Connected!
+Setting: $RST=$
+ok
+Setting: $23=3
+ok
+Setting: $3=3
+ok
+Setting: $30=100
+ok
+Setting: $$
+ok
+Sending: ; Prepare Job
+ok
+Sending: M5 ; Laser Off
+ok
+Sending: G21 ; Millimeter
+ok
+Sending: G90 ; Absolute Positioning
+ok
+Sending: $H ; Homing
+ok
+Sending: G92 X0 Y0 ; Settings Home Point as Zero Point
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X20.842 Y12.071 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X20.842 Y16.389
+ok
+Sending: G1 X19.402 Y16.389
+ok
+Sending: G1 X19.402 Y12.071
+ok
+Sending: G1 X18.22 Y12.071
+ok
+Sending: G1 X18.22 Y10.852
+ok
+Sending: G1 X22.024 Y10.852
+ok
+Sending: G1 X22.024 Y12.071
+ok
+Sending: G1 X20.842 Y12.071
+ok
+Sending: G1 X20.842 Y12.071
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X25.042 Y13.958 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X25.042 Y13.958
+ok
+Sending: G1 X24.98 Y13.78
+ok
+Sending: G1 X24.886 Y13.628
+ok
+Sending: G1 X24.77 Y13.51
+ok
+Sending: G1 X24.77 Y13.51
+ok
+Sending: G1 X24.62 Y13.415
+ok
+Sending: G1 X24.45 Y13.358
+ok
+Sending: G1 X24.271 Y13.341
+ok
+Sending: G1 X24.271 Y13.341
+ok
+Sending: G1 X24.076 Y13.359
+ok
+Sending: G1 X23.906 Y13.414
+ok
+Sending: G1 X23.764 Y13.503
+ok
+Sending: G1 X23.764 Y13.503
+ok
+Sending: G1 X23.648 Y13.631
+ok
+Sending: G1 X23.566 Y13.79
+ok
+Sending: G1 X23.522 Y13.958
+ok
+Sending: G1 X25.042 Y13.958
+ok
+Sending: G1 X25.042 Y13.958
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X23.485 Y14.729 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X23.485 Y14.729
+ok
+Sending: G1 X23.501 Y14.955
+ok
+Sending: G1 X23.55 Y15.146
+ok
+Sending: G1 X23.63 Y15.303
+ok
+Sending: G1 X23.743 Y15.426
+ok
+Sending: G1 X23.888 Y15.514
+ok
+Sending: G1 X24.066 Y15.568
+ok
+Sending: G1 X24.275 Y15.588
+ok
+Sending: G1 X24.293 Y15.588
+ok
+Sending: G1 X24.293 Y15.588
+ok
+Sending: G1 X24.487 Y15.568
+ok
+Sending: G1 X24.656 Y15.509
+ok
+Sending: G1 X24.802 Y15.409
+ok
+Sending: G1 X24.924 Y15.27
+ok
+Sending: G1 X24.946 Y15.236
+ok
+Sending: G1 X26.231 Y15.236
+ok
+Sending: G1 X26.231 Y15.236
+ok
+Sending: G1 X26.168 Y15.42
+ok
+Sending: G1 X26.091 Y15.589
+ok
+Sending: G1 X26.001 Y15.745
+ok
+Sending: G1 X25.899 Y15.887
+ok
+Sending: G1 X25.784 Y16.014
+ok
+Sending: G1 X25.657 Y16.128
+ok
+Sending: G1 X25.516 Y16.227
+ok
+Sending: G1 X25.363 Y16.312
+ok
+Sending: G1 X25.197 Y16.383
+ok
+Sending: G1 X25.019 Y16.44
+ok
+Sending: G1 X24.827 Y16.483
+ok
+Sending: G1 X24.623 Y16.511
+ok
+Sending: G1 X24.406 Y16.526
+ok
+Sending: G1 X24.286 Y16.528
+ok
+Sending: G1 X24.286 Y16.528
+ok
+Sending: G1 X24.094 Y16.522
+ok
+Sending: G1 X23.909 Y16.505
+ok
+Sending: G1 X23.731 Y16.476
+ok
+Sending: G1 X23.56 Y16.435
+ok
+Sending: G1 X23.412 Y16.389
+ok
+Sending: G1 X23.412 Y16.389
+ok
+Sending: G1 X23.238 Y16.316
+ok
+Sending: G1 X23.075 Y16.231
+ok
+Sending: G1 X22.924 Y16.135
+ok
+Sending: G1 X22.784 Y16.026
+ok
+Sending: G1 X22.729 Y15.977
+ok
+Sending: G1 X22.729 Y15.977
+ok
+Sending: G1 X22.604 Y15.847
+ok
+Sending: G1 X22.494 Y15.705
+ok
+Sending: G1 X22.397 Y15.552
+ok
+Sending: G1 X22.314 Y15.388
+ok
+Sending: G1 X22.296 Y15.346
+ok
+Sending: G1 X22.296 Y15.346
+ok
+Sending: G1 X22.236 Y15.183
+ok
+Sending: G1 X22.191 Y15.013
+ok
+Sending: G1 X22.161 Y14.834
+ok
+Sending: G1 X22.144 Y14.647
+ok
+Sending: G1 X22.141 Y14.523
+ok
+Sending: G1 X22.141 Y14.523
+ok
+Sending: G1 X22.148 Y14.33
+ok
+Sending: G1 X22.167 Y14.145
+ok
+Sending: G1 X22.2 Y13.968
+ok
+Sending: G1 X22.245 Y13.799
+ok
+Sending: G1 X22.288 Y13.679
+ok
+Sending: G1 X22.288 Y13.679
+ok
+Sending: G1 X22.364 Y13.506
+ok
+Sending: G1 X22.453 Y13.347
+ok
+Sending: G1 X22.556 Y13.2
+ok
+Sending: G1 X22.673 Y13.067
+ok
+Sending: G1 X22.707 Y13.033
+ok
+Sending: G1 X22.707 Y13.033
+ok
+Sending: G1 X22.84 Y12.915
+ok
+Sending: G1 X22.986 Y12.812
+ok
+Sending: G1 X23.144 Y12.722
+ok
+Sending: G1 X23.314 Y12.646
+ok
+Sending: G1 X23.36 Y12.629
+ok
+Sending: G1 X23.36 Y12.629
+ok
+Sending: G1 X23.523 Y12.575
+ok
+Sending: G1 X23.693 Y12.534
+ok
+Sending: G1 X23.872 Y12.504
+ok
+Sending: G1 X24.058 Y12.487
+ok
+Sending: G1 X24.234 Y12.482
+ok
+Sending: G1 X24.234 Y12.482
+ok
+Sending: G1 X24.428 Y12.488
+ok
+Sending: G1 X24.613 Y12.507
+ok
+Sending: G1 X24.79 Y12.539
+ok
+Sending: G1 X24.959 Y12.583
+ok
+Sending: G1 X25.093 Y12.629
+ok
+Sending: G1 X25.093 Y12.629
+ok
+Sending: G1 X25.266 Y12.702
+ok
+Sending: G1 X25.427 Y12.789
+ok
+Sending: G1 X25.574 Y12.892
+ok
+Sending: G1 X25.708 Y13.009
+ok
+Sending: G1 X25.739 Y13.04
+ok
+Sending: G1 X25.739 Y13.04
+ok
+Sending: G1 X25.855 Y13.172
+ok
+Sending: G1 X25.957 Y13.318
+ok
+Sending: G1 X26.046 Y13.476
+ok
+Sending: G1 X26.121 Y13.649
+ok
+Sending: G1 X26.143 Y13.708
+ok
+Sending: G1 X26.143 Y13.708
+ok
+Sending: G1 X26.194 Y13.87
+ok
+Sending: G1 X26.233 Y14.04
+ok
+Sending: G1 X26.261 Y14.219
+ok
+Sending: G1 X26.278 Y14.406
+ok
+Sending: G1 X26.283 Y14.589
+ok
+Sending: G1 X26.283 Y14.729
+ok
+Sending: G1 X23.485 Y14.729
+ok
+Sending: G1 X23.485 Y14.729
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X29.539 Y13.591 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X29.539 Y13.591
+ok
+Sending: G1 X29.363 Y13.51
+ok
+Sending: G1 X29.187 Y13.451
+ok
+Sending: G1 X29.014 Y13.414
+ok
+Sending: G1 X28.843 Y13.4
+ok
+Sending: G1 X28.82 Y13.4
+ok
+Sending: G1 X28.82 Y13.4
+ok
+Sending: G1 X28.629 Y13.425
+ok
+Sending: G1 X28.519 Y13.473
+ok
+Sending: G1 X28.519 Y13.473
+ok
+Sending: G1 X28.414 Y13.619
+ok
+Sending: G1 X28.408 Y13.672
+ok
+Sending: G1 X28.408 Y13.672
+ok
+Sending: G1 X28.423 Y13.782
+ok
+Sending: G1 X28.423 Y13.782
+ok
+Sending: G1 X28.504 Y13.855
+ok
+Sending: G1 X28.504 Y13.855
+ok
+Sending: G1 X28.67 Y13.917
+ok
+Sending: G1 X28.687 Y13.921
+ok
+Sending: G1 X28.687 Y13.921
+ok
+Sending: G1 X28.845 Y13.958
+ok
+Sending: G1 X29.011 Y13.995
+ok
+Sending: G1 X29.011 Y13.995
+ok
+Sending: G1 X29.216 Y14.045
+ok
+Sending: G1 X29.4 Y14.108
+ok
+Sending: G1 X29.562 Y14.185
+ok
+Sending: G1 X29.703 Y14.276
+ok
+Sending: G1 X29.822 Y14.38
+ok
+Sending: G1 X29.833 Y14.391
+ok
+Sending: G1 X29.833 Y14.391
+ok
+Sending: G1 X29.944 Y14.529
+ok
+Sending: G1 X30.027 Y14.685
+ok
+Sending: G1 X30.08 Y14.858
+ok
+Sending: G1 X30.103 Y15.048
+ok
+Sending: G1 X30.105 Y15.111
+ok
+Sending: G1 X30.105 Y15.111
+ok
+Sending: G1 X30.093 Y15.3
+ok
+Sending: G1 X30.058 Y15.479
+ok
+Sending: G1 X30.001 Y15.645
+ok
+Sending: G1 X29.972 Y15.706
+ok
+Sending: G1 X29.972 Y15.706
+ok
+Sending: G1 X29.88 Y15.862
+ok
+Sending: G1 X29.768 Y16.004
+ok
+Sending: G1 X29.636 Y16.129
+ok
+Sending: G1 X29.605 Y16.154
+ok
+Sending: G1 X29.605 Y16.154
+ok
+Sending: G1 X29.462 Y16.248
+ok
+Sending: G1 X29.303 Y16.33
+ok
+Sending: G1 X29.129 Y16.398
+ok
+Sending: G1 X29.04 Y16.425
+ok
+Sending: G1 X29.04 Y16.425
+ok
+Sending: G1 X28.873 Y16.47
+ok
+Sending: G1 X28.699 Y16.502
+ok
+Sending: G1 X28.516 Y16.521
+ok
+Sending: G1 X28.325 Y16.528
+ok
+Sending: G1 X28.313 Y16.528
+ok
+Sending: G1 X28.313 Y16.528
+ok
+Sending: G1 X28.138 Y16.522
+ok
+Sending: G1 X27.963 Y16.505
+ok
+Sending: G1 X27.789 Y16.477
+ok
+Sending: G1 X27.616 Y16.437
+ok
+Sending: G1 X27.443 Y16.385
+ok
+Sending: G1 X27.271 Y16.322
+ok
+Sending: G1 X27.099 Y16.248
+ok
+Sending: G1 X26.928 Y16.162
+ok
+Sending: G1 X26.808 Y16.095
+ok
+Sending: G1 X27.292 Y15.155
+ok
+Sending: G1 X27.292 Y15.155
+ok
+Sending: G1 X27.469 Y15.267
+ok
+Sending: G1 X27.642 Y15.36
+ok
+Sending: G1 X27.813 Y15.433
+ok
+Sending: G1 X27.98 Y15.487
+ok
+Sending: G1 X28.145 Y15.521
+ok
+Sending: G1 X28.306 Y15.536
+ok
+Sending: G1 X28.35 Y15.537
+ok
+Sending: G1 X28.35 Y15.537
+ok
+Sending: G1 X28.539 Y15.51
+ok
+Sending: G1 X28.651 Y15.456
+ok
+Sending: G1 X28.651 Y15.456
+ok
+Sending: G1 X28.761 Y15.311
+ok
+Sending: G1 X28.768 Y15.25
+ok
+Sending: G1 X28.768 Y15.25
+ok
+Sending: G1 X28.746 Y15.133
+ok
+Sending: G1 X28.746 Y15.133
+ok
+Sending: G1 X28.673 Y15.045
+ok
+Sending: G1 X28.673 Y15.045
+ok
+Sending: G1 X28.51 Y14.975
+ok
+Sending: G1 X28.497 Y14.971
+ok
+Sending: G1 X28.497 Y14.971
+ok
+Sending: G1 X28.339 Y14.928
+ok
+Sending: G1 X28.203 Y14.898
+ok
+Sending: G1 X28.203 Y14.898
+ok
+Sending: G1 X27.982 Y14.846
+ok
+Sending: G1 X27.788 Y14.786
+ok
+Sending: G1 X27.62 Y14.718
+ok
+Sending: G1 X27.478 Y14.641
+ok
+Sending: G1 X27.363 Y14.556
+ok
+Sending: G1 X27.336 Y14.531
+ok
+Sending: G1 X27.336 Y14.531
+ok
+Sending: G1 X27.232 Y14.397
+ok
+Sending: G1 X27.156 Y14.241
+ok
+Sending: G1 X27.111 Y14.062
+ok
+Sending: G1 X27.094 Y13.861
+ok
+Sending: G1 X27.094 Y13.848
+ok
+Sending: G1 X27.094 Y13.848
+ok
+Sending: G1 X27.105 Y13.657
+ok
+Sending: G1 X27.14 Y13.479
+ok
+Sending: G1 X27.197 Y13.314
+ok
+Sending: G1 X27.211 Y13.282
+ok
+Sending: G1 X27.211 Y13.282
+ok
+Sending: G1 X27.3 Y13.122
+ok
+Sending: G1 X27.41 Y12.98
+ok
+Sending: G1 X27.542 Y12.855
+ok
+Sending: G1 X27.549 Y12.849
+ok
+Sending: G1 X27.549 Y12.849
+ok
+Sending: G1 X27.691 Y12.75
+ok
+Sending: G1 X27.849 Y12.665
+ok
+Sending: G1 X28.024 Y12.595
+ok
+Sending: G1 X28.078 Y12.577
+ok
+Sending: G1 X28.078 Y12.577
+ok
+Sending: G1 X28.244 Y12.535
+ok
+Sending: G1 X28.419 Y12.505
+ok
+Sending: G1 X28.603 Y12.487
+ok
+Sending: G1 X28.776 Y12.482
+ok
+Sending: G1 X28.776 Y12.482
+ok
+Sending: G1 X28.957 Y12.487
+ok
+Sending: G1 X29.137 Y12.503
+ok
+Sending: G1 X29.316 Y12.529
+ok
+Sending: G1 X29.492 Y12.565
+ok
+Sending: G1 X29.668 Y12.611
+ok
+Sending: G1 X29.842 Y12.668
+ok
+Sending: G1 X29.987 Y12.724
+ok
+Sending: G1 X29.539 Y13.591
+ok
+Sending: G1 X29.539 Y13.591
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X32.362 Y13.73 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X32.362 Y16.389
+ok
+Sending: G1 X31.033 Y16.389
+ok
+Sending: G1 X31.033 Y13.73
+ok
+Sending: G1 X30.593 Y13.73
+ok
+Sending: G1 X30.593 Y12.621
+ok
+Sending: G1 X31.033 Y12.621
+ok
+Sending: G1 X31.033 Y11.491
+ok
+Sending: G1 X32.362 Y11.491
+ok
+Sending: G1 X32.362 Y12.621
+ok
+Sending: G1 X33.119 Y12.621
+ok
+Sending: G1 X33.119 Y13.73
+ok
+Sending: G1 X32.362 Y13.73
+ok
+Sending: G1 X32.362 Y13.73
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X33.163 Y13.87 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X35.271 Y13.87
+ok
+Sending: G1 X35.271 Y14.979
+ok
+Sending: G1 X33.163 Y14.979
+ok
+Sending: G1 X33.163 Y13.87
+ok
+Sending: G1 X33.163 Y13.87
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X38.038 Y12.071 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X38.038 Y16.389
+ok
+Sending: G1 X36.598 Y16.389
+ok
+Sending: G1 X36.598 Y12.071
+ok
+Sending: G1 X35.416 Y12.071
+ok
+Sending: G1 X35.416 Y10.852
+ok
+Sending: G1 X39.22 Y10.852
+ok
+Sending: G1 X39.22 Y12.071
+ok
+Sending: G1 X38.038 Y12.071
+ok
+Sending: G1 X38.038 Y12.071
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X42.238 Y13.958 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X42.238 Y13.958
+ok
+Sending: G1 X42.176 Y13.78
+ok
+Sending: G1 X42.082 Y13.628
+ok
+Sending: G1 X41.966 Y13.51
+ok
+Sending: G1 X41.966 Y13.51
+ok
+Sending: G1 X41.816 Y13.415
+ok
+Sending: G1 X41.646 Y13.358
+ok
+Sending: G1 X41.467 Y13.341
+ok
+Sending: G1 X41.467 Y13.341
+ok
+Sending: G1 X41.272 Y13.359
+ok
+Sending: G1 X41.102 Y13.414
+ok
+Sending: G1 X40.96 Y13.503
+ok
+Sending: G1 X40.96 Y13.503
+ok
+Sending: G1 X40.845 Y13.631
+ok
+Sending: G1 X40.762 Y13.79
+ok
+Sending: G1 X40.718 Y13.958
+ok
+Sending: G1 X42.238 Y13.958
+ok
+Sending: G1 X42.238 Y13.958
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X40.681 Y14.729 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X40.681 Y14.729
+ok
+Sending: G1 X40.697 Y14.955
+ok
+Sending: G1 X40.746 Y15.146
+ok
+Sending: G1 X40.826 Y15.303
+ok
+Sending: G1 X40.939 Y15.426
+ok
+Sending: G1 X41.084 Y15.514
+ok
+Sending: G1 X41.262 Y15.568
+ok
+Sending: G1 X41.471 Y15.588
+ok
+Sending: G1 X41.489 Y15.588
+ok
+Sending: G1 X41.489 Y15.588
+ok
+Sending: G1 X41.683 Y15.568
+ok
+Sending: G1 X41.852 Y15.509
+ok
+Sending: G1 X41.998 Y15.409
+ok
+Sending: G1 X42.12 Y15.27
+ok
+Sending: G1 X42.142 Y15.236
+ok
+Sending: G1 X43.428 Y15.236
+ok
+Sending: G1 X43.428 Y15.236
+ok
+Sending: G1 X43.364 Y15.42
+ok
+Sending: G1 X43.287 Y15.589
+ok
+Sending: G1 X43.198 Y15.745
+ok
+Sending: G1 X43.095 Y15.887
+ok
+Sending: G1 X42.981 Y16.014
+ok
+Sending: G1 X42.853 Y16.128
+ok
+Sending: G1 X42.712 Y16.227
+ok
+Sending: G1 X42.559 Y16.312
+ok
+Sending: G1 X42.393 Y16.383
+ok
+Sending: G1 X42.215 Y16.44
+ok
+Sending: G1 X42.023 Y16.483
+ok
+Sending: G1 X41.819 Y16.511
+ok
+Sending: G1 X41.602 Y16.526
+ok
+Sending: G1 X41.482 Y16.528
+ok
+Sending: G1 X41.482 Y16.528
+ok
+Sending: G1 X41.29 Y16.522
+ok
+Sending: G1 X41.105 Y16.505
+ok
+Sending: G1 X40.927 Y16.476
+ok
+Sending: G1 X40.756 Y16.435
+ok
+Sending: G1 X40.608 Y16.389
+ok
+Sending: G1 X40.608 Y16.389
+ok
+Sending: G1 X40.434 Y16.316
+ok
+Sending: G1 X40.271 Y16.231
+ok
+Sending: G1 X40.12 Y16.135
+ok
+Sending: G1 X39.98 Y16.026
+ok
+Sending: G1 X39.925 Y15.977
+ok
+Sending: G1 X39.925 Y15.977
+ok
+Sending: G1 X39.8 Y15.847
+ok
+Sending: G1 X39.69 Y15.705
+ok
+Sending: G1 X39.593 Y15.552
+ok
+Sending: G1 X39.51 Y15.388
+ok
+Sending: G1 X39.492 Y15.346
+ok
+Sending: G1 X39.492 Y15.346
+ok
+Sending: G1 X39.432 Y15.183
+ok
+Sending: G1 X39.387 Y15.013
+ok
+Sending: G1 X39.357 Y14.834
+ok
+Sending: G1 X39.34 Y14.647
+ok
+Sending: G1 X39.337 Y14.523
+ok
+Sending: G1 X39.337 Y14.523
+ok
+Sending: G1 X39.344 Y14.33
+ok
+Sending: G1 X39.363 Y14.145
+ok
+Sending: G1 X39.396 Y13.968
+ok
+Sending: G1 X39.442 Y13.799
+ok
+Sending: G1 X39.484 Y13.679
+ok
+Sending: G1 X39.484 Y13.679
+ok
+Sending: G1 X39.56 Y13.506
+ok
+Sending: G1 X39.649 Y13.347
+ok
+Sending: G1 X39.752 Y13.2
+ok
+Sending: G1 X39.869 Y13.067
+ok
+Sending: G1 X39.903 Y13.033
+ok
+Sending: G1 X39.903 Y13.033
+ok
+Sending: G1 X40.036 Y12.915
+ok
+Sending: G1 X40.182 Y12.812
+ok
+Sending: G1 X40.34 Y12.722
+ok
+Sending: G1 X40.51 Y12.646
+ok
+Sending: G1 X40.556 Y12.629
+ok
+Sending: G1 X40.556 Y12.629
+ok
+Sending: G1 X40.719 Y12.575
+ok
+Sending: G1 X40.889 Y12.534
+ok
+Sending: G1 X41.068 Y12.504
+ok
+Sending: G1 X41.254 Y12.487
+ok
+Sending: G1 X41.43 Y12.482
+ok
+Sending: G1 X41.43 Y12.482
+ok
+Sending: G1 X41.624 Y12.488
+ok
+Sending: G1 X41.809 Y12.507
+ok
+Sending: G1 X41.986 Y12.539
+ok
+Sending: G1 X42.155 Y12.583
+ok
+Sending: G1 X42.289 Y12.629
+ok
+Sending: G1 X42.289 Y12.629
+ok
+Sending: G1 X42.463 Y12.702
+ok
+Sending: G1 X42.623 Y12.789
+ok
+Sending: G1 X42.77 Y12.892
+ok
+Sending: G1 X42.904 Y13.009
+ok
+Sending: G1 X42.936 Y13.04
+ok
+Sending: G1 X42.936 Y13.04
+ok
+Sending: G1 X43.051 Y13.172
+ok
+Sending: G1 X43.153 Y13.318
+ok
+Sending: G1 X43.242 Y13.476
+ok
+Sending: G1 X43.317 Y13.649
+ok
+Sending: G1 X43.339 Y13.708
+ok
+Sending: G1 X43.339 Y13.708
+ok
+Sending: G1 X43.39 Y13.87
+ok
+Sending: G1 X43.429 Y14.04
+ok
+Sending: G1 X43.457 Y14.219
+ok
+Sending: G1 X43.474 Y14.406
+ok
+Sending: G1 X43.479 Y14.589
+ok
+Sending: G1 X43.479 Y14.729
+ok
+Sending: G1 X40.681 Y14.729
+ok
+Sending: G1 X40.681 Y14.729
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X45.462 Y14.347 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X43.935 Y12.621
+ok
+Sending: G1 X45.668 Y12.621
+ok
+Sending: G1 X46.314 Y13.4
+ok
+Sending: G1 X46.975 Y12.621
+ok
+Sending: G1 X48.708 Y12.621
+ok
+Sending: G1 X47.144 Y14.347
+ok
+Sending: G1 X49.031 Y16.389
+ok
+Sending: G1 X47.269 Y16.389
+ok
+Sending: G1 X46.307 Y15.272
+ok
+Sending: G1 X45.338 Y16.389
+ok
+Sending: G1 X43.583 Y16.389
+ok
+Sending: G1 X45.462 Y14.347
+ok
+Sending: G1 X45.462 Y14.347
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X50.971 Y13.73 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X50.971 Y16.389
+ok
+Sending: G1 X49.642 Y16.389
+ok
+Sending: G1 X49.642 Y13.73
+ok
+Sending: G1 X49.201 Y13.73
+ok
+Sending: G1 X49.201 Y12.621
+ok
+Sending: G1 X49.642 Y12.621
+ok
+Sending: G1 X49.642 Y11.491
+ok
+Sending: G1 X50.971 Y11.491
+ok
+Sending: G1 X50.971 Y12.621
+ok
+Sending: G1 X51.728 Y12.621
+ok
+Sending: G1 X51.728 Y13.73
+ok
+Sending: G1 X50.971 Y13.73
+ok
+Sending: G1 X50.971 Y13.73
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X26.752 Y7.824 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X26.902 Y7.824
+ok
+Sending: G1 X26.902 Y7.824
+ok
+Sending: G1 X27.089 Y7.805
+ok
+Sending: G1 X27.206 Y7.77
+ok
+Sending: G1 X27.206 Y7.77
+ok
+Sending: G1 X27.366 Y7.68
+ok
+Sending: G1 X27.43 Y7.623
+ok
+Sending: G1 X27.43 Y7.623
+ok
+Sending: G1 X27.536 Y7.478
+ok
+Sending: G1 X27.57 Y7.403
+ok
+Sending: G1 X27.57 Y7.403
+ok
+Sending: G1 X27.613 Y7.231
+ok
+Sending: G1 X27.62 Y7.119
+ok
+Sending: G1 X27.62 Y7.119
+ok
+Sending: G1 X27.6 Y6.937
+ok
+Sending: G1 X27.57 Y6.839
+ok
+Sending: G1 X27.57 Y6.839
+ok
+Sending: G1 X27.482 Y6.679
+ok
+Sending: G1 X27.426 Y6.615
+ok
+Sending: G1 X27.426 Y6.615
+ok
+Sending: G1 X27.285 Y6.508
+ok
+Sending: G1 X27.203 Y6.469
+ok
+Sending: G1 X27.203 Y6.469
+ok
+Sending: G1 X27.033 Y6.424
+ok
+Sending: G1 X26.902 Y6.415
+ok
+Sending: G1 X26.752 Y6.415
+ok
+Sending: G1 X26.752 Y7.824
+ok
+Sending: G1 X26.752 Y7.824
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X26.098 Y5.861 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X27.066 Y5.861
+ok
+Sending: G1 X27.066 Y5.861
+ok
+Sending: G1 X27.25 Y5.875
+ok
+Sending: G1 X27.425 Y5.917
+ok
+Sending: G1 X27.546 Y5.965
+ok
+Sending: G1 X27.546 Y5.965
+ok
+Sending: G1 X27.708 Y6.052
+ok
+Sending: G1 X27.853 Y6.159
+ok
+Sending: G1 X27.94 Y6.242
+ok
+Sending: G1 X27.94 Y6.242
+ok
+Sending: G1 X28.058 Y6.378
+ok
+Sending: G1 X28.154 Y6.531
+ok
+Sending: G1 X28.207 Y6.642
+ok
+Sending: G1 X28.207 Y6.642
+ok
+Sending: G1 X28.266 Y6.814
+ok
+Sending: G1 X28.298 Y6.991
+ok
+Sending: G1 X28.304 Y7.119
+ok
+Sending: G1 X28.304 Y7.119
+ok
+Sending: G1 X28.291 Y7.3
+ok
+Sending: G1 X28.251 Y7.476
+ok
+Sending: G1 X28.207 Y7.597
+ok
+Sending: G1 X28.207 Y7.597
+ok
+Sending: G1 X28.126 Y7.76
+ok
+Sending: G1 X28.023 Y7.908
+ok
+Sending: G1 X27.944 Y7.997
+ok
+Sending: G1 X27.944 Y7.997
+ok
+Sending: G1 X27.81 Y8.118
+ok
+Sending: G1 X27.66 Y8.218
+ok
+Sending: G1 X27.55 Y8.274
+ok
+Sending: G1 X27.55 Y8.274
+ok
+Sending: G1 X27.382 Y8.336
+ok
+Sending: G1 X27.204 Y8.37
+ok
+Sending: G1 X27.066 Y8.378
+ok
+Sending: G1 X26.098 Y8.378
+ok
+Sending: G1 X26.098 Y5.861
+ok
+Sending: G1 X26.098 Y5.861
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X29.226 Y7.517 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X29.226 Y7.517
+ok
+Sending: G1 X29.256 Y7.674
+ok
+Sending: G1 X29.256 Y7.674
+ok
+Sending: G1 X29.336 Y7.797
+ok
+Sending: G1 X29.336 Y7.797
+ok
+Sending: G1 X29.459 Y7.881
+ok
+Sending: G1 X29.459 Y7.881
+ok
+Sending: G1 X29.616 Y7.911
+ok
+Sending: G1 X29.616 Y7.911
+ok
+Sending: G1 X29.766 Y7.881
+ok
+Sending: G1 X29.766 Y7.881
+ok
+Sending: G1 X29.89 Y7.797
+ok
+Sending: G1 X29.89 Y7.797
+ok
+Sending: G1 X29.973 Y7.674
+ok
+Sending: G1 X29.973 Y7.674
+ok
+Sending: G1 X30.007 Y7.523
+ok
+Sending: G1 X30.007 Y7.523
+ok
+Sending: G1 X29.973 Y7.373
+ok
+Sending: G1 X29.973 Y7.373
+ok
+Sending: G1 X29.89 Y7.246
+ok
+Sending: G1 X29.89 Y7.246
+ok
+Sending: G1 X29.766 Y7.163
+ok
+Sending: G1 X29.766 Y7.163
+ok
+Sending: G1 X29.616 Y7.133
+ok
+Sending: G1 X29.616 Y7.133
+ok
+Sending: G1 X29.459 Y7.163
+ok
+Sending: G1 X29.459 Y7.163
+ok
+Sending: G1 X29.336 Y7.246
+ok
+Sending: G1 X29.336 Y7.246
+ok
+Sending: G1 X29.256 Y7.37
+ok
+Sending: G1 X29.256 Y7.37
+ok
+Sending: G1 X29.226 Y7.517
+ok
+Sending: G1 X29.226 Y7.517
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X29.987 Y6.666 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X30.594 Y6.666
+ok
+Sending: G1 X30.594 Y8.378
+ok
+Sending: G1 X29.987 Y8.378
+ok
+Sending: G1 X29.987 Y8.188
+ok
+Sending: G1 X29.987 Y8.188
+ok
+Sending: G1 X29.855 Y8.314
+ok
+Sending: G1 X29.697 Y8.395
+ok
+Sending: G1 X29.514 Y8.43
+ok
+Sending: G1 X29.463 Y8.431
+ok
+Sending: G1 X29.463 Y8.431
+ok
+Sending: G1 X29.278 Y8.414
+ok
+Sending: G1 X29.119 Y8.364
+ok
+Sending: G1 X29.119 Y8.364
+ok
+Sending: G1 X28.962 Y8.274
+ok
+Sending: G1 X28.845 Y8.171
+ok
+Sending: G1 X28.845 Y8.171
+ok
+Sending: G1 X28.736 Y8.029
+ok
+Sending: G1 X28.662 Y7.881
+ok
+Sending: G1 X28.662 Y7.881
+ok
+Sending: G1 X28.615 Y7.71
+ok
+Sending: G1 X28.598 Y7.525
+ok
+Sending: G1 X28.598 Y7.517
+ok
+Sending: G1 X28.598 Y7.517
+ok
+Sending: G1 X28.615 Y7.334
+ok
+Sending: G1 X28.662 Y7.17
+ok
+Sending: G1 X28.662 Y7.17
+ok
+Sending: G1 X28.743 Y7.005
+ok
+Sending: G1 X28.839 Y6.879
+ok
+Sending: G1 X28.839 Y6.879
+ok
+Sending: G1 X28.975 Y6.761
+ok
+Sending: G1 X29.109 Y6.686
+ok
+Sending: G1 X29.109 Y6.686
+ok
+Sending: G1 X29.277 Y6.63
+ok
+Sending: G1 X29.456 Y6.612
+ok
+Sending: G1 X29.456 Y6.612
+ok
+Sending: G1 X29.644 Y6.634
+ok
+Sending: G1 X29.81 Y6.698
+ok
+Sending: G1 X29.956 Y6.805
+ok
+Sending: G1 X29.987 Y6.836
+ok
+Sending: G1 X29.987 Y6.666
+ok
+Sending: G1 X29.987 Y6.666
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X32.14 Y7.106 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X32.14 Y7.106
+ok
+Sending: G1 X31.965 Y7.038
+ok
+Sending: G1 X31.813 Y7.019
+ok
+Sending: G1 X31.813 Y7.019
+ok
+Sending: G1 X31.676 Y7.053
+ok
+Sending: G1 X31.676 Y7.053
+ok
+Sending: G1 X31.626 Y7.143
+ok
+Sending: G1 X31.626 Y7.143
+ok
+Sending: G1 X31.633 Y7.193
+ok
+Sending: G1 X31.633 Y7.193
+ok
+Sending: G1 X31.67 Y7.226
+ok
+Sending: G1 X31.67 Y7.226
+ok
+Sending: G1 X31.753 Y7.256
+ok
+Sending: G1 X31.753 Y7.256
+ok
+Sending: G1 X31.9 Y7.29
+ok
+Sending: G1 X31.9 Y7.29
+ok
+Sending: G1 X32.092 Y7.348
+ok
+Sending: G1 X32.237 Y7.436
+ok
+Sending: G1 X32.274 Y7.47
+ok
+Sending: G1 X32.274 Y7.47
+ok
+Sending: G1 X32.368 Y7.619
+ok
+Sending: G1 X32.397 Y7.797
+ok
+Sending: G1 X32.397 Y7.797
+ok
+Sending: G1 X32.372 Y7.98
+ok
+Sending: G1 X32.337 Y8.067
+ok
+Sending: G1 X32.337 Y8.067
+ok
+Sending: G1 X32.233 Y8.215
+ok
+Sending: G1 X32.17 Y8.271
+ok
+Sending: G1 X32.17 Y8.271
+ok
+Sending: G1 X32.018 Y8.358
+ok
+Sending: G1 X31.913 Y8.395
+ok
+Sending: G1 X31.913 Y8.395
+ok
+Sending: G1 X31.742 Y8.431
+ok
+Sending: G1 X31.583 Y8.441
+ok
+Sending: G1 X31.583 Y8.441
+ok
+Sending: G1 X31.408 Y8.429
+ok
+Sending: G1 X31.235 Y8.391
+ok
+Sending: G1 X31.062 Y8.328
+ok
+Sending: G1 X30.899 Y8.244
+ok
+Sending: G1 X31.119 Y7.817
+ok
+Sending: G1 X31.119 Y7.817
+ok
+Sending: G1 X31.294 Y7.917
+ok
+Sending: G1 X31.462 Y7.975
+ok
+Sending: G1 X31.6 Y7.991
+ok
+Sending: G1 X31.6 Y7.991
+ok
+Sending: G1 X31.736 Y7.954
+ok
+Sending: G1 X31.736 Y7.954
+ok
+Sending: G1 X31.79 Y7.86
+ok
+Sending: G1 X31.79 Y7.86
+ok
+Sending: G1 X31.78 Y7.807
+ok
+Sending: G1 X31.78 Y7.807
+ok
+Sending: G1 X31.746 Y7.767
+ok
+Sending: G1 X31.746 Y7.767
+ok
+Sending: G1 X31.666 Y7.734
+ok
+Sending: G1 X31.666 Y7.734
+ok
+Sending: G1 X31.533 Y7.7
+ok
+Sending: G1 X31.533 Y7.7
+ok
+Sending: G1 X31.328 Y7.644
+ok
+Sending: G1 X31.181 Y7.568
+ok
+Sending: G1 X31.139 Y7.533
+ok
+Sending: G1 X31.139 Y7.533
+ok
+Sending: G1 X31.052 Y7.386
+ok
+Sending: G1 X31.029 Y7.223
+ok
+Sending: G1 X31.029 Y7.223
+ok
+Sending: G1 X31.054 Y7.04
+ok
+Sending: G1 X31.082 Y6.966
+ok
+Sending: G1 X31.082 Y6.966
+ok
+Sending: G1 X31.184 Y6.816
+ok
+Sending: G1 X31.236 Y6.769
+ok
+Sending: G1 X31.236 Y6.769
+ok
+Sending: G1 X31.387 Y6.678
+ok
+Sending: G1 X31.476 Y6.646
+ok
+Sending: G1 X31.476 Y6.646
+ok
+Sending: G1 X31.648 Y6.61
+ok
+Sending: G1 X31.793 Y6.602
+ok
+Sending: G1 X31.793 Y6.602
+ok
+Sending: G1 X31.974 Y6.614
+ok
+Sending: G1 X32.151 Y6.648
+ok
+Sending: G1 X32.325 Y6.705
+ok
+Sending: G1 X32.344 Y6.712
+ok
+Sending: G1 X32.14 Y7.106
+ok
+Sending: G1 X32.14 Y7.106
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X34.442 Y6.666 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X34.442 Y8.378
+ok
+Sending: G1 X33.838 Y8.378
+ok
+Sending: G1 X33.838 Y6.666
+ok
+Sending: G1 X34.442 Y6.666
+ok
+Sending: G1 X34.442 Y6.666
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X33.798 Y6.008 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X33.798 Y6.008
+ok
+Sending: G1 X33.825 Y5.878
+ok
+Sending: G1 X33.825 Y5.878
+ok
+Sending: G1 X33.898 Y5.768
+ok
+Sending: G1 X33.898 Y5.768
+ok
+Sending: G1 X34.005 Y5.694
+ok
+Sending: G1 X34.005 Y5.694
+ok
+Sending: G1 X34.138 Y5.668
+ok
+Sending: G1 X34.138 Y5.668
+ok
+Sending: G1 X34.268 Y5.694
+ok
+Sending: G1 X34.268 Y5.694
+ok
+Sending: G1 X34.379 Y5.768
+ok
+Sending: G1 X34.379 Y5.768
+ok
+Sending: G1 X34.452 Y5.878
+ok
+Sending: G1 X34.452 Y5.878
+ok
+Sending: G1 X34.479 Y6.008
+ok
+Sending: G1 X34.479 Y6.008
+ok
+Sending: G1 X34.452 Y6.142
+ok
+Sending: G1 X34.452 Y6.142
+ok
+Sending: G1 X34.379 Y6.248
+ok
+Sending: G1 X34.379 Y6.248
+ok
+Sending: G1 X34.268 Y6.322
+ok
+Sending: G1 X34.268 Y6.322
+ok
+Sending: G1 X34.138 Y6.348
+ok
+Sending: G1 X34.138 Y6.348
+ok
+Sending: G1 X34.005 Y6.322
+ok
+Sending: G1 X34.005 Y6.322
+ok
+Sending: G1 X33.898 Y6.248
+ok
+Sending: G1 X33.898 Y6.248
+ok
+Sending: G1 X33.825 Y6.142
+ok
+Sending: G1 X33.825 Y6.142
+ok
+Sending: G1 X33.798 Y6.008
+ok
+Sending: G1 X33.798 Y6.008
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X35.99 Y7.106 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X35.99 Y7.106
+ok
+Sending: G1 X35.814 Y7.038
+ok
+Sending: G1 X35.663 Y7.019
+ok
+Sending: G1 X35.663 Y7.019
+ok
+Sending: G1 X35.526 Y7.053
+ok
+Sending: G1 X35.526 Y7.053
+ok
+Sending: G1 X35.476 Y7.143
+ok
+Sending: G1 X35.476 Y7.143
+ok
+Sending: G1 X35.482 Y7.193
+ok
+Sending: G1 X35.482 Y7.193
+ok
+Sending: G1 X35.519 Y7.226
+ok
+Sending: G1 X35.519 Y7.226
+ok
+Sending: G1 X35.603 Y7.256
+ok
+Sending: G1 X35.603 Y7.256
+ok
+Sending: G1 X35.749 Y7.29
+ok
+Sending: G1 X35.749 Y7.29
+ok
+Sending: G1 X35.942 Y7.348
+ok
+Sending: G1 X36.087 Y7.436
+ok
+Sending: G1 X36.123 Y7.47
+ok
+Sending: G1 X36.123 Y7.47
+ok
+Sending: G1 X36.217 Y7.619
+ok
+Sending: G1 X36.247 Y7.797
+ok
+Sending: G1 X36.247 Y7.797
+ok
+Sending: G1 X36.221 Y7.98
+ok
+Sending: G1 X36.187 Y8.067
+ok
+Sending: G1 X36.187 Y8.067
+ok
+Sending: G1 X36.082 Y8.215
+ok
+Sending: G1 X36.02 Y8.271
+ok
+Sending: G1 X36.02 Y8.271
+ok
+Sending: G1 X35.867 Y8.358
+ok
+Sending: G1 X35.763 Y8.395
+ok
+Sending: G1 X35.763 Y8.395
+ok
+Sending: G1 X35.591 Y8.431
+ok
+Sending: G1 X35.432 Y8.441
+ok
+Sending: G1 X35.432 Y8.441
+ok
+Sending: G1 X35.258 Y8.429
+ok
+Sending: G1 X35.084 Y8.391
+ok
+Sending: G1 X34.912 Y8.328
+ok
+Sending: G1 X34.748 Y8.244
+ok
+Sending: G1 X34.968 Y7.817
+ok
+Sending: G1 X34.968 Y7.817
+ok
+Sending: G1 X35.143 Y7.917
+ok
+Sending: G1 X35.311 Y7.975
+ok
+Sending: G1 X35.449 Y7.991
+ok
+Sending: G1 X35.449 Y7.991
+ok
+Sending: G1 X35.586 Y7.954
+ok
+Sending: G1 X35.586 Y7.954
+ok
+Sending: G1 X35.639 Y7.86
+ok
+Sending: G1 X35.639 Y7.86
+ok
+Sending: G1 X35.629 Y7.807
+ok
+Sending: G1 X35.629 Y7.807
+ok
+Sending: G1 X35.596 Y7.767
+ok
+Sending: G1 X35.596 Y7.767
+ok
+Sending: G1 X35.516 Y7.734
+ok
+Sending: G1 X35.516 Y7.734
+ok
+Sending: G1 X35.382 Y7.7
+ok
+Sending: G1 X35.382 Y7.7
+ok
+Sending: G1 X35.177 Y7.644
+ok
+Sending: G1 X35.031 Y7.568
+ok
+Sending: G1 X34.988 Y7.533
+ok
+Sending: G1 X34.988 Y7.533
+ok
+Sending: G1 X34.901 Y7.386
+ok
+Sending: G1 X34.878 Y7.223
+ok
+Sending: G1 X34.878 Y7.223
+ok
+Sending: G1 X34.903 Y7.04
+ok
+Sending: G1 X34.932 Y6.966
+ok
+Sending: G1 X34.932 Y6.966
+ok
+Sending: G1 X35.033 Y6.816
+ok
+Sending: G1 X35.085 Y6.769
+ok
+Sending: G1 X35.085 Y6.769
+ok
+Sending: G1 X35.237 Y6.678
+ok
+Sending: G1 X35.326 Y6.646
+ok
+Sending: G1 X35.326 Y6.646
+ok
+Sending: G1 X35.497 Y6.61
+ok
+Sending: G1 X35.643 Y6.602
+ok
+Sending: G1 X35.643 Y6.602
+ok
+Sending: G1 X35.823 Y6.614
+ok
+Sending: G1 X36 Y6.648
+ok
+Sending: G1 X36.174 Y6.705
+ok
+Sending: G1 X36.193 Y6.712
+ok
+Sending: G1 X35.99 Y7.106
+ok
+Sending: G1 X35.99 Y7.106
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X37.273 Y7.17 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X37.273 Y8.378
+ok
+Sending: G1 X36.669 Y8.378
+ok
+Sending: G1 X36.669 Y7.17
+ok
+Sending: G1 X36.469 Y7.17
+ok
+Sending: G1 X36.469 Y6.666
+ok
+Sending: G1 X36.669 Y6.666
+ok
+Sending: G1 X36.669 Y6.152
+ok
+Sending: G1 X37.273 Y6.152
+ok
+Sending: G1 X37.273 Y6.666
+ok
+Sending: G1 X37.617 Y6.666
+ok
+Sending: G1 X37.617 Y7.17
+ok
+Sending: G1 X37.273 Y7.17
+ok
+Sending: G1 X37.273 Y7.17
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X40.23 Y7.273 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X40.23 Y7.273
+ok
+Sending: G1 X40.149 Y7.11
+ok
+Sending: G1 X40.106 Y7.069
+ok
+Sending: G1 X40.106 Y7.069
+ok
+Sending: G1 X39.944 Y6.998
+ok
+Sending: G1 X39.879 Y6.993
+ok
+Sending: G1 X39.879 Y6.993
+ok
+Sending: G1 X39.699 Y7.033
+ok
+Sending: G1 X39.649 Y7.066
+ok
+Sending: G1 X39.649 Y7.066
+ok
+Sending: G1 X39.554 Y7.213
+ok
+Sending: G1 X39.539 Y7.273
+ok
+Sending: G1 X40.23 Y7.273
+ok
+Sending: G1 X40.23 Y7.273
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X39.522 Y7.623 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X39.522 Y7.623
+ok
+Sending: G1 X39.558 Y7.829
+ok
+Sending: G1 X39.664 Y7.958
+ok
+Sending: G1 X39.842 Y8.012
+ok
+Sending: G1 X39.889 Y8.014
+ok
+Sending: G1 X39.889 Y8.014
+ok
+Sending: G1 X40.069 Y7.97
+ok
+Sending: G1 X40.187 Y7.854
+ok
+Sending: G1 X40.771 Y7.854
+ok
+Sending: G1 X40.771 Y7.854
+ok
+Sending: G1 X40.699 Y8.029
+ok
+Sending: G1 X40.599 Y8.174
+ok
+Sending: G1 X40.472 Y8.287
+ok
+Sending: G1 X40.316 Y8.369
+ok
+Sending: G1 X40.132 Y8.421
+ok
+Sending: G1 X39.92 Y8.441
+ok
+Sending: G1 X39.886 Y8.441
+ok
+Sending: G1 X39.886 Y8.441
+ok
+Sending: G1 X39.699 Y8.428
+ok
+Sending: G1 X39.526 Y8.39
+ok
+Sending: G1 X39.489 Y8.378
+ok
+Sending: G1 X39.489 Y8.378
+ok
+Sending: G1 X39.322 Y8.298
+ok
+Sending: G1 X39.18 Y8.192
+ok
+Sending: G1 X39.179 Y8.191
+ok
+Sending: G1 X39.179 Y8.191
+ok
+Sending: G1 X39.062 Y8.054
+ok
+Sending: G1 X38.982 Y7.904
+ok
+Sending: G1 X38.982 Y7.904
+ok
+Sending: G1 X38.931 Y7.737
+ok
+Sending: G1 X38.912 Y7.551
+ok
+Sending: G1 X38.911 Y7.53
+ok
+Sending: G1 X38.911 Y7.53
+ok
+Sending: G1 X38.926 Y7.341
+ok
+Sending: G1 X38.969 Y7.171
+ok
+Sending: G1 X38.978 Y7.146
+ok
+Sending: G1 X38.978 Y7.146
+ok
+Sending: G1 X39.062 Y6.982
+ok
+Sending: G1 X39.168 Y6.852
+ok
+Sending: G1 X39.168 Y6.852
+ok
+Sending: G1 X39.309 Y6.743
+ok
+Sending: G1 X39.466 Y6.669
+ok
+Sending: G1 X39.466 Y6.669
+ok
+Sending: G1 X39.633 Y6.622
+ok
+Sending: G1 X39.818 Y6.603
+ok
+Sending: G1 X39.863 Y6.602
+ok
+Sending: G1 X39.863 Y6.602
+ok
+Sending: G1 X40.051 Y6.616
+ok
+Sending: G1 X40.222 Y6.658
+ok
+Sending: G1 X40.253 Y6.669
+ok
+Sending: G1 X40.253 Y6.669
+ok
+Sending: G1 X40.419 Y6.751
+ok
+Sending: G1 X40.547 Y6.856
+ok
+Sending: G1 X40.547 Y6.856
+ok
+Sending: G1 X40.654 Y6.996
+ok
+Sending: G1 X40.731 Y7.16
+ok
+Sending: G1 X40.731 Y7.16
+ok
+Sending: G1 X40.774 Y7.326
+ok
+Sending: G1 X40.793 Y7.512
+ok
+Sending: G1 X40.794 Y7.56
+ok
+Sending: G1 X40.794 Y7.623
+ok
+Sending: G1 X39.522 Y7.623
+ok
+Sending: G1 X39.522 Y7.623
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X41.743 Y6.666 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X41.743 Y8.378
+ok
+Sending: G1 X41.139 Y8.378
+ok
+Sending: G1 X41.139 Y6.666
+ok
+Sending: G1 X41.743 Y6.666
+ok
+Sending: G1 X41.743 Y6.666
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X41.099 Y6.008 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X41.099 Y6.008
+ok
+Sending: G1 X41.126 Y5.878
+ok
+Sending: G1 X41.126 Y5.878
+ok
+Sending: G1 X41.199 Y5.768
+ok
+Sending: G1 X41.199 Y5.768
+ok
+Sending: G1 X41.306 Y5.694
+ok
+Sending: G1 X41.306 Y5.694
+ok
+Sending: G1 X41.44 Y5.668
+ok
+Sending: G1 X41.44 Y5.668
+ok
+Sending: G1 X41.57 Y5.694
+ok
+Sending: G1 X41.57 Y5.694
+ok
+Sending: G1 X41.68 Y5.768
+ok
+Sending: G1 X41.68 Y5.768
+ok
+Sending: G1 X41.753 Y5.878
+ok
+Sending: G1 X41.753 Y5.878
+ok
+Sending: G1 X41.78 Y6.008
+ok
+Sending: G1 X41.78 Y6.008
+ok
+Sending: G1 X41.753 Y6.142
+ok
+Sending: G1 X41.753 Y6.142
+ok
+Sending: G1 X41.68 Y6.248
+ok
+Sending: G1 X41.68 Y6.248
+ok
+Sending: G1 X41.57 Y6.322
+ok
+Sending: G1 X41.57 Y6.322
+ok
+Sending: G1 X41.44 Y6.348
+ok
+Sending: G1 X41.44 Y6.348
+ok
+Sending: G1 X41.306 Y6.322
+ok
+Sending: G1 X41.306 Y6.322
+ok
+Sending: G1 X41.199 Y6.248
+ok
+Sending: G1 X41.199 Y6.248
+ok
+Sending: G1 X41.126 Y6.142
+ok
+Sending: G1 X41.126 Y6.142
+ok
+Sending: G1 X41.099 Y6.008
+ok
+Sending: G1 X41.099 Y6.008
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X42.156 Y6.666 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X42.76 Y6.666
+ok
+Sending: G1 X42.76 Y6.883
+ok
+Sending: G1 X42.76 Y6.883
+ok
+Sending: G1 X42.9 Y6.746
+ok
+Sending: G1 X43.011 Y6.682
+ok
+Sending: G1 X43.011 Y6.682
+ok
+Sending: G1 X43.178 Y6.638
+ok
+Sending: G1 X43.308 Y6.629
+ok
+Sending: G1 X43.308 Y6.629
+ok
+Sending: G1 X43.498 Y6.649
+ok
+Sending: G1 X43.615 Y6.689
+ok
+Sending: G1 X43.615 Y6.689
+ok
+Sending: G1 X43.769 Y6.785
+ok
+Sending: G1 X43.835 Y6.852
+ok
+Sending: G1 X43.835 Y6.852
+ok
+Sending: G1 X43.925 Y7.01
+ok
+Sending: G1 X43.935 Y7.046
+ok
+Sending: G1 X43.935 Y7.046
+ok
+Sending: G1 X43.96 Y7.22
+ok
+Sending: G1 X43.962 Y7.29
+ok
+Sending: G1 X43.962 Y8.378
+ok
+Sending: G1 X43.358 Y8.378
+ok
+Sending: G1 X43.358 Y7.513
+ok
+Sending: G1 X43.358 Y7.513
+ok
+Sending: G1 X43.342 Y7.329
+ok
+Sending: G1 X43.338 Y7.31
+ok
+Sending: G1 X43.338 Y7.31
+ok
+Sending: G1 X43.274 Y7.183
+ok
+Sending: G1 X43.274 Y7.183
+ok
+Sending: G1 X43.184 Y7.126
+ok
+Sending: G1 X43.184 Y7.126
+ok
+Sending: G1 X43.078 Y7.109
+ok
+Sending: G1 X43.078 Y7.109
+ok
+Sending: G1 X42.897 Y7.155
+ok
+Sending: G1 X42.841 Y7.203
+ok
+Sending: G1 X42.841 Y7.203
+ok
+Sending: G1 X42.77 Y7.355
+ok
+Sending: G1 X42.76 Y7.463
+ok
+Sending: G1 X42.76 Y8.378
+ok
+Sending: G1 X42.156 Y8.378
+ok
+Sending: G1 X42.156 Y6.666
+ok
+Sending: G1 X42.156 Y6.666
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X33.504 Y53.649 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X33.504 Y53.649
+ok
+Sending: G1 X33.496 Y53.723
+ok
+Sending: G1 X33.496 Y53.723
+ok
+Sending: G1 X33.488 Y53.805
+ok
+Sending: G1 X33.488 Y53.805
+ok
+Sending: G1 X33.477 Y53.868
+ok
+Sending: G1 X33.477 Y53.868
+ok
+Sending: G1 X33.465 Y53.903
+ok
+Sending: G1 X33.465 Y53.903
+ok
+Sending: G1 X33.449 Y53.934
+ok
+Sending: G1 X33.449 Y53.934
+ok
+Sending: G1 X33.437 Y53.97
+ok
+Sending: G1 X33.437 Y53.97
+ok
+Sending: G1 X33.426 Y54.001
+ok
+Sending: G1 X33.426 Y54.001
+ok
+Sending: G1 X33.41 Y54.032
+ok
+Sending: G1 X33.41 Y54.032
+ok
+Sending: G1 X33.375 Y54.079
+ok
+Sending: G1 X33.375 Y54.079
+ok
+Sending: G1 X33.367 Y54.095
+ok
+Sending: G1 X33.367 Y54.095
+ok
+Sending: G1 X33.34 Y54.126
+ok
+Sending: G1 X33.34 Y54.126
+ok
+Sending: G1 X33.312 Y54.153
+ok
+Sending: G1 X33.312 Y54.153
+ok
+Sending: G1 X33.285 Y54.185
+ok
+Sending: G1 X33.285 Y54.185
+ok
+Sending: G1 X33.261 Y54.212
+ok
+Sending: G1 X33.261 Y54.212
+ok
+Sending: G1 X33.23 Y54.236
+ok
+Sending: G1 X33.23 Y54.236
+ok
+Sending: G1 X33.199 Y54.259
+ok
+Sending: G1 X33.199 Y54.259
+ok
+Sending: G1 X33.152 Y54.298
+ok
+Sending: G1 X33.152 Y54.298
+ok
+Sending: G1 X33.105 Y54.329
+ok
+Sending: G1 X33.105 Y54.329
+ok
+Sending: G1 X32.972 Y54.372
+ok
+Sending: G1 X32.972 Y54.372
+ok
+Sending: G1 X32.878 Y54.376
+ok
+Sending: G1 X32.878 Y54.376
+ok
+Sending: G1 X32.804 Y54.408
+ok
+Sending: G1 X32.804 Y54.408
+ok
+Sending: G1 X32.737 Y54.459
+ok
+Sending: G1 X32.737 Y54.459
+ok
+Sending: G1 X32.667 Y54.474
+ok
+Sending: G1 X32.667 Y54.474
+ok
+Sending: G1 X32.612 Y54.502
+ok
+Sending: G1 X32.612 Y54.502
+ok
+Sending: G1 X32.51 Y54.502
+ok
+Sending: G1 X32.51 Y54.502
+ok
+Sending: G1 X32.409 Y54.509
+ok
+Sending: G1 X32.409 Y54.509
+ok
+Sending: G1 X32.358 Y54.509
+ok
+Sending: G1 X32.358 Y54.509
+ok
+Sending: G1 X32.307 Y54.509
+ok
+Sending: G1 X32.307 Y54.509
+ok
+Sending: G1 X32.186 Y54.498
+ok
+Sending: G1 X32.186 Y54.498
+ok
+Sending: G1 X32.123 Y54.494
+ok
+Sending: G1 X32.123 Y54.494
+ok
+Sending: G1 X32.084 Y54.498
+ok
+Sending: G1 X32.084 Y54.498
+ok
+Sending: G1 X32.061 Y54.49
+ok
+Sending: G1 X32.061 Y54.49
+ok
+Sending: G1 X32.037 Y54.486
+ok
+Sending: G1 X32.037 Y54.486
+ok
+Sending: G1 X31.963 Y54.482
+ok
+Sending: G1 X31.963 Y54.482
+ok
+Sending: G1 X31.9 Y54.478
+ok
+Sending: G1 X31.9 Y54.478
+ok
+Sending: G1 X31.869 Y54.47
+ok
+Sending: G1 X31.869 Y54.47
+ok
+Sending: G1 X31.834 Y54.462
+ok
+Sending: G1 X31.834 Y54.462
+ok
+Sending: G1 X31.795 Y54.459
+ok
+Sending: G1 X31.795 Y54.459
+ok
+Sending: G1 X31.755 Y54.459
+ok
+Sending: G1 X31.755 Y54.459
+ok
+Sending: G1 X31.732 Y54.443
+ok
+Sending: G1 X31.732 Y54.443
+ok
+Sending: G1 X31.716 Y54.439
+ok
+Sending: G1 X31.716 Y54.439
+ok
+Sending: G1 X31.665 Y54.435
+ok
+Sending: G1 X31.665 Y54.435
+ok
+Sending: G1 X31.622 Y54.431
+ok
+Sending: G1 X31.622 Y54.431
+ok
+Sending: G1 X31.572 Y54.412
+ok
+Sending: G1 X31.572 Y54.412
+ok
+Sending: G1 X31.529 Y54.388
+ok
+Sending: G1 X31.529 Y54.388
+ok
+Sending: G1 X31.486 Y54.384
+ok
+Sending: G1 X31.486 Y54.384
+ok
+Sending: G1 X31.45 Y54.365
+ok
+Sending: G1 X31.45 Y54.365
+ok
+Sending: G1 X31.415 Y54.357
+ok
+Sending: G1 X31.415 Y54.357
+ok
+Sending: G1 X31.38 Y54.349
+ok
+Sending: G1 X31.38 Y54.349
+ok
+Sending: G1 X31.345 Y54.333
+ok
+Sending: G1 X31.345 Y54.333
+ok
+Sending: G1 X31.313 Y54.306
+ok
+Sending: G1 X31.313 Y54.306
+ok
+Sending: G1 X31.278 Y54.267
+ok
+Sending: G1 X31.278 Y54.267
+ok
+Sending: G1 X31.263 Y54.255
+ok
+Sending: G1 X31.263 Y54.255
+ok
+Sending: G1 X31.204 Y54.193
+ok
+Sending: G1 X31.204 Y54.193
+ok
+Sending: G1 X31.161 Y54.118
+ok
+Sending: G1 X31.161 Y54.118
+ok
+Sending: G1 X31.13 Y54.048
+ok
+Sending: G1 X31.13 Y54.048
+ok
+Sending: G1 X31.106 Y53.981
+ok
+Sending: G1 X31.106 Y53.981
+ok
+Sending: G1 X31.079 Y53.891
+ok
+Sending: G1 X31.079 Y53.891
+ok
+Sending: G1 X31.063 Y53.829
+ok
+Sending: G1 X31.063 Y53.829
+ok
+Sending: G1 X31.063 Y53.758
+ok
+Sending: G1 X31.063 Y53.758
+ok
+Sending: G1 X31.067 Y53.711
+ok
+Sending: G1 X31.067 Y53.711
+ok
+Sending: G1 X31.071 Y53.657
+ok
+Sending: G1 X31.071 Y53.657
+ok
+Sending: G1 X31.071 Y53.559
+ok
+Sending: G1 X31.071 Y53.559
+ok
+Sending: G1 X31.079 Y53.461
+ok
+Sending: G1 X31.079 Y53.461
+ok
+Sending: G1 X31.106 Y53.348
+ok
+Sending: G1 X31.106 Y53.348
+ok
+Sending: G1 X31.165 Y53.281
+ok
+Sending: G1 X31.165 Y53.281
+ok
+Sending: G1 X31.196 Y53.25
+ok
+Sending: G1 X31.196 Y53.25
+ok
+Sending: G1 X31.231 Y53.215
+ok
+Sending: G1 X31.231 Y53.215
+ok
+Sending: G1 X31.266 Y53.183
+ok
+Sending: G1 X31.266 Y53.183
+ok
+Sending: G1 X31.298 Y53.164
+ok
+Sending: G1 X31.298 Y53.164
+ok
+Sending: G1 X31.333 Y53.144
+ok
+Sending: G1 X31.333 Y53.144
+ok
+Sending: G1 X31.368 Y53.101
+ok
+Sending: G1 X31.368 Y53.101
+ok
+Sending: G1 X31.384 Y53.086
+ok
+Sending: G1 X31.384 Y53.086
+ok
+Sending: G1 X31.399 Y53.066
+ok
+Sending: G1 X31.399 Y53.066
+ok
+Sending: G1 X31.403 Y53.027
+ok
+Sending: G1 X31.403 Y53.027
+ok
+Sending: G1 X31.423 Y52.984
+ok
+Sending: G1 X31.423 Y52.984
+ok
+Sending: G1 X31.482 Y52.953
+ok
+Sending: G1 X31.482 Y52.953
+ok
+Sending: G1 X31.54 Y52.917
+ok
+Sending: G1 X31.54 Y52.917
+ok
+Sending: G1 X31.489 Y52.87
+ok
+Sending: G1 X31.489 Y52.87
+ok
+Sending: G1 X31.443 Y52.847
+ok
+Sending: G1 X31.443 Y52.847
+ok
+Sending: G1 X31.388 Y52.835
+ok
+Sending: G1 X31.388 Y52.835
+ok
+Sending: G1 X31.341 Y52.808
+ok
+Sending: G1 X31.341 Y52.808
+ok
+Sending: G1 X31.29 Y52.773
+ok
+Sending: G1 X31.29 Y52.773
+ok
+Sending: G1 X31.247 Y52.738
+ok
+Sending: G1 X31.247 Y52.738
+ok
+Sending: G1 X31.227 Y52.722
+ok
+Sending: G1 X31.227 Y52.722
+ok
+Sending: G1 X31.208 Y52.706
+ok
+Sending: G1 X31.208 Y52.706
+ok
+Sending: G1 X31.165 Y52.663
+ok
+Sending: G1 X31.165 Y52.663
+ok
+Sending: G1 X31.145 Y52.648
+ok
+Sending: G1 X31.145 Y52.648
+ok
+Sending: G1 X31.106 Y52.601
+ok
+Sending: G1 X31.106 Y52.601
+ok
+Sending: G1 X31.091 Y52.585
+ok
+Sending: G1 X31.091 Y52.585
+ok
+Sending: G1 X31.079 Y52.534
+ok
+Sending: G1 X31.079 Y52.534
+ok
+Sending: G1 X31.055 Y52.468
+ok
+Sending: G1 X31.055 Y52.468
+ok
+Sending: G1 X31.036 Y52.393
+ok
+Sending: G1 X31.036 Y52.393
+ok
+Sending: G1 X31.034 Y52.212
+ok
+Sending: G1 X31.036 Y52.19
+ok
+Sending: G1 X31.036 Y52.19
+ok
+Sending: G1 X31.07 Y52.011
+ok
+Sending: G1 X31.075 Y51.994
+ok
+Sending: G1 X31.075 Y51.994
+ok
+Sending: G1 X31.098 Y51.924
+ok
+Sending: G1 X31.098 Y51.924
+ok
+Sending: G1 X31.126 Y51.861
+ok
+Sending: G1 X31.126 Y51.861
+ok
+Sending: G1 X31.141 Y51.846
+ok
+Sending: G1 X31.141 Y51.846
+ok
+Sending: G1 X31.149 Y51.822
+ok
+Sending: G1 X31.149 Y51.822
+ok
+Sending: G1 X31.177 Y51.791
+ok
+Sending: G1 X31.177 Y51.791
+ok
+Sending: G1 X31.204 Y51.752
+ok
+Sending: G1 X31.204 Y51.752
+ok
+Sending: G1 X31.251 Y51.701
+ok
+Sending: G1 X31.251 Y51.701
+ok
+Sending: G1 X31.302 Y51.646
+ok
+Sending: G1 X31.302 Y51.646
+ok
+Sending: G1 X31.345 Y51.619
+ok
+Sending: G1 X31.345 Y51.619
+ok
+Sending: G1 X31.384 Y51.58
+ok
+Sending: G1 X31.384 Y51.58
+ok
+Sending: G1 X31.427 Y51.564
+ok
+Sending: G1 X31.427 Y51.564
+ok
+Sending: G1 X31.474 Y51.545
+ok
+Sending: G1 X31.474 Y51.545
+ok
+Sending: G1 X31.533 Y51.552
+ok
+Sending: G1 X31.533 Y51.552
+ok
+Sending: G1 X31.587 Y51.564
+ok
+Sending: G1 X31.587 Y51.564
+ok
+Sending: G1 X31.654 Y51.56
+ok
+Sending: G1 X31.654 Y51.56
+ok
+Sending: G1 X31.72 Y51.545
+ok
+Sending: G1 X31.72 Y51.545
+ok
+Sending: G1 X31.759 Y51.513
+ok
+Sending: G1 X31.759 Y51.513
+ok
+Sending: G1 X31.795 Y51.474
+ok
+Sending: G1 X31.795 Y51.474
+ok
+Sending: G1 X31.818 Y51.462
+ok
+Sending: G1 X31.818 Y51.462
+ok
+Sending: G1 X31.834 Y51.443
+ok
+Sending: G1 X31.834 Y51.443
+ok
+Sending: G1 X31.877 Y51.431
+ok
+Sending: G1 X31.877 Y51.431
+ok
+Sending: G1 X31.916 Y51.408
+ok
+Sending: G1 X31.916 Y51.408
+ok
+Sending: G1 X32.057 Y51.392
+ok
+Sending: G1 X32.057 Y51.392
+ok
+Sending: G1 X32.166 Y51.384
+ok
+Sending: G1 X32.166 Y51.384
+ok
+Sending: G1 X32.225 Y51.38
+ok
+Sending: G1 X32.225 Y51.38
+ok
+Sending: G1 X32.287 Y51.372
+ok
+Sending: G1 X32.287 Y51.372
+ok
+Sending: G1 X32.467 Y51.384
+ok
+Sending: G1 X32.467 Y51.384
+ok
+Sending: G1 X32.636 Y51.408
+ok
+Sending: G1 X32.636 Y51.408
+ok
+Sending: G1 X32.679 Y51.404
+ok
+Sending: G1 X32.679 Y51.404
+ok
+Sending: G1 X32.722 Y51.419
+ok
+Sending: G1 X32.722 Y51.419
+ok
+Sending: G1 X32.761 Y51.419
+ok
+Sending: G1 X32.761 Y51.419
+ok
+Sending: G1 X32.804 Y51.423
+ok
+Sending: G1 X32.804 Y51.423
+ok
+Sending: G1 X32.847 Y51.431
+ok
+Sending: G1 X32.847 Y51.431
+ok
+Sending: G1 X32.894 Y51.443
+ok
+Sending: G1 X32.894 Y51.443
+ok
+Sending: G1 X32.948 Y51.466
+ok
+Sending: G1 X32.948 Y51.466
+ok
+Sending: G1 X32.968 Y51.466
+ok
+Sending: G1 X32.968 Y51.466
+ok
+Sending: G1 X32.984 Y51.482
+ok
+Sending: G1 X32.984 Y51.482
+ok
+Sending: G1 X33.007 Y51.494
+ok
+Sending: G1 X33.007 Y51.494
+ok
+Sending: G1 X33.027 Y51.498
+ok
+Sending: G1 X33.027 Y51.498
+ok
+Sending: G1 X33.05 Y51.505
+ok
+Sending: G1 X33.05 Y51.505
+ok
+Sending: G1 X33.081 Y51.521
+ok
+Sending: G1 X33.081 Y51.521
+ok
+Sending: G1 X33.117 Y51.533
+ok
+Sending: G1 X33.117 Y51.533
+ok
+Sending: G1 X33.136 Y51.556
+ok
+Sending: G1 X33.136 Y51.556
+ok
+Sending: G1 X33.16 Y51.584
+ok
+Sending: G1 X33.16 Y51.584
+ok
+Sending: G1 X33.207 Y51.662
+ok
+Sending: G1 X33.207 Y51.662
+ok
+Sending: G1 X33.242 Y51.717
+ok
+Sending: G1 X33.242 Y51.717
+ok
+Sending: G1 X33.316 Y51.756
+ok
+Sending: G1 X33.316 Y51.756
+ok
+Sending: G1 X33.367 Y51.783
+ok
+Sending: G1 X33.367 Y51.783
+ok
+Sending: G1 X33.41 Y51.861
+ok
+Sending: G1 X33.41 Y51.861
+ok
+Sending: G1 X33.422 Y51.912
+ok
+Sending: G1 X33.422 Y51.912
+ok
+Sending: G1 X33.472 Y52.085
+ok
+Sending: G1 X33.477 Y52.108
+ok
+Sending: G1 X33.477 Y52.108
+ok
+Sending: G1 X33.487 Y52.288
+ok
+Sending: G1 X33.484 Y52.323
+ok
+Sending: G1 X33.484 Y52.323
+ok
+Sending: G1 X33.48 Y52.346
+ok
+Sending: G1 X33.48 Y52.346
+ok
+Sending: G1 X33.48 Y52.374
+ok
+Sending: G1 X33.48 Y52.374
+ok
+Sending: G1 X33.473 Y52.405
+ok
+Sending: G1 X33.473 Y52.405
+ok
+Sending: G1 X33.465 Y52.432
+ok
+Sending: G1 X33.465 Y52.432
+ok
+Sending: G1 X33.457 Y52.479
+ok
+Sending: G1 X33.457 Y52.479
+ok
+Sending: G1 X33.449 Y52.515
+ok
+Sending: G1 X33.449 Y52.515
+ok
+Sending: G1 X33.437 Y52.538
+ok
+Sending: G1 X33.437 Y52.538
+ok
+Sending: G1 X33.422 Y52.561
+ok
+Sending: G1 X33.422 Y52.561
+ok
+Sending: G1 X33.41 Y52.601
+ok
+Sending: G1 X33.41 Y52.601
+ok
+Sending: G1 X33.39 Y52.64
+ok
+Sending: G1 X33.39 Y52.64
+ok
+Sending: G1 X33.32 Y52.714
+ok
+Sending: G1 X33.32 Y52.714
+ok
+Sending: G1 X33.254 Y52.788
+ok
+Sending: G1 X33.254 Y52.788
+ok
+Sending: G1 X33.175 Y52.855
+ok
+Sending: G1 X33.175 Y52.855
+ok
+Sending: G1 X33.085 Y52.906
+ok
+Sending: G1 X33.085 Y52.906
+ok
+Sending: G1 X33.16 Y52.96
+ok
+Sending: G1 X33.16 Y52.96
+ok
+Sending: G1 X33.238 Y53.015
+ok
+Sending: G1 X33.238 Y53.015
+ok
+Sending: G1 X33.269 Y53.05
+ok
+Sending: G1 X33.269 Y53.05
+ok
+Sending: G1 X33.304 Y53.086
+ok
+Sending: G1 X33.304 Y53.086
+ok
+Sending: G1 X33.336 Y53.129
+ok
+Sending: G1 X33.336 Y53.129
+ok
+Sending: G1 X33.367 Y53.18
+ok
+Sending: G1 X33.367 Y53.18
+ok
+Sending: G1 X33.394 Y53.222
+ok
+Sending: G1 X33.394 Y53.222
+ok
+Sending: G1 X33.414 Y53.266
+ok
+Sending: G1 X33.414 Y53.266
+ok
+Sending: G1 X33.433 Y53.32
+ok
+Sending: G1 X33.433 Y53.32
+ok
+Sending: G1 X33.457 Y53.367
+ok
+Sending: G1 X33.457 Y53.367
+ok
+Sending: G1 X33.461 Y53.402
+ok
+Sending: G1 X33.461 Y53.402
+ok
+Sending: G1 X33.469 Y53.434
+ok
+Sending: G1 X33.469 Y53.434
+ok
+Sending: G1 X33.477 Y53.489
+ok
+Sending: G1 X33.477 Y53.489
+ok
+Sending: G1 X33.484 Y53.535
+ok
+Sending: G1 X33.484 Y53.535
+ok
+Sending: G1 X33.492 Y53.59
+ok
+Sending: G1 X33.492 Y53.59
+ok
+Sending: G1 X33.504 Y53.649
+ok
+Sending: G1 X33.504 Y53.649
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X31.302 Y52.186 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X31.302 Y52.186
+ok
+Sending: G1 X31.29 Y52.147
+ok
+Sending: G1 X31.29 Y52.147
+ok
+Sending: G1 X31.282 Y52.112
+ok
+Sending: G1 X31.282 Y52.112
+ok
+Sending: G1 X31.231 Y52.127
+ok
+Sending: G1 X31.231 Y52.127
+ok
+Sending: G1 X31.204 Y52.178
+ok
+Sending: G1 X31.204 Y52.178
+ok
+Sending: G1 X31.2 Y52.241
+ok
+Sending: G1 X31.2 Y52.241
+ok
+Sending: G1 X31.216 Y52.296
+ok
+Sending: G1 X31.216 Y52.296
+ok
+Sending: G1 X31.251 Y52.292
+ok
+Sending: G1 X31.251 Y52.292
+ok
+Sending: G1 X31.278 Y52.272
+ok
+Sending: G1 X31.278 Y52.272
+ok
+Sending: G1 X31.29 Y52.233
+ok
+Sending: G1 X31.29 Y52.233
+ok
+Sending: G1 X31.302 Y52.186
+ok
+Sending: G1 X31.302 Y52.186
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X31.517 Y51.826 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X31.517 Y51.826
+ok
+Sending: G1 X31.505 Y51.787
+ok
+Sending: G1 X31.505 Y51.787
+ok
+Sending: G1 X31.493 Y51.756
+ok
+Sending: G1 X31.493 Y51.756
+ok
+Sending: G1 X31.478 Y51.736
+ok
+Sending: G1 X31.478 Y51.736
+ok
+Sending: G1 X31.462 Y51.724
+ok
+Sending: G1 X31.462 Y51.724
+ok
+Sending: G1 X31.396 Y51.779
+ok
+Sending: G1 X31.396 Y51.779
+ok
+Sending: G1 X31.345 Y51.846
+ok
+Sending: G1 X31.345 Y51.846
+ok
+Sending: G1 X31.302 Y51.908
+ok
+Sending: G1 X31.302 Y51.908
+ok
+Sending: G1 X31.302 Y51.975
+ok
+Sending: G1 X31.302 Y51.975
+ok
+Sending: G1 X31.356 Y51.994
+ok
+Sending: G1 X31.356 Y51.994
+ok
+Sending: G1 X31.396 Y51.92
+ok
+Sending: G1 X31.396 Y51.92
+ok
+Sending: G1 X31.423 Y51.897
+ok
+Sending: G1 X31.423 Y51.897
+ok
+Sending: G1 X31.462 Y51.877
+ok
+Sending: G1 X31.462 Y51.877
+ok
+Sending: G1 X31.501 Y51.857
+ok
+Sending: G1 X31.501 Y51.857
+ok
+Sending: G1 X31.517 Y51.826
+ok
+Sending: G1 X31.517 Y51.826
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X31.885 Y54.036 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X31.885 Y54.036
+ok
+Sending: G1 X31.904 Y53.989
+ok
+Sending: G1 X31.904 Y53.989
+ok
+Sending: G1 X31.885 Y53.938
+ok
+Sending: G1 X31.885 Y53.938
+ok
+Sending: G1 X31.849 Y53.884
+ok
+Sending: G1 X31.849 Y53.884
+ok
+Sending: G1 X31.826 Y53.825
+ok
+Sending: G1 X31.826 Y53.825
+ok
+Sending: G1 X31.783 Y53.805
+ok
+Sending: G1 X31.783 Y53.805
+ok
+Sending: G1 X31.744 Y53.813
+ok
+Sending: G1 X31.744 Y53.813
+ok
+Sending: G1 X31.732 Y53.899
+ok
+Sending: G1 X31.732 Y53.899
+ok
+Sending: G1 X31.767 Y53.997
+ok
+Sending: G1 X31.767 Y53.997
+ok
+Sending: G1 X31.818 Y54.04
+ok
+Sending: G1 X31.818 Y54.04
+ok
+Sending: G1 X31.885 Y54.036
+ok
+Sending: G1 X31.885 Y54.036
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X32.01 Y52.335 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X32.01 Y52.335
+ok
+Sending: G1 X32.021 Y52.507
+ok
+Sending: G1 X32.021 Y52.507
+ok
+Sending: G1 X32.068 Y52.655
+ok
+Sending: G1 X32.068 Y52.655
+ok
+Sending: G1 X32.115 Y52.71
+ok
+Sending: G1 X32.115 Y52.71
+ok
+Sending: G1 X32.194 Y52.741
+ok
+Sending: G1 X32.194 Y52.741
+ok
+Sending: G1 X32.342 Y52.722
+ok
+Sending: G1 X32.342 Y52.722
+ok
+Sending: G1 X32.444 Y52.64
+ok
+Sending: G1 X32.444 Y52.64
+ok
+Sending: G1 X32.471 Y52.601
+ok
+Sending: G1 X32.471 Y52.601
+ok
+Sending: G1 X32.471 Y52.573
+ok
+Sending: G1 X32.471 Y52.573
+ok
+Sending: G1 X32.491 Y52.526
+ok
+Sending: G1 X32.491 Y52.526
+ok
+Sending: G1 X32.495 Y52.468
+ok
+Sending: G1 X32.495 Y52.468
+ok
+Sending: G1 X32.546 Y52.389
+ok
+Sending: G1 X32.546 Y52.389
+ok
+Sending: G1 X32.577 Y52.335
+ok
+Sending: G1 X32.577 Y52.335
+ok
+Sending: G1 X32.573 Y52.241
+ok
+Sending: G1 X32.573 Y52.241
+ok
+Sending: G1 X32.514 Y52.19
+ok
+Sending: G1 X32.514 Y52.19
+ok
+Sending: G1 X32.487 Y52.104
+ok
+Sending: G1 X32.487 Y52.104
+ok
+Sending: G1 X32.463 Y52.053
+ok
+Sending: G1 X32.463 Y52.053
+ok
+Sending: G1 X32.416 Y52.014
+ok
+Sending: G1 X32.416 Y52.014
+ok
+Sending: G1 X32.366 Y51.983
+ok
+Sending: G1 X32.366 Y51.983
+ok
+Sending: G1 X32.307 Y51.979
+ok
+Sending: G1 X32.307 Y51.979
+ok
+Sending: G1 X32.248 Y51.975
+ok
+Sending: G1 X32.248 Y51.975
+ok
+Sending: G1 X32.209 Y51.987
+ok
+Sending: G1 X32.209 Y51.987
+ok
+Sending: G1 X32.174 Y51.994
+ok
+Sending: G1 X32.174 Y51.994
+ok
+Sending: G1 X32.143 Y52.018
+ok
+Sending: G1 X32.143 Y52.018
+ok
+Sending: G1 X32.115 Y52.041
+ok
+Sending: G1 X32.115 Y52.041
+ok
+Sending: G1 X32.084 Y52.065
+ok
+Sending: G1 X32.084 Y52.065
+ok
+Sending: G1 X32.064 Y52.092
+ok
+Sending: G1 X32.064 Y52.092
+ok
+Sending: G1 X32.021 Y52.202
+ok
+Sending: G1 X32.021 Y52.202
+ok
+Sending: G1 X32.01 Y52.335
+ok
+Sending: G1 X32.01 Y52.335
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X32.506 Y53.727 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X32.506 Y53.727
+ok
+Sending: G1 X32.518 Y53.621
+ok
+Sending: G1 X32.518 Y53.621
+ok
+Sending: G1 X32.518 Y53.496
+ok
+Sending: G1 X32.518 Y53.496
+ok
+Sending: G1 X32.522 Y53.363
+ok
+Sending: G1 X32.522 Y53.363
+ok
+Sending: G1 X32.479 Y53.262
+ok
+Sending: G1 X32.479 Y53.262
+ok
+Sending: G1 X32.456 Y53.25
+ok
+Sending: G1 X32.456 Y53.25
+ok
+Sending: G1 X32.432 Y53.238
+ok
+Sending: G1 X32.432 Y53.238
+ok
+Sending: G1 X32.393 Y53.211
+ok
+Sending: G1 X32.393 Y53.211
+ok
+Sending: G1 X32.35 Y53.187
+ok
+Sending: G1 X32.35 Y53.187
+ok
+Sending: G1 X32.287 Y53.187
+ok
+Sending: G1 X32.287 Y53.187
+ok
+Sending: G1 X32.225 Y53.203
+ok
+Sending: G1 X32.225 Y53.203
+ok
+Sending: G1 X32.07 Y53.291
+ok
+Sending: G1 X32.045 Y53.34
+ok
+Sending: G1 X32.045 Y53.34
+ok
+Sending: G1 X32.029 Y53.414
+ok
+Sending: G1 X32.029 Y53.414
+ok
+Sending: G1 X32.014 Y53.489
+ok
+Sending: G1 X32.014 Y53.489
+ok
+Sending: G1 X31.978 Y53.535
+ok
+Sending: G1 X31.978 Y53.535
+ok
+Sending: G1 X31.947 Y53.582
+ok
+Sending: G1 X31.947 Y53.582
+ok
+Sending: G1 X31.947 Y53.629
+ok
+Sending: G1 X31.947 Y53.629
+ok
+Sending: G1 X31.955 Y53.676
+ok
+Sending: G1 X31.955 Y53.676
+ok
+Sending: G1 X32.01 Y53.754
+ok
+Sending: G1 X32.01 Y53.754
+ok
+Sending: G1 X32.021 Y53.794
+ok
+Sending: G1 X32.021 Y53.794
+ok
+Sending: G1 X32.037 Y53.825
+ok
+Sending: G1 X32.037 Y53.825
+ok
+Sending: G1 X32.068 Y53.876
+ok
+Sending: G1 X32.068 Y53.876
+ok
+Sending: G1 X32.115 Y53.911
+ok
+Sending: G1 X32.115 Y53.911
+ok
+Sending: G1 X32.178 Y53.95
+ok
+Sending: G1 X32.178 Y53.95
+ok
+Sending: G1 X32.217 Y53.977
+ok
+Sending: G1 X32.217 Y53.977
+ok
+Sending: G1 X32.252 Y53.966
+ok
+Sending: G1 X32.252 Y53.966
+ok
+Sending: G1 X32.28 Y53.942
+ok
+Sending: G1 X32.28 Y53.942
+ok
+Sending: G1 X32.33 Y53.923
+ok
+Sending: G1 X32.33 Y53.923
+ok
+Sending: G1 X32.385 Y53.899
+ok
+Sending: G1 X32.385 Y53.899
+ok
+Sending: G1 X32.428 Y53.856
+ok
+Sending: G1 X32.428 Y53.856
+ok
+Sending: G1 X32.452 Y53.833
+ok
+Sending: G1 X32.452 Y53.833
+ok
+Sending: G1 X32.475 Y53.809
+ok
+Sending: G1 X32.475 Y53.809
+ok
+Sending: G1 X32.483 Y53.786
+ok
+Sending: G1 X32.483 Y53.786
+ok
+Sending: G1 X32.491 Y53.758
+ok
+Sending: G1 X32.506 Y53.727
+ok
+Sending: G1 X32.506 Y53.727
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X32.573 Y52.824 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X32.573 Y52.824
+ok
+Sending: G1 X32.624 Y52.843
+ok
+Sending: G1 X32.624 Y52.843
+ok
+Sending: G1 X32.675 Y52.804
+ok
+Sending: G1 X32.675 Y52.804
+ok
+Sending: G1 X32.718 Y52.741
+ok
+Sending: G1 X32.718 Y52.741
+ok
+Sending: G1 X32.729 Y52.683
+ok
+Sending: G1 X32.729 Y52.683
+ok
+Sending: G1 X32.71 Y52.636
+ok
+Sending: G1 X32.71 Y52.636
+ok
+Sending: G1 X32.667 Y52.612
+ok
+Sending: G1 X32.667 Y52.612
+ok
+Sending: G1 X32.647 Y52.691
+ok
+Sending: G1 X32.647 Y52.691
+ok
+Sending: G1 X32.6 Y52.753
+ok
+Sending: G1 X32.6 Y52.753
+ok
+Sending: G1 X32.573 Y52.824
+ok
+Sending: G1 X32.573 Y52.824
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X32.921 Y54.2 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X32.921 Y54.2
+ok
+Sending: G1 X32.917 Y54.169
+ok
+Sending: G1 X32.917 Y54.169
+ok
+Sending: G1 X32.905 Y54.138
+ok
+Sending: G1 X32.905 Y54.138
+ok
+Sending: G1 X32.831 Y54.161
+ok
+Sending: G1 X32.831 Y54.161
+ok
+Sending: G1 X32.788 Y54.193
+ok
+Sending: G1 X32.788 Y54.193
+ok
+Sending: G1 X32.768 Y54.228
+ok
+Sending: G1 X32.768 Y54.228
+ok
+Sending: G1 X32.796 Y54.251
+ok
+Sending: G1 X32.796 Y54.251
+ok
+Sending: G1 X32.87 Y54.243
+ok
+Sending: G1 X32.87 Y54.243
+ok
+Sending: G1 X32.921 Y54.2
+ok
+Sending: G1 X32.921 Y54.2
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X33.289 Y53.786 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X33.289 Y53.786
+ok
+Sending: G1 X33.273 Y53.731
+ok
+Sending: G1 X33.273 Y53.731
+ok
+Sending: G1 X33.222 Y53.715
+ok
+Sending: G1 X33.222 Y53.715
+ok
+Sending: G1 X33.156 Y53.758
+ok
+Sending: G1 X33.156 Y53.758
+ok
+Sending: G1 X33.136 Y53.844
+ok
+Sending: G1 X33.136 Y53.844
+ok
+Sending: G1 X33.156 Y53.88
+ok
+Sending: G1 X33.156 Y53.88
+ok
+Sending: G1 X33.164 Y53.923
+ok
+Sending: G1 X33.164 Y53.923
+ok
+Sending: G1 X33.124 Y53.981
+ok
+Sending: G1 X33.124 Y53.981
+ok
+Sending: G1 X33.07 Y54.032
+ok
+Sending: G1 X33.07 Y54.032
+ok
+Sending: G1 X33.074 Y54.095
+ok
+Sending: G1 X33.074 Y54.095
+ok
+Sending: G1 X33.105 Y54.107
+ok
+Sending: G1 X33.105 Y54.107
+ok
+Sending: G1 X33.144 Y54.095
+ok
+Sending: G1 X33.144 Y54.095
+ok
+Sending: G1 X33.164 Y54.079
+ok
+Sending: G1 X33.164 Y54.079
+ok
+Sending: G1 X33.183 Y54.048
+ok
+Sending: G1 X33.183 Y54.048
+ok
+Sending: G1 X33.203 Y54.024
+ok
+Sending: G1 X33.203 Y54.024
+ok
+Sending: G1 X33.218 Y53.997
+ok
+Sending: G1 X33.218 Y53.997
+ok
+Sending: G1 X33.234 Y53.981
+ok
+Sending: G1 X33.234 Y53.981
+ok
+Sending: G1 X33.25 Y53.962
+ok
+Sending: G1 X33.25 Y53.962
+ok
+Sending: G1 X33.269 Y53.907
+ok
+Sending: G1 X33.269 Y53.907
+ok
+Sending: G1 X33.285 Y53.864
+ok
+Sending: G1 X33.285 Y53.864
+ok
+Sending: G1 X33.281 Y53.809
+ok
+Sending: G1 X33.281 Y53.809
+ok
+Sending: G1 X33.289 Y53.786
+ok
+Sending: G1 X33.289 Y53.786
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X32.264 Y52.143 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X32.264 Y52.143
+ok
+Sending: G1 X32.233 Y52.127
+ok
+Sending: G1 X32.233 Y52.127
+ok
+Sending: G1 X32.221 Y52.092
+ok
+Sending: G1 X32.221 Y52.092
+ok
+Sending: G1 X32.237 Y52.069
+ok
+Sending: G1 X32.237 Y52.069
+ok
+Sending: G1 X32.264 Y52.041
+ok
+Sending: G1 X32.264 Y52.041
+ok
+Sending: G1 X32.366 Y52.065
+ok
+Sending: G1 X32.366 Y52.065
+ok
+Sending: G1 X32.409 Y52.108
+ok
+Sending: G1 X32.409 Y52.108
+ok
+Sending: G1 X32.416 Y52.135
+ok
+Sending: G1 X32.416 Y52.135
+ok
+Sending: G1 X32.424 Y52.166
+ok
+Sending: G1 X32.424 Y52.166
+ok
+Sending: G1 X32.436 Y52.241
+ok
+Sending: G1 X32.436 Y52.241
+ok
+Sending: G1 X32.436 Y52.323
+ok
+Sending: G1 X32.436 Y52.323
+ok
+Sending: G1 X32.389 Y52.331
+ok
+Sending: G1 X32.389 Y52.331
+ok
+Sending: G1 X32.366 Y52.241
+ok
+Sending: G1 X32.366 Y52.241
+ok
+Sending: G1 X32.346 Y52.182
+ok
+Sending: G1 X32.346 Y52.182
+ok
+Sending: G1 X32.327 Y52.155
+ok
+Sending: G1 X32.327 Y52.155
+ok
+Sending: G1 X32.299 Y52.131
+ok
+Sending: G1 X32.264 Y52.143
+ok
+Sending: G1 X32.264 Y52.143
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X33.582 Y52.221 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X33.582 Y52.221
+ok
+Sending: G1 X33.629 Y52.245
+ok
+Sending: G1 X33.629 Y52.245
+ok
+Sending: G1 X33.645 Y52.299
+ok
+Sending: G1 X33.645 Y52.299
+ok
+Sending: G1 X33.637 Y52.358
+ok
+Sending: G1 X33.637 Y52.358
+ok
+Sending: G1 X33.606 Y52.382
+ok
+Sending: G1 X33.606 Y52.382
+ok
+Sending: G1 X33.566 Y52.284
+ok
+Sending: G1 X33.566 Y52.284
+ok
+Sending: G1 X33.582 Y52.221
+ok
+Sending: G1 X33.582 Y52.221
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X33.519 Y52.495 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X33.519 Y52.495
+ok
+Sending: G1 X33.547 Y52.487
+ok
+Sending: G1 X33.547 Y52.487
+ok
+Sending: G1 X33.574 Y52.491
+ok
+Sending: G1 X33.574 Y52.491
+ok
+Sending: G1 X33.582 Y52.526
+ok
+Sending: G1 X33.582 Y52.526
+ok
+Sending: G1 X33.582 Y52.565
+ok
+Sending: G1 X33.582 Y52.565
+ok
+Sending: G1 X33.566 Y52.593
+ok
+Sending: G1 X33.566 Y52.593
+ok
+Sending: G1 X33.551 Y52.624
+ok
+Sending: G1 X33.551 Y52.624
+ok
+Sending: G1 X33.539 Y52.667
+ok
+Sending: G1 X33.539 Y52.667
+ok
+Sending: G1 X33.527 Y52.706
+ok
+Sending: G1 X33.527 Y52.706
+ok
+Sending: G1 X33.48 Y52.765
+ok
+Sending: G1 X33.48 Y52.765
+ok
+Sending: G1 X33.449 Y52.804
+ok
+Sending: G1 X33.449 Y52.804
+ok
+Sending: G1 X33.43 Y52.863
+ok
+Sending: G1 X33.43 Y52.863
+ok
+Sending: G1 X33.418 Y52.914
+ok
+Sending: G1 X33.418 Y52.914
+ok
+Sending: G1 X33.426 Y52.972
+ok
+Sending: G1 X33.426 Y52.972
+ok
+Sending: G1 X33.441 Y53.031
+ok
+Sending: G1 X33.441 Y53.031
+ok
+Sending: G1 X33.418 Y53.082
+ok
+Sending: G1 X33.418 Y53.082
+ok
+Sending: G1 X33.383 Y53.039
+ok
+Sending: G1 X33.383 Y53.039
+ok
+Sending: G1 X33.344 Y52.984
+ok
+Sending: G1 X33.344 Y52.984
+ok
+Sending: G1 X33.293 Y52.921
+ok
+Sending: G1 X33.293 Y52.921
+ok
+Sending: G1 X33.297 Y52.839
+ok
+Sending: G1 X33.297 Y52.839
+ok
+Sending: G1 X33.363 Y52.804
+ok
+Sending: G1 X33.363 Y52.804
+ok
+Sending: G1 X33.422 Y52.753
+ok
+Sending: G1 X33.422 Y52.753
+ok
+Sending: G1 X33.445 Y52.694
+ok
+Sending: G1 X33.445 Y52.694
+ok
+Sending: G1 X33.477 Y52.644
+ok
+Sending: G1 X33.477 Y52.644
+ok
+Sending: G1 X33.496 Y52.569
+ok
+Sending: G1 X33.496 Y52.569
+ok
+Sending: G1 X33.519 Y52.495
+ok
+Sending: G1 X33.519 Y52.495
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X31.075 Y52.765 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X31.075 Y52.765
+ok
+Sending: G1 X31.044 Y52.702
+ok
+Sending: G1 X31.044 Y52.702
+ok
+Sending: G1 X31.04 Y52.644
+ok
+Sending: G1 X31.04 Y52.644
+ok
+Sending: G1 X31.071 Y52.648
+ok
+Sending: G1 X31.071 Y52.648
+ok
+Sending: G1 X31.087 Y52.675
+ok
+Sending: G1 X31.087 Y52.675
+ok
+Sending: G1 X31.114 Y52.706
+ok
+Sending: G1 X31.114 Y52.706
+ok
+Sending: G1 X31.141 Y52.722
+ok
+Sending: G1 X31.141 Y52.722
+ok
+Sending: G1 X31.169 Y52.765
+ok
+Sending: G1 X31.169 Y52.765
+ok
+Sending: G1 X31.196 Y52.796
+ok
+Sending: G1 X31.196 Y52.796
+ok
+Sending: G1 X31.235 Y52.843
+ok
+Sending: G1 X31.235 Y52.843
+ok
+Sending: G1 X31.263 Y52.863
+ok
+Sending: G1 X31.263 Y52.863
+ok
+Sending: G1 X31.282 Y52.886
+ok
+Sending: G1 X31.282 Y52.886
+ok
+Sending: G1 X31.255 Y52.91
+ok
+Sending: G1 X31.255 Y52.91
+ok
+Sending: G1 X31.227 Y52.929
+ok
+Sending: G1 X31.227 Y52.929
+ok
+Sending: G1 X31.18 Y52.914
+ok
+Sending: G1 X31.18 Y52.914
+ok
+Sending: G1 X31.141 Y52.886
+ok
+Sending: G1 X31.141 Y52.886
+ok
+Sending: G1 X31.106 Y52.831
+ok
+Sending: G1 X31.106 Y52.831
+ok
+Sending: G1 X31.075 Y52.765
+ok
+Sending: G1 X31.075 Y52.765
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X32.1 Y53.637 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X32.1 Y53.637
+ok
+Sending: G1 X32.123 Y53.684
+ok
+Sending: G1 X32.123 Y53.684
+ok
+Sending: G1 X32.15 Y53.727
+ok
+Sending: G1 X32.15 Y53.727
+ok
+Sending: G1 X32.158 Y53.758
+ok
+Sending: G1 X32.158 Y53.758
+ok
+Sending: G1 X32.166 Y53.786
+ok
+Sending: G1 X32.166 Y53.786
+ok
+Sending: G1 X32.115 Y53.844
+ok
+Sending: G1 X32.115 Y53.844
+ok
+Sending: G1 X32.084 Y53.833
+ok
+Sending: G1 X32.084 Y53.833
+ok
+Sending: G1 X32.064 Y53.809
+ok
+Sending: G1 X32.064 Y53.809
+ok
+Sending: G1 X32.045 Y53.762
+ok
+Sending: G1 X32.045 Y53.762
+ok
+Sending: G1 X32.041 Y53.708
+ok
+Sending: G1 X32.041 Y53.708
+ok
+Sending: G1 X32.021 Y53.668
+ok
+Sending: G1 X32.021 Y53.668
+ok
+Sending: G1 X32.014 Y53.625
+ok
+Sending: G1 X32.014 Y53.625
+ok
+Sending: G1 X32.025 Y53.59
+ok
+Sending: G1 X32.025 Y53.59
+ok
+Sending: G1 X32.045 Y53.555
+ok
+Sending: G1 X32.045 Y53.555
+ok
+Sending: G1 X32.096 Y53.563
+ok
+Sending: G1 X32.096 Y53.563
+ok
+Sending: G1 X32.1 Y53.602
+ok
+Sending: G1 X32.1 Y53.602
+ok
+Sending: G1 X32.1 Y53.637
+ok
+Sending: G1 X32.1 Y53.637
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X31.607 Y54.525 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X31.607 Y54.525
+ok
+Sending: G1 X31.634 Y54.533
+ok
+Sending: G1 X31.634 Y54.533
+ok
+Sending: G1 X31.654 Y54.549
+ok
+Sending: G1 X31.654 Y54.549
+ok
+Sending: G1 X31.654 Y54.576
+ok
+Sending: G1 X31.654 Y54.576
+ok
+Sending: G1 X31.642 Y54.603
+ok
+Sending: G1 X31.642 Y54.603
+ok
+Sending: G1 X31.579 Y54.607
+ok
+Sending: G1 X31.579 Y54.607
+ok
+Sending: G1 X31.536 Y54.572
+ok
+Sending: G1 X31.536 Y54.572
+ok
+Sending: G1 X31.388 Y54.549
+ok
+Sending: G1 X31.388 Y54.549
+ok
+Sending: G1 X31.259 Y54.505
+ok
+Sending: G1 X31.259 Y54.505
+ok
+Sending: G1 X31.2 Y54.459
+ok
+Sending: G1 X31.2 Y54.459
+ok
+Sending: G1 X31.141 Y54.408
+ok
+Sending: G1 X31.141 Y54.408
+ok
+Sending: G1 X31.13 Y54.388
+ok
+Sending: G1 X31.13 Y54.388
+ok
+Sending: G1 X31.122 Y54.357
+ok
+Sending: G1 X31.122 Y54.357
+ok
+Sending: G1 X31.122 Y54.302
+ok
+Sending: G1 X31.122 Y54.302
+ok
+Sending: G1 X31.141 Y54.275
+ok
+Sending: G1 X31.141 Y54.275
+ok
+Sending: G1 X31.169 Y54.294
+ok
+Sending: G1 X31.169 Y54.294
+ok
+Sending: G1 X31.204 Y54.322
+ok
+Sending: G1 X31.204 Y54.322
+ok
+Sending: G1 X31.231 Y54.357
+ok
+Sending: G1 X31.231 Y54.357
+ok
+Sending: G1 X31.255 Y54.388
+ok
+Sending: G1 X31.255 Y54.388
+ok
+Sending: G1 X31.321 Y54.431
+ok
+Sending: G1 X31.321 Y54.431
+ok
+Sending: G1 X31.415 Y54.474
+ok
+Sending: G1 X31.415 Y54.474
+ok
+Sending: G1 X31.474 Y54.482
+ok
+Sending: G1 X31.474 Y54.482
+ok
+Sending: G1 X31.536 Y54.49
+ok
+Sending: G1 X31.536 Y54.49
+ok
+Sending: G1 X31.568 Y54.502
+ok
+Sending: G1 X31.568 Y54.502
+ok
+Sending: G1 X31.583 Y54.505
+ok
+Sending: G1 X31.607 Y54.525
+ok
+Sending: G1 X31.607 Y54.525
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X31.724 Y54.592 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X31.724 Y54.592
+ok
+Sending: G1 X31.806 Y54.576
+ok
+Sending: G1 X31.806 Y54.576
+ok
+Sending: G1 X31.904 Y54.58
+ok
+Sending: G1 X31.904 Y54.58
+ok
+Sending: G1 X31.916 Y54.646
+ok
+Sending: G1 X31.916 Y54.646
+ok
+Sending: G1 X31.861 Y54.67
+ok
+Sending: G1 X31.861 Y54.67
+ok
+Sending: G1 X31.791 Y54.666
+ok
+Sending: G1 X31.791 Y54.666
+ok
+Sending: G1 X31.736 Y54.642
+ok
+Sending: G1 X31.736 Y54.642
+ok
+Sending: G1 X31.724 Y54.592
+ok
+Sending: G1 X31.724 Y54.592
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X35.827 Y51.365 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X35.827 Y51.365
+ok
+Sending: G1 X35.827 Y51.329
+ok
+Sending: G1 X35.827 Y51.329
+ok
+Sending: G1 X35.823 Y51.298
+ok
+Sending: G1 X35.823 Y51.298
+ok
+Sending: G1 X35.87 Y51.286
+ok
+Sending: G1 X35.87 Y51.286
+ok
+Sending: G1 X35.898 Y51.29
+ok
+Sending: G1 X35.898 Y51.29
+ok
+Sending: G1 X35.941 Y51.306
+ok
+Sending: G1 X35.941 Y51.306
+ok
+Sending: G1 X35.988 Y51.306
+ok
+Sending: G1 X35.988 Y51.306
+ok
+Sending: G1 X36.042 Y51.325
+ok
+Sending: G1 X36.042 Y51.325
+ok
+Sending: G1 X36.089 Y51.341
+ok
+Sending: G1 X36.089 Y51.341
+ok
+Sending: G1 X36.117 Y51.345
+ok
+Sending: G1 X36.117 Y51.345
+ok
+Sending: G1 X36.144 Y51.349
+ok
+Sending: G1 X36.144 Y51.349
+ok
+Sending: G1 X36.203 Y51.376
+ok
+Sending: G1 X36.203 Y51.376
+ok
+Sending: G1 X36.246 Y51.415
+ok
+Sending: G1 X36.246 Y51.415
+ok
+Sending: G1 X36.297 Y51.458
+ok
+Sending: G1 X36.297 Y51.458
+ok
+Sending: G1 X36.367 Y51.611
+ok
+Sending: G1 X36.367 Y51.611
+ok
+Sending: G1 X36.289 Y51.588
+ok
+Sending: G1 X36.289 Y51.588
+ok
+Sending: G1 X36.238 Y51.529
+ok
+Sending: G1 X36.238 Y51.529
+ok
+Sending: G1 X36.16 Y51.466
+ok
+Sending: G1 X36.16 Y51.466
+ok
+Sending: G1 X36.066 Y51.415
+ok
+Sending: G1 X36.066 Y51.415
+ok
+Sending: G1 X36.035 Y51.415
+ok
+Sending: G1 X36.035 Y51.415
+ok
+Sending: G1 X35.999 Y51.412
+ok
+Sending: G1 X35.999 Y51.412
+ok
+Sending: G1 X35.956 Y51.4
+ok
+Sending: G1 X35.956 Y51.4
+ok
+Sending: G1 X35.921 Y51.388
+ok
+Sending: G1 X35.921 Y51.388
+ok
+Sending: G1 X35.87 Y51.384
+ok
+Sending: G1 X35.87 Y51.384
+ok
+Sending: G1 X35.827 Y51.365
+ok
+Sending: G1 X35.827 Y51.365
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X36.641 Y53.011 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X36.641 Y53.011
+ok
+Sending: G1 X36.641 Y53.07
+ok
+Sending: G1 X36.641 Y53.07
+ok
+Sending: G1 X36.641 Y53.133
+ok
+Sending: G1 X36.641 Y53.133
+ok
+Sending: G1 X36.641 Y53.222
+ok
+Sending: G1 X36.641 Y53.222
+ok
+Sending: G1 X36.637 Y53.32
+ok
+Sending: G1 X36.637 Y53.32
+ok
+Sending: G1 X36.637 Y53.426
+ok
+Sending: G1 X36.637 Y53.426
+ok
+Sending: G1 X36.633 Y53.528
+ok
+Sending: G1 X36.633 Y53.528
+ok
+Sending: G1 X36.606 Y53.629
+ok
+Sending: G1 X36.606 Y53.629
+ok
+Sending: G1 X36.598 Y53.696
+ok
+Sending: G1 X36.598 Y53.696
+ok
+Sending: G1 X36.582 Y53.735
+ok
+Sending: G1 X36.582 Y53.735
+ok
+Sending: G1 X36.574 Y53.77
+ok
+Sending: G1 X36.574 Y53.77
+ok
+Sending: G1 X36.527 Y53.852
+ok
+Sending: G1 X36.527 Y53.852
+ok
+Sending: G1 X36.481 Y53.938
+ok
+Sending: G1 X36.481 Y53.938
+ok
+Sending: G1 X36.437 Y53.989
+ok
+Sending: G1 X36.437 Y53.989
+ok
+Sending: G1 X36.394 Y54.036
+ok
+Sending: G1 X36.394 Y54.036
+ok
+Sending: G1 X36.359 Y54.079
+ok
+Sending: G1 X36.359 Y54.079
+ok
+Sending: G1 X36.324 Y54.118
+ok
+Sending: G1 X36.324 Y54.118
+ok
+Sending: G1 X36.281 Y54.15
+ok
+Sending: G1 X36.281 Y54.15
+ok
+Sending: G1 X36.242 Y54.177
+ok
+Sending: G1 X36.242 Y54.177
+ok
+Sending: G1 X36.164 Y54.232
+ok
+Sending: G1 X36.164 Y54.232
+ok
+Sending: G1 X36.117 Y54.267
+ok
+Sending: G1 X36.117 Y54.267
+ok
+Sending: G1 X36.093 Y54.279
+ok
+Sending: G1 X36.093 Y54.279
+ok
+Sending: G1 X36.07 Y54.286
+ok
+Sending: G1 X36.07 Y54.286
+ok
+Sending: G1 X36.05 Y54.306
+ok
+Sending: G1 X36.05 Y54.306
+ok
+Sending: G1 X36.031 Y54.318
+ok
+Sending: G1 X36.031 Y54.318
+ok
+Sending: G1 X35.941 Y54.326
+ok
+Sending: G1 X35.941 Y54.326
+ok
+Sending: G1 X35.851 Y54.329
+ok
+Sending: G1 X35.851 Y54.329
+ok
+Sending: G1 X35.765 Y54.376
+ok
+Sending: G1 X35.765 Y54.376
+ok
+Sending: G1 X35.686 Y54.435
+ok
+Sending: G1 X35.686 Y54.435
+ok
+Sending: G1 X35.628 Y54.451
+ok
+Sending: G1 X35.628 Y54.451
+ok
+Sending: G1 X35.561 Y54.462
+ok
+Sending: G1 X35.561 Y54.462
+ok
+Sending: G1 X35.495 Y54.466
+ok
+Sending: G1 X35.495 Y54.466
+ok
+Sending: G1 X35.436 Y54.47
+ok
+Sending: G1 X35.436 Y54.47
+ok
+Sending: G1 X35.393 Y54.462
+ok
+Sending: G1 X35.393 Y54.462
+ok
+Sending: G1 X35.354 Y54.459
+ok
+Sending: G1 X35.354 Y54.459
+ok
+Sending: G1 X35.307 Y54.455
+ok
+Sending: G1 X35.307 Y54.455
+ok
+Sending: G1 X35.26 Y54.466
+ok
+Sending: G1 X35.26 Y54.466
+ok
+Sending: G1 X35.221 Y54.462
+ok
+Sending: G1 X35.221 Y54.462
+ok
+Sending: G1 X35.182 Y54.459
+ok
+Sending: G1 X35.182 Y54.459
+ok
+Sending: G1 X35.119 Y54.459
+ok
+Sending: G1 X35.119 Y54.459
+ok
+Sending: G1 X35.057 Y54.451
+ok
+Sending: G1 X35.057 Y54.451
+ok
+Sending: G1 X34.998 Y54.447
+ok
+Sending: G1 X34.998 Y54.447
+ok
+Sending: G1 X34.943 Y54.443
+ok
+Sending: G1 X34.943 Y54.443
+ok
+Sending: G1 X34.912 Y54.439
+ok
+Sending: G1 X34.912 Y54.439
+ok
+Sending: G1 X34.885 Y54.431
+ok
+Sending: G1 X34.885 Y54.431
+ok
+Sending: G1 X34.818 Y54.419
+ok
+Sending: G1 X34.818 Y54.419
+ok
+Sending: G1 X34.759 Y54.408
+ok
+Sending: G1 X34.759 Y54.408
+ok
+Sending: G1 X34.709 Y54.384
+ok
+Sending: G1 X34.709 Y54.384
+ok
+Sending: G1 X34.662 Y54.361
+ok
+Sending: G1 X34.662 Y54.361
+ok
+Sending: G1 X34.611 Y54.337
+ok
+Sending: G1 X34.611 Y54.337
+ok
+Sending: G1 X34.568 Y54.302
+ok
+Sending: G1 X34.568 Y54.302
+ok
+Sending: G1 X34.474 Y54.236
+ok
+Sending: G1 X34.474 Y54.236
+ok
+Sending: G1 X34.423 Y54.134
+ok
+Sending: G1 X34.423 Y54.134
+ok
+Sending: G1 X34.392 Y54.091
+ok
+Sending: G1 X34.392 Y54.091
+ok
+Sending: G1 X34.357 Y54.06
+ok
+Sending: G1 X34.357 Y54.06
+ok
+Sending: G1 X34.333 Y54.056
+ok
+Sending: G1 X34.333 Y54.056
+ok
+Sending: G1 X34.306 Y54.048
+ok
+Sending: G1 X34.306 Y54.048
+ok
+Sending: G1 X34.286 Y54.036
+ok
+Sending: G1 X34.286 Y54.036
+ok
+Sending: G1 X34.263 Y54.02
+ok
+Sending: G1 X34.263 Y54.02
+ok
+Sending: G1 X34.243 Y54.009
+ok
+Sending: G1 X34.243 Y54.009
+ok
+Sending: G1 X34.224 Y53.993
+ok
+Sending: G1 X34.224 Y53.993
+ok
+Sending: G1 X34.192 Y53.938
+ok
+Sending: G1 X34.192 Y53.938
+ok
+Sending: G1 X34.165 Y53.876
+ok
+Sending: G1 X34.165 Y53.876
+ok
+Sending: G1 X34.153 Y53.86
+ok
+Sending: G1 X34.153 Y53.86
+ok
+Sending: G1 X34.138 Y53.841
+ok
+Sending: G1 X34.138 Y53.841
+ok
+Sending: G1 X34.086 Y53.674
+ok
+Sending: G1 X34.075 Y53.59
+ok
+Sending: G1 X34.075 Y53.59
+ok
+Sending: G1 X34.067 Y53.481
+ok
+Sending: G1 X34.067 Y53.481
+ok
+Sending: G1 X34.063 Y53.367
+ok
+Sending: G1 X34.063 Y53.367
+ok
+Sending: G1 X34.059 Y53.344
+ok
+Sending: G1 X34.059 Y53.344
+ok
+Sending: G1 X34.059 Y53.32
+ok
+Sending: G1 X34.059 Y53.32
+ok
+Sending: G1 X34.087 Y53.23
+ok
+Sending: G1 X34.087 Y53.23
+ok
+Sending: G1 X34.11 Y53.129
+ok
+Sending: G1 X34.11 Y53.129
+ok
+Sending: G1 X34.095 Y53.086
+ok
+Sending: G1 X34.095 Y53.086
+ok
+Sending: G1 X34.075 Y53.043
+ok
+Sending: G1 X34.075 Y53.043
+ok
+Sending: G1 X34.075 Y52.992
+ok
+Sending: G1 X34.075 Y52.992
+ok
+Sending: G1 X34.083 Y52.933
+ok
+Sending: G1 X34.083 Y52.933
+ok
+Sending: G1 X34.075 Y52.878
+ok
+Sending: G1 X34.075 Y52.878
+ok
+Sending: G1 X34.075 Y52.827
+ok
+Sending: G1 X34.075 Y52.827
+ok
+Sending: G1 X34.087 Y52.808
+ok
+Sending: G1 X34.087 Y52.808
+ok
+Sending: G1 X34.106 Y52.781
+ok
+Sending: G1 X34.106 Y52.781
+ok
+Sending: G1 X34.11 Y52.702
+ok
+Sending: G1 X34.11 Y52.702
+ok
+Sending: G1 X34.079 Y52.636
+ok
+Sending: G1 X34.079 Y52.636
+ok
+Sending: G1 X34.051 Y52.616
+ok
+Sending: G1 X34.051 Y52.616
+ok
+Sending: G1 X34.028 Y52.589
+ok
+Sending: G1 X34.028 Y52.589
+ok
+Sending: G1 X34.028 Y52.569
+ok
+Sending: G1 X34.028 Y52.569
+ok
+Sending: G1 X34.032 Y52.538
+ok
+Sending: G1 X34.032 Y52.538
+ok
+Sending: G1 X34.028 Y52.515
+ok
+Sending: G1 X34.028 Y52.515
+ok
+Sending: G1 X34.024 Y52.491
+ok
+Sending: G1 X34.024 Y52.491
+ok
+Sending: G1 X34.036 Y52.456
+ok
+Sending: G1 X34.036 Y52.456
+ok
+Sending: G1 X34.048 Y52.421
+ok
+Sending: G1 X34.048 Y52.421
+ok
+Sending: G1 X34.055 Y52.382
+ok
+Sending: G1 X34.055 Y52.382
+ok
+Sending: G1 X34.063 Y52.339
+ok
+Sending: G1 X34.063 Y52.339
+ok
+Sending: G1 X34.071 Y52.299
+ok
+Sending: G1 X34.071 Y52.299
+ok
+Sending: G1 X34.079 Y52.256
+ok
+Sending: G1 X34.079 Y52.256
+ok
+Sending: G1 X34.087 Y52.237
+ok
+Sending: G1 X34.087 Y52.237
+ok
+Sending: G1 X34.102 Y52.213
+ok
+Sending: G1 X34.102 Y52.213
+ok
+Sending: G1 X34.11 Y52.194
+ok
+Sending: G1 X34.11 Y52.194
+ok
+Sending: G1 X34.118 Y52.17
+ok
+Sending: G1 X34.118 Y52.17
+ok
+Sending: G1 X34.134 Y52.119
+ok
+Sending: G1 X34.134 Y52.119
+ok
+Sending: G1 X34.157 Y52.069
+ok
+Sending: G1 X34.157 Y52.069
+ok
+Sending: G1 X34.177 Y52.041
+ok
+Sending: G1 X34.177 Y52.041
+ok
+Sending: G1 X34.196 Y52.01
+ok
+Sending: G1 X34.196 Y52.01
+ok
+Sending: G1 X34.274 Y51.885
+ok
+Sending: G1 X34.274 Y51.885
+ok
+Sending: G1 X34.364 Y51.767
+ok
+Sending: G1 X34.364 Y51.767
+ok
+Sending: G1 X34.384 Y51.74
+ok
+Sending: G1 X34.384 Y51.74
+ok
+Sending: G1 X34.403 Y51.713
+ok
+Sending: G1 X34.403 Y51.713
+ok
+Sending: G1 X34.427 Y51.693
+ok
+Sending: G1 X34.427 Y51.693
+ok
+Sending: G1 X34.454 Y51.67
+ok
+Sending: G1 X34.454 Y51.67
+ok
+Sending: G1 X34.478 Y51.65
+ok
+Sending: G1 X34.478 Y51.65
+ok
+Sending: G1 X34.501 Y51.623
+ok
+Sending: G1 X34.501 Y51.623
+ok
+Sending: G1 X34.54 Y51.591
+ok
+Sending: G1 X34.54 Y51.591
+ok
+Sending: G1 X34.583 Y51.564
+ok
+Sending: G1 X34.583 Y51.564
+ok
+Sending: G1 X34.623 Y51.537
+ok
+Sending: G1 X34.623 Y51.537
+ok
+Sending: G1 X34.673 Y51.509
+ok
+Sending: G1 X34.673 Y51.509
+ok
+Sending: G1 X34.771 Y51.47
+ok
+Sending: G1 X34.771 Y51.47
+ok
+Sending: G1 X34.885 Y51.435
+ok
+Sending: G1 X34.885 Y51.435
+ok
+Sending: G1 X34.904 Y51.427
+ok
+Sending: G1 X34.904 Y51.427
+ok
+Sending: G1 X34.928 Y51.419
+ok
+Sending: G1 X34.928 Y51.419
+ok
+Sending: G1 X34.951 Y51.419
+ok
+Sending: G1 X34.951 Y51.419
+ok
+Sending: G1 X34.979 Y51.415
+ok
+Sending: G1 X34.979 Y51.415
+ok
+Sending: G1 X35.037 Y51.4
+ok
+Sending: G1 X35.037 Y51.4
+ok
+Sending: G1 X35.096 Y51.392
+ok
+Sending: G1 X35.096 Y51.392
+ok
+Sending: G1 X35.213 Y51.38
+ok
+Sending: G1 X35.213 Y51.38
+ok
+Sending: G1 X35.327 Y51.372
+ok
+Sending: G1 X35.327 Y51.372
+ok
+Sending: G1 X35.381 Y51.376
+ok
+Sending: G1 X35.381 Y51.376
+ok
+Sending: G1 X35.397 Y51.372
+ok
+Sending: G1 X35.397 Y51.372
+ok
+Sending: G1 X35.44 Y51.38
+ok
+Sending: G1 X35.44 Y51.38
+ok
+Sending: G1 X35.487 Y51.384
+ok
+Sending: G1 X35.487 Y51.384
+ok
+Sending: G1 X35.518 Y51.384
+ok
+Sending: G1 X35.518 Y51.384
+ok
+Sending: G1 X35.546 Y51.38
+ok
+Sending: G1 X35.546 Y51.38
+ok
+Sending: G1 X35.647 Y51.396
+ok
+Sending: G1 X35.647 Y51.396
+ok
+Sending: G1 X35.71 Y51.4
+ok
+Sending: G1 X35.71 Y51.4
+ok
+Sending: G1 X35.726 Y51.419
+ok
+Sending: G1 X35.726 Y51.419
+ok
+Sending: G1 X35.737 Y51.439
+ok
+Sending: G1 X35.737 Y51.439
+ok
+Sending: G1 X35.757 Y51.462
+ok
+Sending: G1 X35.757 Y51.462
+ok
+Sending: G1 X35.78 Y51.478
+ok
+Sending: G1 X35.78 Y51.478
+ok
+Sending: G1 X35.855 Y51.482
+ok
+Sending: G1 X35.855 Y51.482
+ok
+Sending: G1 X35.933 Y51.474
+ok
+Sending: G1 X35.933 Y51.474
+ok
+Sending: G1 X36.05 Y51.505
+ok
+Sending: G1 X36.05 Y51.505
+ok
+Sending: G1 X36.156 Y51.556
+ok
+Sending: G1 X36.156 Y51.556
+ok
+Sending: G1 X36.179 Y51.595
+ok
+Sending: G1 X36.179 Y51.595
+ok
+Sending: G1 X36.211 Y51.638
+ok
+Sending: G1 X36.211 Y51.638
+ok
+Sending: G1 X36.23 Y51.654
+ok
+Sending: G1 X36.23 Y51.654
+ok
+Sending: G1 X36.254 Y51.666
+ok
+Sending: G1 X36.254 Y51.666
+ok
+Sending: G1 X36.281 Y51.705
+ok
+Sending: G1 X36.281 Y51.705
+ok
+Sending: G1 X36.293 Y51.717
+ok
+Sending: G1 X36.293 Y51.717
+ok
+Sending: G1 X36.308 Y51.744
+ok
+Sending: G1 X36.308 Y51.744
+ok
+Sending: G1 X36.332 Y51.771
+ok
+Sending: G1 X36.332 Y51.771
+ok
+Sending: G1 X36.351 Y51.799
+ok
+Sending: G1 X36.351 Y51.799
+ok
+Sending: G1 X36.371 Y51.818
+ok
+Sending: G1 X36.371 Y51.818
+ok
+Sending: G1 X36.383 Y51.842
+ok
+Sending: G1 X36.383 Y51.842
+ok
+Sending: G1 X36.394 Y51.865
+ok
+Sending: G1 X36.394 Y51.865
+ok
+Sending: G1 X36.426 Y51.908
+ok
+Sending: G1 X36.426 Y51.908
+ok
+Sending: G1 X36.457 Y51.955
+ok
+Sending: G1 X36.457 Y51.955
+ok
+Sending: G1 X36.465 Y51.983
+ok
+Sending: G1 X36.465 Y51.983
+ok
+Sending: G1 X36.473 Y52.006
+ok
+Sending: G1 X36.473 Y52.006
+ok
+Sending: G1 X36.5 Y52.057
+ok
+Sending: G1 X36.5 Y52.057
+ok
+Sending: G1 X36.527 Y52.112
+ok
+Sending: G1 X36.527 Y52.112
+ok
+Sending: G1 X36.539 Y52.147
+ok
+Sending: G1 X36.539 Y52.147
+ok
+Sending: G1 X36.551 Y52.174
+ok
+Sending: G1 X36.551 Y52.174
+ok
+Sending: G1 X36.555 Y52.217
+ok
+Sending: G1 X36.555 Y52.217
+ok
+Sending: G1 X36.563 Y52.256
+ok
+Sending: G1 X36.563 Y52.256
+ok
+Sending: G1 X36.586 Y52.389
+ok
+Sending: G1 X36.586 Y52.389
+ok
+Sending: G1 X36.602 Y52.526
+ok
+Sending: G1 X36.602 Y52.526
+ok
+Sending: G1 X36.602 Y52.55
+ok
+Sending: G1 X36.602 Y52.55
+ok
+Sending: G1 X36.602 Y52.573
+ok
+Sending: G1 X36.602 Y52.573
+ok
+Sending: G1 X36.61 Y52.655
+ok
+Sending: G1 X36.61 Y52.655
+ok
+Sending: G1 X36.625 Y52.73
+ok
+Sending: G1 X36.625 Y52.73
+ok
+Sending: G1 X36.629 Y52.855
+ok
+Sending: G1 X36.629 Y52.855
+ok
+Sending: G1 X36.629 Y52.976
+ok
+Sending: G1 X36.641 Y53.011
+ok
+Sending: G1 X36.641 Y53.011
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X34.333 Y52.753 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X34.333 Y52.753
+ok
+Sending: G1 X34.364 Y52.714
+ok
+Sending: G1 X34.364 Y52.714
+ok
+Sending: G1 X34.36 Y52.663
+ok
+Sending: G1 X34.36 Y52.663
+ok
+Sending: G1 X34.286 Y52.687
+ok
+Sending: G1 X34.286 Y52.687
+ok
+Sending: G1 X34.29 Y52.745
+ok
+Sending: G1 X34.29 Y52.745
+ok
+Sending: G1 X34.333 Y52.753
+ok
+Sending: G1 X34.333 Y52.753
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X34.36 Y52.292 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X34.36 Y52.292
+ok
+Sending: G1 X34.411 Y52.198
+ok
+Sending: G1 X34.411 Y52.198
+ok
+Sending: G1 X34.407 Y52.08
+ok
+Sending: G1 X34.407 Y52.08
+ok
+Sending: G1 X34.341 Y52.096
+ok
+Sending: G1 X34.341 Y52.096
+ok
+Sending: G1 X34.314 Y52.151
+ok
+Sending: G1 X34.314 Y52.151
+ok
+Sending: G1 X34.29 Y52.209
+ok
+Sending: G1 X34.29 Y52.209
+ok
+Sending: G1 X34.267 Y52.252
+ok
+Sending: G1 X34.267 Y52.252
+ok
+Sending: G1 X34.247 Y52.331
+ok
+Sending: G1 X34.247 Y52.331
+ok
+Sending: G1 X34.251 Y52.405
+ok
+Sending: G1 X34.251 Y52.405
+ok
+Sending: G1 X34.251 Y52.475
+ok
+Sending: G1 X34.251 Y52.475
+ok
+Sending: G1 X34.306 Y52.507
+ok
+Sending: G1 X34.306 Y52.507
+ok
+Sending: G1 X34.341 Y52.464
+ok
+Sending: G1 X34.341 Y52.464
+ok
+Sending: G1 X34.329 Y52.397
+ok
+Sending: G1 X34.329 Y52.397
+ok
+Sending: G1 X34.333 Y52.339
+ok
+Sending: G1 X34.333 Y52.339
+ok
+Sending: G1 X34.36 Y52.292
+ok
+Sending: G1 X34.36 Y52.292
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X34.986 Y53.352 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X34.986 Y53.352
+ok
+Sending: G1 X34.998 Y53.309
+ok
+Sending: G1 X34.998 Y53.309
+ok
+Sending: G1 X34.994 Y53.254
+ok
+Sending: G1 X34.994 Y53.254
+ok
+Sending: G1 X34.986 Y53.199
+ok
+Sending: G1 X34.986 Y53.199
+ok
+Sending: G1 X34.979 Y53.148
+ok
+Sending: G1 X34.979 Y53.148
+ok
+Sending: G1 X34.959 Y53.113
+ok
+Sending: G1 X34.959 Y53.113
+ok
+Sending: G1 X34.951 Y53.078
+ok
+Sending: G1 X34.951 Y53.078
+ok
+Sending: G1 X34.924 Y53.078
+ok
+Sending: G1 X34.924 Y53.078
+ok
+Sending: G1 X34.912 Y53.105
+ok
+Sending: G1 X34.912 Y53.105
+ok
+Sending: G1 X34.912 Y53.148
+ok
+Sending: G1 X34.912 Y53.148
+ok
+Sending: G1 X34.916 Y53.183
+ok
+Sending: G1 X34.916 Y53.183
+ok
+Sending: G1 X34.908 Y53.222
+ok
+Sending: G1 X34.908 Y53.222
+ok
+Sending: G1 X34.9 Y53.258
+ok
+Sending: G1 X34.9 Y53.258
+ok
+Sending: G1 X34.912 Y53.348
+ok
+Sending: G1 X34.912 Y53.348
+ok
+Sending: G1 X34.947 Y53.395
+ok
+Sending: G1 X34.947 Y53.395
+ok
+Sending: G1 X34.967 Y53.375
+ok
+Sending: G1 X34.967 Y53.375
+ok
+Sending: G1 X34.986 Y53.352
+ok
+Sending: G1 X34.986 Y53.352
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X35.597 Y53.469 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X35.597 Y53.469
+ok
+Sending: G1 X35.62 Y53.426
+ok
+Sending: G1 X35.62 Y53.426
+ok
+Sending: G1 X35.64 Y53.387
+ok
+Sending: G1 X35.64 Y53.387
+ok
+Sending: G1 X35.62 Y53.312
+ok
+Sending: G1 X35.62 Y53.312
+ok
+Sending: G1 X35.597 Y53.246
+ok
+Sending: G1 X35.597 Y53.246
+ok
+Sending: G1 X35.581 Y53.187
+ok
+Sending: G1 X35.581 Y53.187
+ok
+Sending: G1 X35.558 Y53.008
+ok
+Sending: G1 X35.557 Y52.988
+ok
+Sending: G1 X35.557 Y52.988
+ok
+Sending: G1 X35.546 Y52.808
+ok
+Sending: G1 X35.542 Y52.777
+ok
+Sending: G1 X35.542 Y52.777
+ok
+Sending: G1 X35.538 Y52.64
+ok
+Sending: G1 X35.538 Y52.64
+ok
+Sending: G1 X35.522 Y52.507
+ok
+Sending: G1 X35.522 Y52.507
+ok
+Sending: G1 X35.526 Y52.378
+ok
+Sending: G1 X35.526 Y52.378
+ok
+Sending: G1 X35.518 Y52.245
+ok
+Sending: G1 X35.518 Y52.245
+ok
+Sending: G1 X35.518 Y52.182
+ok
+Sending: G1 X35.518 Y52.182
+ok
+Sending: G1 X35.51 Y52.131
+ok
+Sending: G1 X35.51 Y52.131
+ok
+Sending: G1 X35.475 Y52.061
+ok
+Sending: G1 X35.475 Y52.061
+ok
+Sending: G1 X35.432 Y52.01
+ok
+Sending: G1 X35.432 Y52.01
+ok
+Sending: G1 X35.385 Y51.998
+ok
+Sending: G1 X35.385 Y51.998
+ok
+Sending: G1 X35.331 Y51.99
+ok
+Sending: G1 X35.331 Y51.99
+ok
+Sending: G1 X35.268 Y51.99
+ok
+Sending: G1 X35.268 Y51.99
+ok
+Sending: G1 X35.221 Y52.014
+ok
+Sending: G1 X35.221 Y52.014
+ok
+Sending: G1 X35.182 Y52.041
+ok
+Sending: G1 X35.182 Y52.041
+ok
+Sending: G1 X35.115 Y52.139
+ok
+Sending: G1 X35.115 Y52.139
+ok
+Sending: G1 X35.1 Y52.26
+ok
+Sending: G1 X35.1 Y52.26
+ok
+Sending: G1 X35.104 Y52.331
+ok
+Sending: G1 X35.104 Y52.331
+ok
+Sending: G1 X35.108 Y52.393
+ok
+Sending: G1 X35.108 Y52.393
+ok
+Sending: G1 X35.092 Y52.46
+ok
+Sending: G1 X35.092 Y52.46
+ok
+Sending: G1 X35.072 Y52.487
+ok
+Sending: G1 X35.072 Y52.487
+ok
+Sending: G1 X35.053 Y52.538
+ok
+Sending: G1 X35.053 Y52.538
+ok
+Sending: G1 X35.049 Y52.593
+ok
+Sending: G1 X35.049 Y52.593
+ok
+Sending: G1 X35.092 Y52.659
+ok
+Sending: G1 X35.092 Y52.659
+ok
+Sending: G1 X35.127 Y52.734
+ok
+Sending: G1 X35.127 Y52.734
+ok
+Sending: G1 X35.123 Y52.753
+ok
+Sending: G1 X35.123 Y52.753
+ok
+Sending: G1 X35.123 Y52.777
+ok
+Sending: G1 X35.123 Y52.777
+ok
+Sending: G1 X35.123 Y52.874
+ok
+Sending: G1 X35.123 Y52.874
+ok
+Sending: G1 X35.135 Y52.968
+ok
+Sending: G1 X35.135 Y52.968
+ok
+Sending: G1 X35.139 Y53.078
+ok
+Sending: G1 X35.139 Y53.078
+ok
+Sending: G1 X35.139 Y53.183
+ok
+Sending: G1 X35.139 Y53.183
+ok
+Sending: G1 X35.143 Y53.226
+ok
+Sending: G1 X35.143 Y53.226
+ok
+Sending: G1 X35.147 Y53.269
+ok
+Sending: G1 X35.147 Y53.269
+ok
+Sending: G1 X35.143 Y53.297
+ok
+Sending: G1 X35.143 Y53.297
+ok
+Sending: G1 X35.139 Y53.32
+ok
+Sending: G1 X35.139 Y53.32
+ok
+Sending: G1 X35.147 Y53.371
+ok
+Sending: G1 X35.147 Y53.371
+ok
+Sending: G1 X35.143 Y53.418
+ok
+Sending: G1 X35.143 Y53.418
+ok
+Sending: G1 X35.127 Y53.434
+ok
+Sending: G1 X35.127 Y53.434
+ok
+Sending: G1 X35.108 Y53.449
+ok
+Sending: G1 X35.108 Y53.449
+ok
+Sending: G1 X35.115 Y53.539
+ok
+Sending: G1 X35.115 Y53.539
+ok
+Sending: G1 X35.147 Y53.602
+ok
+Sending: G1 X35.147 Y53.602
+ok
+Sending: G1 X35.17 Y53.649
+ok
+Sending: G1 X35.17 Y53.649
+ok
+Sending: G1 X35.182 Y53.7
+ok
+Sending: G1 X35.182 Y53.7
+ok
+Sending: G1 X35.198 Y53.723
+ok
+Sending: G1 X35.198 Y53.723
+ok
+Sending: G1 X35.213 Y53.747
+ok
+Sending: G1 X35.213 Y53.747
+ok
+Sending: G1 X35.334 Y53.825
+ok
+Sending: G1 X35.334 Y53.825
+ok
+Sending: G1 X35.401 Y53.821
+ok
+Sending: G1 X35.401 Y53.821
+ok
+Sending: G1 X35.46 Y53.805
+ok
+Sending: G1 X35.46 Y53.805
+ok
+Sending: G1 X35.51 Y53.751
+ok
+Sending: G1 X35.51 Y53.751
+ok
+Sending: G1 X35.538 Y53.68
+ok
+Sending: G1 X35.538 Y53.68
+ok
+Sending: G1 X35.546 Y53.61
+ok
+Sending: G1 X35.546 Y53.61
+ok
+Sending: G1 X35.553 Y53.543
+ok
+Sending: G1 X35.553 Y53.543
+ok
+Sending: G1 X35.573 Y53.504
+ok
+Sending: G1 X35.573 Y53.504
+ok
+Sending: G1 X35.597 Y53.469
+ok
+Sending: G1 X35.597 Y53.469
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X36.254 Y53.97 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X36.254 Y53.97
+ok
+Sending: G1 X36.351 Y53.848
+ok
+Sending: G1 X36.351 Y53.848
+ok
+Sending: G1 X36.41 Y53.696
+ok
+Sending: G1 X36.41 Y53.696
+ok
+Sending: G1 X36.391 Y53.68
+ok
+Sending: G1 X36.391 Y53.68
+ok
+Sending: G1 X36.371 Y53.668
+ok
+Sending: G1 X36.371 Y53.668
+ok
+Sending: G1 X36.332 Y53.688
+ok
+Sending: G1 X36.332 Y53.688
+ok
+Sending: G1 X36.297 Y53.711
+ok
+Sending: G1 X36.297 Y53.711
+ok
+Sending: G1 X36.25 Y53.782
+ok
+Sending: G1 X36.25 Y53.782
+ok
+Sending: G1 X36.226 Y53.821
+ok
+Sending: G1 X36.226 Y53.821
+ok
+Sending: G1 X36.191 Y53.852
+ok
+Sending: G1 X36.191 Y53.852
+ok
+Sending: G1 X36.156 Y53.884
+ok
+Sending: G1 X36.156 Y53.884
+ok
+Sending: G1 X36.168 Y53.962
+ok
+Sending: G1 X36.168 Y53.962
+ok
+Sending: G1 X36.203 Y53.981
+ok
+Sending: G1 X36.203 Y53.981
+ok
+Sending: G1 X36.226 Y53.97
+ok
+Sending: G1 X36.226 Y53.97
+ok
+Sending: G1 X36.254 Y53.97
+ok
+Sending: G1 X36.254 Y53.97
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X36.469 Y53.504 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X36.469 Y53.504
+ok
+Sending: G1 X36.469 Y53.461
+ok
+Sending: G1 X36.469 Y53.461
+ok
+Sending: G1 X36.465 Y53.41
+ok
+Sending: G1 X36.465 Y53.41
+ok
+Sending: G1 X36.457 Y53.371
+ok
+Sending: G1 X36.457 Y53.371
+ok
+Sending: G1 X36.434 Y53.352
+ok
+Sending: G1 X36.434 Y53.352
+ok
+Sending: G1 X36.359 Y53.445
+ok
+Sending: G1 X36.359 Y53.445
+ok
+Sending: G1 X36.367 Y53.496
+ok
+Sending: G1 X36.367 Y53.496
+ok
+Sending: G1 X36.394 Y53.528
+ok
+Sending: G1 X36.394 Y53.528
+ok
+Sending: G1 X36.434 Y53.535
+ok
+Sending: G1 X36.434 Y53.535
+ok
+Sending: G1 X36.469 Y53.504
+ok
+Sending: G1 X36.469 Y53.504
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X36.481 Y51.81 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X36.481 Y51.81
+ok
+Sending: G1 X36.445 Y51.799
+ok
+Sending: G1 X36.445 Y51.799
+ok
+Sending: G1 X36.418 Y51.764
+ok
+Sending: G1 X36.418 Y51.764
+ok
+Sending: G1 X36.414 Y51.685
+ok
+Sending: G1 X36.414 Y51.685
+ok
+Sending: G1 X36.469 Y51.685
+ok
+Sending: G1 X36.469 Y51.685
+ok
+Sending: G1 X36.477 Y51.717
+ok
+Sending: G1 X36.477 Y51.717
+ok
+Sending: G1 X36.492 Y51.756
+ok
+Sending: G1 X36.492 Y51.756
+ok
+Sending: G1 X36.5 Y51.791
+ok
+Sending: G1 X36.5 Y51.791
+ok
+Sending: G1 X36.481 Y51.81
+ok
+Sending: G1 X36.481 Y51.81
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X35.374 Y52.092 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X35.374 Y52.092
+ok
+Sending: G1 X35.42 Y52.155
+ok
+Sending: G1 X35.42 Y52.155
+ok
+Sending: G1 X35.44 Y52.245
+ok
+Sending: G1 X35.44 Y52.245
+ok
+Sending: G1 X35.432 Y52.311
+ok
+Sending: G1 X35.432 Y52.311
+ok
+Sending: G1 X35.428 Y52.378
+ok
+Sending: G1 X35.428 Y52.378
+ok
+Sending: G1 X35.436 Y52.444
+ok
+Sending: G1 X35.436 Y52.444
+ok
+Sending: G1 X35.42 Y52.499
+ok
+Sending: G1 X35.42 Y52.499
+ok
+Sending: G1 X35.389 Y52.483
+ok
+Sending: G1 X35.389 Y52.483
+ok
+Sending: G1 X35.366 Y52.436
+ok
+Sending: G1 X35.366 Y52.436
+ok
+Sending: G1 X35.346 Y52.346
+ok
+Sending: G1 X35.346 Y52.346
+ok
+Sending: G1 X35.358 Y52.249
+ok
+Sending: G1 X35.358 Y52.249
+ok
+Sending: G1 X35.362 Y52.194
+ok
+Sending: G1 X35.362 Y52.194
+ok
+Sending: G1 X35.342 Y52.143
+ok
+Sending: G1 X35.342 Y52.143
+ok
+Sending: G1 X35.284 Y52.143
+ok
+Sending: G1 X35.284 Y52.143
+ok
+Sending: G1 X35.252 Y52.178
+ok
+Sending: G1 X35.252 Y52.178
+ok
+Sending: G1 X35.229 Y52.202
+ok
+Sending: G1 X35.229 Y52.202
+ok
+Sending: G1 X35.198 Y52.174
+ok
+Sending: G1 X35.198 Y52.174
+ok
+Sending: G1 X35.213 Y52.123
+ok
+Sending: G1 X35.213 Y52.123
+ok
+Sending: G1 X35.291 Y52.088
+ok
+Sending: G1 X35.291 Y52.088
+ok
+Sending: G1 X35.374 Y52.092
+ok
+Sending: G1 X35.374 Y52.092
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X35.413 Y52.569 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X35.413 Y52.569
+ok
+Sending: G1 X35.436 Y52.585
+ok
+Sending: G1 X35.436 Y52.585
+ok
+Sending: G1 X35.444 Y52.624
+ok
+Sending: G1 X35.444 Y52.624
+ok
+Sending: G1 X35.44 Y52.671
+ok
+Sending: G1 X35.44 Y52.671
+ok
+Sending: G1 X35.428 Y52.702
+ok
+Sending: G1 X35.428 Y52.702
+ok
+Sending: G1 X35.393 Y52.687
+ok
+Sending: G1 X35.393 Y52.687
+ok
+Sending: G1 X35.377 Y52.64
+ok
+Sending: G1 X35.377 Y52.64
+ok
+Sending: G1 X35.385 Y52.593
+ok
+Sending: G1 X35.385 Y52.593
+ok
+Sending: G1 X35.413 Y52.569
+ok
+Sending: G1 X35.413 Y52.569
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X33.942 Y52.859 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X33.942 Y52.859
+ok
+Sending: G1 X33.899 Y52.784
+ok
+Sending: G1 X33.899 Y52.784
+ok
+Sending: G1 X33.891 Y52.722
+ok
+Sending: G1 X33.891 Y52.722
+ok
+Sending: G1 X33.903 Y52.651
+ok
+Sending: G1 X33.903 Y52.651
+ok
+Sending: G1 X33.965 Y52.64
+ok
+Sending: G1 X33.965 Y52.64
+ok
+Sending: G1 X33.993 Y52.687
+ok
+Sending: G1 X33.993 Y52.687
+ok
+Sending: G1 X33.993 Y52.753
+ok
+Sending: G1 X33.993 Y52.753
+ok
+Sending: G1 X33.973 Y52.82
+ok
+Sending: G1 X33.973 Y52.82
+ok
+Sending: G1 X33.942 Y52.859
+ok
+Sending: G1 X33.942 Y52.859
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X34.341 Y54.247 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X34.341 Y54.247
+ok
+Sending: G1 X34.38 Y54.286
+ok
+Sending: G1 X34.38 Y54.286
+ok
+Sending: G1 X34.396 Y54.341
+ok
+Sending: G1 X34.396 Y54.341
+ok
+Sending: G1 X34.349 Y54.361
+ok
+Sending: G1 X34.349 Y54.361
+ok
+Sending: G1 X34.333 Y54.361
+ok
+Sending: G1 X34.333 Y54.361
+ok
+Sending: G1 X34.231 Y54.279
+ok
+Sending: G1 X34.231 Y54.279
+ok
+Sending: G1 X34.145 Y54.181
+ok
+Sending: G1 X34.145 Y54.181
+ok
+Sending: G1 X34.059 Y54.052
+ok
+Sending: G1 X34.059 Y54.052
+ok
+Sending: G1 X34.044 Y54.02
+ok
+Sending: G1 X34.044 Y54.02
+ok
+Sending: G1 X34.028 Y53.989
+ok
+Sending: G1 X34.028 Y53.989
+ok
+Sending: G1 X33.989 Y53.927
+ok
+Sending: G1 X33.989 Y53.927
+ok
+Sending: G1 X33.965 Y53.848
+ok
+Sending: G1 X33.965 Y53.848
+ok
+Sending: G1 X33.934 Y53.762
+ok
+Sending: G1 X33.934 Y53.762
+ok
+Sending: G1 X33.915 Y53.672
+ok
+Sending: G1 X33.915 Y53.672
+ok
+Sending: G1 X33.922 Y53.567
+ok
+Sending: G1 X33.922 Y53.567
+ok
+Sending: G1 X33.961 Y53.543
+ok
+Sending: G1 X33.961 Y53.543
+ok
+Sending: G1 X33.999 Y53.721
+ok
+Sending: G1 X34.008 Y53.758
+ok
+Sending: G1 X34.008 Y53.758
+ok
+Sending: G1 X34.077 Y53.927
+ok
+Sending: G1 X34.087 Y53.942
+ok
+Sending: G1 X34.087 Y53.942
+ok
+Sending: G1 X34.138 Y53.993
+ok
+Sending: G1 X34.138 Y53.993
+ok
+Sending: G1 X34.188 Y54.048
+ok
+Sending: G1 X34.188 Y54.048
+ok
+Sending: G1 X34.224 Y54.071
+ok
+Sending: G1 X34.224 Y54.071
+ok
+Sending: G1 X34.255 Y54.103
+ok
+Sending: G1 X34.255 Y54.103
+ok
+Sending: G1 X34.286 Y54.181
+ok
+Sending: G1 X34.286 Y54.181
+ok
+Sending: G1 X34.31 Y54.216
+ok
+Sending: G1 X34.31 Y54.216
+ok
+Sending: G1 X34.341 Y54.247
+ok
+Sending: G1 X34.341 Y54.247
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X34.474 Y54.376 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X34.474 Y54.376
+ok
+Sending: G1 X34.552 Y54.408
+ok
+Sending: G1 X34.552 Y54.408
+ok
+Sending: G1 X34.607 Y54.47
+ok
+Sending: G1 X34.607 Y54.47
+ok
+Sending: G1 X34.595 Y54.49
+ok
+Sending: G1 X34.595 Y54.49
+ok
+Sending: G1 X34.58 Y54.509
+ok
+Sending: G1 X34.58 Y54.509
+ok
+Sending: G1 X34.49 Y54.478
+ok
+Sending: G1 X34.49 Y54.478
+ok
+Sending: G1 X34.462 Y54.38
+ok
+Sending: G1 X34.474 Y54.376
+ok
+Sending: G1 X34.474 Y54.376
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X38.921 Y54.22 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X38.921 Y54.22
+ok
+Sending: G1 X38.823 Y54.279
+ok
+Sending: G1 X38.823 Y54.279
+ok
+Sending: G1 X38.722 Y54.322
+ok
+Sending: G1 X38.722 Y54.322
+ok
+Sending: G1 X38.687 Y54.329
+ok
+Sending: G1 X38.687 Y54.329
+ok
+Sending: G1 X38.663 Y54.341
+ok
+Sending: G1 X38.663 Y54.341
+ok
+Sending: G1 X38.569 Y54.361
+ok
+Sending: G1 X38.569 Y54.361
+ok
+Sending: G1 X38.479 Y54.384
+ok
+Sending: G1 X38.479 Y54.384
+ok
+Sending: G1 X38.417 Y54.38
+ok
+Sending: G1 X38.417 Y54.38
+ok
+Sending: G1 X38.358 Y54.376
+ok
+Sending: G1 X38.358 Y54.376
+ok
+Sending: G1 X38.327 Y54.376
+ok
+Sending: G1 X38.327 Y54.376
+ok
+Sending: G1 X38.295 Y54.376
+ok
+Sending: G1 X38.295 Y54.376
+ok
+Sending: G1 X38.268 Y54.369
+ok
+Sending: G1 X38.268 Y54.369
+ok
+Sending: G1 X38.241 Y54.365
+ok
+Sending: G1 X38.241 Y54.365
+ok
+Sending: G1 X38.1 Y54.365
+ok
+Sending: G1 X38.1 Y54.365
+ok
+Sending: G1 X37.951 Y54.357
+ok
+Sending: G1 X37.951 Y54.357
+ok
+Sending: G1 X37.873 Y54.329
+ok
+Sending: G1 X37.873 Y54.329
+ok
+Sending: G1 X37.795 Y54.302
+ok
+Sending: G1 X37.795 Y54.302
+ok
+Sending: G1 X37.716 Y54.255
+ok
+Sending: G1 X37.716 Y54.255
+ok
+Sending: G1 X37.63 Y54.212
+ok
+Sending: G1 X37.63 Y54.212
+ok
+Sending: G1 X37.58 Y54.181
+ok
+Sending: G1 X37.58 Y54.181
+ok
+Sending: G1 X37.556 Y54.169
+ok
+Sending: G1 X37.556 Y54.169
+ok
+Sending: G1 X37.521 Y54.13
+ok
+Sending: G1 X37.521 Y54.13
+ok
+Sending: G1 X37.486 Y54.091
+ok
+Sending: G1 X37.486 Y54.091
+ok
+Sending: G1 X37.486 Y54.044
+ok
+Sending: G1 X37.486 Y54.044
+ok
+Sending: G1 X37.466 Y53.993
+ok
+Sending: G1 X37.466 Y53.993
+ok
+Sending: G1 X37.423 Y53.907
+ok
+Sending: G1 X37.423 Y53.907
+ok
+Sending: G1 X37.357 Y53.848
+ok
+Sending: G1 X37.357 Y53.848
+ok
+Sending: G1 X37.321 Y53.825
+ok
+Sending: G1 X37.321 Y53.825
+ok
+Sending: G1 X37.282 Y53.801
+ok
+Sending: G1 X37.282 Y53.801
+ok
+Sending: G1 X37.247 Y53.743
+ok
+Sending: G1 X37.247 Y53.743
+ok
+Sending: G1 X37.224 Y53.672
+ok
+Sending: G1 X37.224 Y53.672
+ok
+Sending: G1 X37.212 Y53.637
+ok
+Sending: G1 X37.212 Y53.637
+ok
+Sending: G1 X37.2 Y53.598
+ok
+Sending: G1 X37.2 Y53.598
+ok
+Sending: G1 X37.185 Y53.571
+ok
+Sending: G1 X37.185 Y53.571
+ok
+Sending: G1 X37.173 Y53.535
+ok
+Sending: G1 X37.173 Y53.535
+ok
+Sending: G1 X37.142 Y53.418
+ok
+Sending: G1 X37.142 Y53.418
+ok
+Sending: G1 X37.114 Y53.305
+ok
+Sending: G1 X37.114 Y53.305
+ok
+Sending: G1 X37.044 Y53.309
+ok
+Sending: G1 X37.044 Y53.309
+ok
+Sending: G1 X36.969 Y53.309
+ok
+Sending: G1 X36.969 Y53.309
+ok
+Sending: G1 X36.926 Y53.309
+ok
+Sending: G1 X36.926 Y53.309
+ok
+Sending: G1 X36.919 Y53.309
+ok
+Sending: G1 X36.919 Y53.309
+ok
+Sending: G1 X36.876 Y53.289
+ok
+Sending: G1 X36.876 Y53.289
+ok
+Sending: G1 X36.844 Y53.262
+ok
+Sending: G1 X36.844 Y53.262
+ok
+Sending: G1 X36.817 Y53.215
+ok
+Sending: G1 X36.817 Y53.215
+ok
+Sending: G1 X36.809 Y53.195
+ok
+Sending: G1 X36.809 Y53.195
+ok
+Sending: G1 X36.809 Y53.125
+ok
+Sending: G1 X36.809 Y53.125
+ok
+Sending: G1 X36.833 Y53.047
+ok
+Sending: G1 X36.833 Y53.047
+ok
+Sending: G1 X36.844 Y53.027
+ok
+Sending: G1 X36.844 Y53.027
+ok
+Sending: G1 X36.864 Y53.007
+ok
+Sending: G1 X36.864 Y53.007
+ok
+Sending: G1 X36.887 Y52.984
+ok
+Sending: G1 X36.887 Y52.984
+ok
+Sending: G1 X36.915 Y52.968
+ok
+Sending: G1 X36.915 Y52.968
+ok
+Sending: G1 X36.934 Y52.972
+ok
+Sending: G1 X36.934 Y52.972
+ok
+Sending: G1 X36.958 Y52.976
+ok
+Sending: G1 X36.958 Y52.976
+ok
+Sending: G1 X36.989 Y52.972
+ok
+Sending: G1 X36.989 Y52.972
+ok
+Sending: G1 X37.012 Y52.964
+ok
+Sending: G1 X37.012 Y52.964
+ok
+Sending: G1 X37.048 Y52.972
+ok
+Sending: G1 X37.048 Y52.972
+ok
+Sending: G1 X37.083 Y52.968
+ok
+Sending: G1 X37.083 Y52.968
+ok
+Sending: G1 X37.087 Y52.925
+ok
+Sending: G1 X37.087 Y52.925
+ok
+Sending: G1 X37.095 Y52.874
+ok
+Sending: G1 X37.095 Y52.874
+ok
+Sending: G1 X37.11 Y52.796
+ok
+Sending: G1 X37.11 Y52.796
+ok
+Sending: G1 X37.091 Y52.738
+ok
+Sending: G1 X37.091 Y52.738
+ok
+Sending: G1 X37.048 Y52.738
+ok
+Sending: G1 X37.048 Y52.738
+ok
+Sending: G1 X37.001 Y52.741
+ok
+Sending: G1 X37.001 Y52.741
+ok
+Sending: G1 X36.942 Y52.734
+ok
+Sending: G1 X36.942 Y52.734
+ok
+Sending: G1 X36.895 Y52.722
+ok
+Sending: G1 X36.895 Y52.722
+ok
+Sending: G1 X36.852 Y52.593
+ok
+Sending: G1 X36.852 Y52.593
+ok
+Sending: G1 X36.844 Y52.534
+ok
+Sending: G1 X36.844 Y52.534
+ok
+Sending: G1 X36.848 Y52.479
+ok
+Sending: G1 X36.848 Y52.479
+ok
+Sending: G1 X36.86 Y52.452
+ok
+Sending: G1 X36.86 Y52.452
+ok
+Sending: G1 X36.879 Y52.425
+ok
+Sending: G1 X36.879 Y52.425
+ok
+Sending: G1 X36.934 Y52.401
+ok
+Sending: G1 X36.934 Y52.401
+ok
+Sending: G1 X36.973 Y52.409
+ok
+Sending: G1 X36.973 Y52.409
+ok
+Sending: G1 X37.016 Y52.417
+ok
+Sending: G1 X37.016 Y52.417
+ok
+Sending: G1 X37.122 Y52.409
+ok
+Sending: G1 X37.122 Y52.409
+ok
+Sending: G1 X37.149 Y52.413
+ok
+Sending: G1 X37.149 Y52.413
+ok
+Sending: G1 X37.177 Y52.405
+ok
+Sending: G1 X37.177 Y52.405
+ok
+Sending: G1 X37.224 Y52.268
+ok
+Sending: G1 X37.224 Y52.268
+ok
+Sending: G1 X37.286 Y52.135
+ok
+Sending: G1 X37.286 Y52.135
+ok
+Sending: G1 X37.333 Y52.045
+ok
+Sending: G1 X37.333 Y52.045
+ok
+Sending: G1 X37.357 Y52.018
+ok
+Sending: G1 X37.357 Y52.018
+ok
+Sending: G1 X37.384 Y51.994
+ok
+Sending: G1 X37.384 Y51.994
+ok
+Sending: G1 X37.47 Y51.959
+ok
+Sending: G1 X37.47 Y51.959
+ok
+Sending: G1 X37.497 Y51.904
+ok
+Sending: G1 X37.497 Y51.904
+ok
+Sending: G1 X37.513 Y51.838
+ok
+Sending: G1 X37.513 Y51.838
+ok
+Sending: G1 X37.548 Y51.807
+ok
+Sending: G1 X37.548 Y51.807
+ok
+Sending: G1 X37.584 Y51.775
+ok
+Sending: G1 X37.584 Y51.775
+ok
+Sending: G1 X37.615 Y51.736
+ok
+Sending: G1 X37.615 Y51.736
+ok
+Sending: G1 X37.756 Y51.631
+ok
+Sending: G1 X37.756 Y51.631
+ok
+Sending: G1 X37.915 Y51.545
+ok
+Sending: G1 X37.916 Y51.545
+ok
+Sending: G1 X37.916 Y51.545
+ok
+Sending: G1 X37.951 Y51.537
+ok
+Sending: G1 X37.951 Y51.537
+ok
+Sending: G1 X37.979 Y51.513
+ok
+Sending: G1 X37.979 Y51.513
+ok
+Sending: G1 X37.99 Y51.509
+ok
+Sending: G1 X37.99 Y51.509
+ok
+Sending: G1 X38.022 Y51.505
+ok
+Sending: G1 X38.022 Y51.505
+ok
+Sending: G1 X38.057 Y51.498
+ok
+Sending: G1 X38.057 Y51.498
+ok
+Sending: G1 X38.076 Y51.494
+ok
+Sending: G1 X38.076 Y51.494
+ok
+Sending: G1 X38.112 Y51.517
+ok
+Sending: G1 X38.112 Y51.517
+ok
+Sending: G1 X38.127 Y51.521
+ok
+Sending: G1 X38.127 Y51.521
+ok
+Sending: G1 X38.147 Y51.533
+ok
+Sending: G1 X38.147 Y51.533
+ok
+Sending: G1 X38.17 Y51.541
+ok
+Sending: G1 X38.17 Y51.541
+ok
+Sending: G1 X38.19 Y51.545
+ok
+Sending: G1 X38.19 Y51.545
+ok
+Sending: G1 X38.213 Y51.548
+ok
+Sending: G1 X38.213 Y51.548
+ok
+Sending: G1 X38.264 Y51.556
+ok
+Sending: G1 X38.264 Y51.556
+ok
+Sending: G1 X38.276 Y51.548
+ok
+Sending: G1 X38.276 Y51.548
+ok
+Sending: G1 X38.299 Y51.545
+ok
+Sending: G1 X38.299 Y51.545
+ok
+Sending: G1 X38.331 Y51.537
+ok
+Sending: G1 X38.331 Y51.537
+ok
+Sending: G1 X38.44 Y51.529
+ok
+Sending: G1 X38.44 Y51.529
+ok
+Sending: G1 X38.561 Y51.545
+ok
+Sending: G1 X38.561 Y51.545
+ok
+Sending: G1 X38.659 Y51.56
+ok
+Sending: G1 X38.659 Y51.56
+ok
+Sending: G1 X38.757 Y51.584
+ok
+Sending: G1 X38.757 Y51.584
+ok
+Sending: G1 X38.866 Y51.623
+ok
+Sending: G1 X38.866 Y51.623
+ok
+Sending: G1 X38.968 Y51.666
+ok
+Sending: G1 X38.968 Y51.666
+ok
+Sending: G1 X39.066 Y51.76
+ok
+Sending: G1 X39.066 Y51.76
+ok
+Sending: G1 X39.089 Y51.9
+ok
+Sending: G1 X39.089 Y51.9
+ok
+Sending: G1 X39.078 Y51.947
+ok
+Sending: G1 X39.078 Y51.947
+ok
+Sending: G1 X39.07 Y51.998
+ok
+Sending: G1 X39.07 Y51.998
+ok
+Sending: G1 X39.027 Y52.092
+ok
+Sending: G1 X39.027 Y52.092
+ok
+Sending: G1 X38.996 Y52.096
+ok
+Sending: G1 X38.996 Y52.096
+ok
+Sending: G1 X38.96 Y52.096
+ok
+Sending: G1 X38.96 Y52.096
+ok
+Sending: G1 X38.898 Y52.069
+ok
+Sending: G1 X38.898 Y52.069
+ok
+Sending: G1 X38.827 Y52.045
+ok
+Sending: G1 X38.827 Y52.045
+ok
+Sending: G1 X38.749 Y52.037
+ok
+Sending: G1 X38.749 Y52.037
+ok
+Sending: G1 X38.675 Y52.026
+ok
+Sending: G1 X38.675 Y52.026
+ok
+Sending: G1 X38.62 Y52.01
+ok
+Sending: G1 X38.62 Y52.01
+ok
+Sending: G1 X38.569 Y52.002
+ok
+Sending: G1 X38.569 Y52.002
+ok
+Sending: G1 X38.53 Y52.006
+ok
+Sending: G1 X38.53 Y52.006
+ok
+Sending: G1 X38.491 Y52.01
+ok
+Sending: G1 X38.491 Y52.01
+ok
+Sending: G1 X38.444 Y52.002
+ok
+Sending: G1 X38.444 Y52.002
+ok
+Sending: G1 X38.405 Y51.994
+ok
+Sending: G1 X38.405 Y51.994
+ok
+Sending: G1 X38.256 Y52.018
+ok
+Sending: G1 X38.256 Y52.018
+ok
+Sending: G1 X38.139 Y52.08
+ok
+Sending: G1 X38.139 Y52.08
+ok
+Sending: G1 X38.092 Y52.084
+ok
+Sending: G1 X38.092 Y52.084
+ok
+Sending: G1 X38.065 Y52.108
+ok
+Sending: G1 X38.065 Y52.108
+ok
+Sending: G1 X38.053 Y52.139
+ok
+Sending: G1 X38.053 Y52.139
+ok
+Sending: G1 X38.045 Y52.17
+ok
+Sending: G1 X38.045 Y52.17
+ok
+Sending: G1 X38.029 Y52.194
+ok
+Sending: G1 X38.029 Y52.194
+ok
+Sending: G1 X38.002 Y52.202
+ok
+Sending: G1 X38.002 Y52.202
+ok
+Sending: G1 X37.932 Y52.335
+ok
+Sending: G1 X37.932 Y52.335
+ok
+Sending: G1 X37.881 Y52.483
+ok
+Sending: G1 X37.881 Y52.483
+ok
+Sending: G1 X37.908 Y52.491
+ok
+Sending: G1 X37.908 Y52.491
+ok
+Sending: G1 X37.947 Y52.495
+ok
+Sending: G1 X37.947 Y52.495
+ok
+Sending: G1 X37.983 Y52.495
+ok
+Sending: G1 X37.983 Y52.495
+ok
+Sending: G1 X38.022 Y52.491
+ok
+Sending: G1 X38.022 Y52.491
+ok
+Sending: G1 X38.065 Y52.495
+ok
+Sending: G1 X38.065 Y52.495
+ok
+Sending: G1 X38.119 Y52.499
+ok
+Sending: G1 X38.119 Y52.499
+ok
+Sending: G1 X38.256 Y52.503
+ok
+Sending: G1 X38.256 Y52.503
+ok
+Sending: G1 X38.374 Y52.515
+ok
+Sending: G1 X38.374 Y52.515
+ok
+Sending: G1 X38.448 Y52.522
+ok
+Sending: G1 X38.448 Y52.522
+ok
+Sending: G1 X38.499 Y52.561
+ok
+Sending: G1 X38.499 Y52.561
+ok
+Sending: G1 X38.499 Y52.616
+ok
+Sending: G1 X38.499 Y52.616
+ok
+Sending: G1 X38.475 Y52.675
+ok
+Sending: G1 X38.475 Y52.675
+ok
+Sending: G1 X38.44 Y52.73
+ok
+Sending: G1 X38.44 Y52.73
+ok
+Sending: G1 X38.409 Y52.765
+ok
+Sending: G1 X38.409 Y52.765
+ok
+Sending: G1 X38.241 Y52.796
+ok
+Sending: G1 X38.241 Y52.796
+ok
+Sending: G1 X38.065 Y52.8
+ok
+Sending: G1 X37.908 Y52.8
+ok
+Sending: G1 X37.908 Y52.8
+ok
+Sending: G1 X37.873 Y52.804
+ok
+Sending: G1 X37.873 Y52.804
+ok
+Sending: G1 X37.838 Y52.796
+ok
+Sending: G1 X37.838 Y52.796
+ok
+Sending: G1 X37.81 Y52.902
+ok
+Sending: G1 X37.81 Y52.902
+ok
+Sending: G1 X37.81 Y53.023
+ok
+Sending: G1 X37.81 Y53.023
+ok
+Sending: G1 X37.985 Y53.042
+ok
+Sending: G1 X38.108 Y53.05
+ok
+Sending: G1 X38.108 Y53.05
+ok
+Sending: G1 X38.296 Y53.057
+ok
+Sending: G1 X38.405 Y53.062
+ok
+Sending: G1 X38.405 Y53.062
+ok
+Sending: G1 X38.428 Y53.078
+ok
+Sending: G1 X38.428 Y53.078
+ok
+Sending: G1 X38.448 Y53.09
+ok
+Sending: G1 X38.448 Y53.09
+ok
+Sending: G1 X38.46 Y53.172
+ok
+Sending: G1 X38.46 Y53.172
+ok
+Sending: G1 X38.424 Y53.242
+ok
+Sending: G1 X38.424 Y53.242
+ok
+Sending: G1 X38.366 Y53.289
+ok
+Sending: G1 X38.366 Y53.289
+ok
+Sending: G1 X38.288 Y53.324
+ok
+Sending: G1 X38.288 Y53.324
+ok
+Sending: G1 X38.229 Y53.332
+ok
+Sending: G1 X38.229 Y53.332
+ok
+Sending: G1 X38.166 Y53.332
+ok
+Sending: G1 X38.166 Y53.332
+ok
+Sending: G1 X38.139 Y53.332
+ok
+Sending: G1 X38.139 Y53.332
+ok
+Sending: G1 X38.112 Y53.328
+ok
+Sending: G1 X38.112 Y53.328
+ok
+Sending: G1 X38.088 Y53.332
+ok
+Sending: G1 X38.088 Y53.332
+ok
+Sending: G1 X38.065 Y53.332
+ok
+Sending: G1 X38.065 Y53.332
+ok
+Sending: G1 X37.99 Y53.328
+ok
+Sending: G1 X37.99 Y53.328
+ok
+Sending: G1 X37.924 Y53.324
+ok
+Sending: G1 X37.924 Y53.324
+ok
+Sending: G1 X37.838 Y53.332
+ok
+Sending: G1 X37.838 Y53.332
+ok
+Sending: G1 X37.795 Y53.324
+ok
+Sending: G1 X37.795 Y53.324
+ok
+Sending: G1 X37.804 Y53.511
+ok
+Sending: G1 X37.83 Y53.578
+ok
+Sending: G1 X37.83 Y53.578
+ok
+Sending: G1 X37.935 Y53.728
+ok
+Sending: G1 X37.963 Y53.758
+ok
+Sending: G1 X37.963 Y53.758
+ok
+Sending: G1 X38.01 Y53.817
+ok
+Sending: G1 X38.01 Y53.817
+ok
+Sending: G1 X38.065 Y53.86
+ok
+Sending: G1 X38.065 Y53.86
+ok
+Sending: G1 X38.108 Y53.915
+ok
+Sending: G1 X38.108 Y53.915
+ok
+Sending: G1 X38.139 Y53.958
+ok
+Sending: G1 X38.139 Y53.958
+ok
+Sending: G1 X38.312 Y53.99
+ok
+Sending: G1 X38.331 Y53.989
+ok
+Sending: G1 X38.331 Y53.989
+ok
+Sending: G1 X38.37 Y53.985
+ok
+Sending: G1 X38.37 Y53.985
+ok
+Sending: G1 X38.405 Y53.977
+ok
+Sending: G1 X38.405 Y53.977
+ok
+Sending: G1 X38.456 Y53.942
+ok
+Sending: G1 X38.456 Y53.942
+ok
+Sending: G1 X38.522 Y53.907
+ok
+Sending: G1 X38.522 Y53.907
+ok
+Sending: G1 X38.628 Y53.903
+ok
+Sending: G1 X38.628 Y53.903
+ok
+Sending: G1 X38.737 Y53.884
+ok
+Sending: G1 X38.737 Y53.884
+ok
+Sending: G1 X38.78 Y53.876
+ok
+Sending: G1 X38.78 Y53.876
+ok
+Sending: G1 X38.835 Y53.872
+ok
+Sending: G1 X38.835 Y53.872
+ok
+Sending: G1 X38.886 Y53.884
+ok
+Sending: G1 X38.886 Y53.884
+ok
+Sending: G1 X38.929 Y53.895
+ok
+Sending: G1 X38.929 Y53.895
+ok
+Sending: G1 X38.964 Y53.958
+ok
+Sending: G1 X38.964 Y53.958
+ok
+Sending: G1 X38.98 Y54.036
+ok
+Sending: G1 X38.98 Y54.036
+ok
+Sending: G1 X38.96 Y54.083
+ok
+Sending: G1 X38.96 Y54.083
+ok
+Sending: G1 X38.96 Y54.114
+ok
+Sending: G1 X38.96 Y54.114
+ok
+Sending: G1 X38.956 Y54.142
+ok
+Sending: G1 X38.956 Y54.142
+ok
+Sending: G1 X38.941 Y54.181
+ok
+Sending: G1 X38.941 Y54.181
+ok
+Sending: G1 X38.921 Y54.22
+ok
+Sending: G1 X38.921 Y54.22
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X37.165 Y53.16 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X37.165 Y53.16
+ok
+Sending: G1 X37.235 Y53.129
+ok
+Sending: G1 X37.235 Y53.129
+ok
+Sending: G1 X37.274 Y53.039
+ok
+Sending: G1 X37.274 Y53.039
+ok
+Sending: G1 X37.247 Y53.019
+ok
+Sending: G1 X37.247 Y53.019
+ok
+Sending: G1 X37.22 Y53.031
+ok
+Sending: G1 X37.22 Y53.031
+ok
+Sending: G1 X37.204 Y53.058
+ok
+Sending: G1 X37.204 Y53.058
+ok
+Sending: G1 X37.185 Y53.082
+ok
+Sending: G1 X37.185 Y53.082
+ok
+Sending: G1 X37.138 Y53.093
+ok
+Sending: G1 X37.138 Y53.093
+ok
+Sending: G1 X37.079 Y53.097
+ok
+Sending: G1 X37.079 Y53.097
+ok
+Sending: G1 X37.114 Y53.136
+ok
+Sending: G1 X37.114 Y53.136
+ok
+Sending: G1 X37.165 Y53.16
+ok
+Sending: G1 X37.165 Y53.16
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X37.705 Y51.932 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X37.705 Y51.932
+ok
+Sending: G1 X37.744 Y51.904
+ok
+Sending: G1 X37.744 Y51.904
+ok
+Sending: G1 X37.76 Y51.85
+ok
+Sending: G1 X37.76 Y51.85
+ok
+Sending: G1 X37.701 Y51.865
+ok
+Sending: G1 X37.701 Y51.865
+ok
+Sending: G1 X37.662 Y51.9
+ok
+Sending: G1 X37.662 Y51.9
+ok
+Sending: G1 X37.677 Y51.924
+ok
+Sending: G1 X37.677 Y51.924
+ok
+Sending: G1 X37.705 Y51.932
+ok
+Sending: G1 X37.705 Y51.932
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X37.842 Y51.74 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X37.842 Y51.74
+ok
+Sending: G1 X37.857 Y51.814
+ok
+Sending: G1 X37.857 Y51.814
+ok
+Sending: G1 X37.939 Y51.83
+ok
+Sending: G1 X37.939 Y51.83
+ok
+Sending: G1 X37.986 Y51.795
+ok
+Sending: G1 X37.986 Y51.795
+ok
+Sending: G1 X38.037 Y51.76
+ok
+Sending: G1 X38.037 Y51.76
+ok
+Sending: G1 X38.08 Y51.713
+ok
+Sending: G1 X38.08 Y51.713
+ok
+Sending: G1 X38.092 Y51.67
+ok
+Sending: G1 X38.092 Y51.67
+ok
+Sending: G1 X37.99 Y51.65
+ok
+Sending: G1 X37.99 Y51.65
+ok
+Sending: G1 X37.936 Y51.67
+ok
+Sending: G1 X37.936 Y51.67
+ok
+Sending: G1 X37.889 Y51.709
+ok
+Sending: G1 X37.889 Y51.709
+ok
+Sending: G1 X37.842 Y51.74
+ok
+Sending: G1 X37.842 Y51.74
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X37.865 Y54.063 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X37.865 Y54.063
+ok
+Sending: G1 X37.924 Y54.04
+ok
+Sending: G1 X37.924 Y54.04
+ok
+Sending: G1 X37.936 Y53.966
+ok
+Sending: G1 X37.936 Y53.966
+ok
+Sending: G1 X37.916 Y53.934
+ok
+Sending: G1 X37.916 Y53.934
+ok
+Sending: G1 X37.889 Y53.907
+ok
+Sending: G1 X37.889 Y53.907
+ok
+Sending: G1 X37.853 Y53.88
+ok
+Sending: G1 X37.853 Y53.88
+ok
+Sending: G1 X37.83 Y53.856
+ok
+Sending: G1 X37.83 Y53.856
+ok
+Sending: G1 X37.806 Y53.872
+ok
+Sending: G1 X37.806 Y53.872
+ok
+Sending: G1 X37.783 Y53.88
+ok
+Sending: G1 X37.783 Y53.88
+ok
+Sending: G1 X37.771 Y53.923
+ok
+Sending: G1 X37.771 Y53.923
+ok
+Sending: G1 X37.791 Y53.962
+ok
+Sending: G1 X37.791 Y53.962
+ok
+Sending: G1 X37.795 Y53.989
+ok
+Sending: G1 X37.795 Y53.989
+ok
+Sending: G1 X37.803 Y54.009
+ok
+Sending: G1 X37.803 Y54.009
+ok
+Sending: G1 X37.834 Y54.044
+ok
+Sending: G1 X37.834 Y54.044
+ok
+Sending: G1 X37.865 Y54.063
+ok
+Sending: G1 X37.865 Y54.063
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X38.671 Y54.083 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X38.671 Y54.083
+ok
+Sending: G1 X38.694 Y54.11
+ok
+Sending: G1 X38.694 Y54.11
+ok
+Sending: G1 X38.734 Y54.126
+ok
+Sending: G1 X38.734 Y54.126
+ok
+Sending: G1 X38.777 Y54.11
+ok
+Sending: G1 X38.777 Y54.11
+ok
+Sending: G1 X38.8 Y54.06
+ok
+Sending: G1 X38.8 Y54.06
+ok
+Sending: G1 X38.753 Y54.001
+ok
+Sending: G1 X38.753 Y54.001
+ok
+Sending: G1 X38.71 Y54.009
+ok
+Sending: G1 X38.71 Y54.009
+ok
+Sending: G1 X38.675 Y54.04
+ok
+Sending: G1 X38.675 Y54.04
+ok
+Sending: G1 X38.671 Y54.083
+ok
+Sending: G1 X38.671 Y54.083
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X39.176 Y51.979 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X39.176 Y51.979
+ok
+Sending: G1 X39.152 Y51.959
+ok
+Sending: G1 X39.152 Y51.959
+ok
+Sending: G1 X39.148 Y51.92
+ok
+Sending: G1 X39.148 Y51.92
+ok
+Sending: G1 X39.156 Y51.877
+ok
+Sending: G1 X39.156 Y51.877
+ok
+Sending: G1 X39.168 Y51.842
+ok
+Sending: G1 X39.168 Y51.842
+ok
+Sending: G1 X39.211 Y51.854
+ok
+Sending: G1 X39.211 Y51.854
+ok
+Sending: G1 X39.23 Y51.912
+ok
+Sending: G1 X39.23 Y51.912
+ok
+Sending: G1 X39.207 Y51.94
+ok
+Sending: G1 X39.207 Y51.94
+ok
+Sending: G1 X39.187 Y51.975
+ok
+Sending: G1 X39.176 Y51.979
+ok
+Sending: G1 X39.176 Y51.979
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X39.035 Y52.19 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X39.035 Y52.19
+ok
+Sending: G1 X39.089 Y52.135
+ok
+Sending: G1 X39.089 Y52.135
+ok
+Sending: G1 X39.129 Y52.053
+ok
+Sending: G1 X39.129 Y52.053
+ok
+Sending: G1 X39.156 Y52.061
+ok
+Sending: G1 X39.156 Y52.061
+ok
+Sending: G1 X39.164 Y52.092
+ok
+Sending: G1 X39.164 Y52.092
+ok
+Sending: G1 X39.16 Y52.135
+ok
+Sending: G1 X39.16 Y52.135
+ok
+Sending: G1 X39.152 Y52.174
+ok
+Sending: G1 X39.152 Y52.174
+ok
+Sending: G1 X39.129 Y52.229
+ok
+Sending: G1 X39.129 Y52.229
+ok
+Sending: G1 X39.089 Y52.256
+ok
+Sending: G1 X39.089 Y52.256
+ok
+Sending: G1 X39.046 Y52.252
+ok
+Sending: G1 X39.046 Y52.252
+ok
+Sending: G1 X39.007 Y52.256
+ok
+Sending: G1 X39.007 Y52.256
+ok
+Sending: G1 X38.929 Y52.241
+ok
+Sending: G1 X38.929 Y52.241
+ok
+Sending: G1 X38.859 Y52.209
+ok
+Sending: G1 X38.859 Y52.209
+ok
+Sending: G1 X38.827 Y52.206
+ok
+Sending: G1 X38.827 Y52.206
+ok
+Sending: G1 X38.792 Y52.202
+ok
+Sending: G1 X38.792 Y52.202
+ok
+Sending: G1 X38.71 Y52.178
+ok
+Sending: G1 X38.71 Y52.178
+ok
+Sending: G1 X38.663 Y52.174
+ok
+Sending: G1 X38.663 Y52.174
+ok
+Sending: G1 X38.628 Y52.166
+ok
+Sending: G1 X38.628 Y52.166
+ok
+Sending: G1 X38.597 Y52.159
+ok
+Sending: G1 X38.597 Y52.159
+ok
+Sending: G1 X38.499 Y52.17
+ok
+Sending: G1 X38.499 Y52.17
+ok
+Sending: G1 X38.413 Y52.166
+ok
+Sending: G1 X38.413 Y52.166
+ok
+Sending: G1 X38.421 Y52.135
+ok
+Sending: G1 X38.421 Y52.135
+ok
+Sending: G1 X38.428 Y52.104
+ok
+Sending: G1 X38.428 Y52.104
+ok
+Sending: G1 X38.534 Y52.08
+ok
+Sending: G1 X38.534 Y52.08
+ok
+Sending: G1 X38.663 Y52.088
+ok
+Sending: G1 X38.663 Y52.088
+ok
+Sending: G1 X38.718 Y52.112
+ok
+Sending: G1 X38.718 Y52.112
+ok
+Sending: G1 X38.78 Y52.135
+ok
+Sending: G1 X38.78 Y52.135
+ok
+Sending: G1 X38.808 Y52.139
+ok
+Sending: G1 X38.808 Y52.139
+ok
+Sending: G1 X38.835 Y52.139
+ok
+Sending: G1 X38.835 Y52.139
+ok
+Sending: G1 X38.863 Y52.155
+ok
+Sending: G1 X38.863 Y52.155
+ok
+Sending: G1 X38.894 Y52.163
+ok
+Sending: G1 X38.894 Y52.163
+ok
+Sending: G1 X38.921 Y52.163
+ok
+Sending: G1 X38.921 Y52.163
+ok
+Sending: G1 X38.945 Y52.163
+ok
+Sending: G1 X38.945 Y52.163
+ok
+Sending: G1 X38.96 Y52.178
+ok
+Sending: G1 X38.96 Y52.178
+ok
+Sending: G1 X38.98 Y52.19
+ok
+Sending: G1 X38.98 Y52.19
+ok
+Sending: G1 X39.007 Y52.194
+ok
+Sending: G1 X39.007 Y52.194
+ok
+Sending: G1 X39.035 Y52.19
+ok
+Sending: G1 X39.035 Y52.19
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X36.993 Y53.367 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X36.993 Y53.367
+ok
+Sending: G1 X37.005 Y53.395
+ok
+Sending: G1 X37.005 Y53.395
+ok
+Sending: G1 X37.016 Y53.43
+ok
+Sending: G1 X37.016 Y53.43
+ok
+Sending: G1 X37.032 Y53.492
+ok
+Sending: G1 X37.032 Y53.492
+ok
+Sending: G1 X37.024 Y53.543
+ok
+Sending: G1 X37.024 Y53.543
+ok
+Sending: G1 X36.985 Y53.52
+ok
+Sending: G1 X36.985 Y53.52
+ok
+Sending: G1 X36.969 Y53.496
+ok
+Sending: G1 X36.969 Y53.496
+ok
+Sending: G1 X36.934 Y53.457
+ok
+Sending: G1 X36.934 Y53.457
+ok
+Sending: G1 X36.915 Y53.438
+ok
+Sending: G1 X36.915 Y53.438
+ok
+Sending: G1 X36.86 Y53.438
+ok
+Sending: G1 X36.86 Y53.438
+ok
+Sending: G1 X36.801 Y53.449
+ok
+Sending: G1 X36.801 Y53.449
+ok
+Sending: G1 X36.746 Y53.43
+ok
+Sending: G1 X36.746 Y53.43
+ok
+Sending: G1 X36.703 Y53.383
+ok
+Sending: G1 X36.703 Y53.383
+ok
+Sending: G1 X36.684 Y53.324
+ok
+Sending: G1 X36.684 Y53.324
+ok
+Sending: G1 X36.696 Y53.254
+ok
+Sending: G1 X36.696 Y53.254
+ok
+Sending: G1 X36.723 Y53.207
+ok
+Sending: G1 X36.723 Y53.207
+ok
+Sending: G1 X36.731 Y53.23
+ok
+Sending: G1 X36.731 Y53.23
+ok
+Sending: G1 X36.739 Y53.266
+ok
+Sending: G1 X36.739 Y53.266
+ok
+Sending: G1 X36.75 Y53.301
+ok
+Sending: G1 X36.75 Y53.301
+ok
+Sending: G1 X36.778 Y53.332
+ok
+Sending: G1 X36.778 Y53.332
+ok
+Sending: G1 X36.793 Y53.348
+ok
+Sending: G1 X36.793 Y53.348
+ok
+Sending: G1 X36.848 Y53.363
+ok
+Sending: G1 X36.848 Y53.363
+ok
+Sending: G1 X36.907 Y53.363
+ok
+Sending: G1 X36.907 Y53.363
+ok
+Sending: G1 X36.946 Y53.359
+ok
+Sending: G1 X36.946 Y53.359
+ok
+Sending: G1 X36.993 Y53.367
+ok
+Sending: G1 X36.993 Y53.367
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X39.125 Y53.884 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X39.125 Y53.884
+ok
+Sending: G1 X39.164 Y53.915
+ok
+Sending: G1 X39.164 Y53.915
+ok
+Sending: G1 X39.168 Y53.97
+ok
+Sending: G1 X39.168 Y53.97
+ok
+Sending: G1 X39.132 Y53.981
+ok
+Sending: G1 X39.132 Y53.981
+ok
+Sending: G1 X39.097 Y53.977
+ok
+Sending: G1 X39.097 Y53.977
+ok
+Sending: G1 X39.089 Y53.954
+ok
+Sending: G1 X39.089 Y53.954
+ok
+Sending: G1 X39.086 Y53.934
+ok
+Sending: G1 X39.086 Y53.934
+ok
+Sending: G1 X39.097 Y53.899
+ok
+Sending: G1 X39.097 Y53.899
+ok
+Sending: G1 X39.125 Y53.884
+ok
+Sending: G1 X39.125 Y53.884
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X38.338 Y53.864 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X38.338 Y53.864
+ok
+Sending: G1 X38.374 Y53.864
+ok
+Sending: G1 X38.374 Y53.864
+ok
+Sending: G1 X38.409 Y53.868
+ok
+Sending: G1 X38.409 Y53.868
+ok
+Sending: G1 X38.405 Y53.915
+ok
+Sending: G1 X38.405 Y53.915
+ok
+Sending: G1 X38.362 Y53.923
+ok
+Sending: G1 X38.362 Y53.923
+ok
+Sending: G1 X38.327 Y53.934
+ok
+Sending: G1 X38.327 Y53.934
+ok
+Sending: G1 X38.245 Y53.923
+ok
+Sending: G1 X38.245 Y53.923
+ok
+Sending: G1 X38.209 Y53.887
+ok
+Sending: G1 X38.209 Y53.887
+ok
+Sending: G1 X38.245 Y53.856
+ok
+Sending: G1 X38.245 Y53.856
+ok
+Sending: G1 X38.319 Y53.852
+ok
+Sending: G1 X38.338 Y53.864
+ok
+Sending: G1 X38.338 Y53.864
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X37.204 Y53.899 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X37.204 Y53.899
+ok
+Sending: G1 X37.278 Y53.981
+ok
+Sending: G1 X37.278 Y53.981
+ok
+Sending: G1 X37.329 Y54.079
+ok
+Sending: G1 X37.329 Y54.079
+ok
+Sending: G1 X37.239 Y54.071
+ok
+Sending: G1 X37.239 Y54.071
+ok
+Sending: G1 X37.208 Y54.013
+ok
+Sending: G1 X37.208 Y54.013
+ok
+Sending: G1 X37.181 Y53.958
+ok
+Sending: G1 X37.181 Y53.958
+ok
+Sending: G1 X37.196 Y53.899
+ok
+Sending: G1 X37.204 Y53.899
+ok
+Sending: G1 X37.204 Y53.899
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X39.136 Y54.048 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X39.136 Y54.048
+ok
+Sending: G1 X39.14 Y54.138
+ok
+Sending: G1 X39.14 Y54.138
+ok
+Sending: G1 X39.121 Y54.232
+ok
+Sending: G1 X39.121 Y54.232
+ok
+Sending: G1 X39.078 Y54.318
+ok
+Sending: G1 X39.078 Y54.318
+ok
+Sending: G1 X39.019 Y54.349
+ok
+Sending: G1 X39.019 Y54.349
+ok
+Sending: G1 X38.992 Y54.365
+ok
+Sending: G1 X38.992 Y54.365
+ok
+Sending: G1 X38.96 Y54.38
+ok
+Sending: G1 X38.96 Y54.38
+ok
+Sending: G1 X38.898 Y54.4
+ok
+Sending: G1 X38.898 Y54.4
+ok
+Sending: G1 X38.835 Y54.416
+ok
+Sending: G1 X38.835 Y54.416
+ok
+Sending: G1 X38.78 Y54.443
+ok
+Sending: G1 X38.78 Y54.443
+ok
+Sending: G1 X38.73 Y54.451
+ok
+Sending: G1 X38.73 Y54.451
+ok
+Sending: G1 X38.71 Y54.431
+ok
+Sending: G1 X38.71 Y54.431
+ok
+Sending: G1 X38.702 Y54.408
+ok
+Sending: G1 X38.702 Y54.408
+ok
+Sending: G1 X38.741 Y54.38
+ok
+Sending: G1 X38.741 Y54.38
+ok
+Sending: G1 X38.788 Y54.361
+ok
+Sending: G1 X38.788 Y54.361
+ok
+Sending: G1 X38.917 Y54.298
+ok
+Sending: G1 X38.917 Y54.298
+ok
+Sending: G1 X39.035 Y54.236
+ok
+Sending: G1 X39.035 Y54.236
+ok
+Sending: G1 X39.046 Y54.193
+ok
+Sending: G1 X39.046 Y54.193
+ok
+Sending: G1 X39.062 Y54.134
+ok
+Sending: G1 X39.062 Y54.134
+ok
+Sending: G1 X39.058 Y54.103
+ok
+Sending: G1 X39.058 Y54.103
+ok
+Sending: G1 X39.066 Y54.075
+ok
+Sending: G1 X39.066 Y54.075
+ok
+Sending: G1 X39.078 Y54.063
+ok
+Sending: G1 X39.078 Y54.063
+ok
+Sending: G1 X39.097 Y54.044
+ok
+Sending: G1 X39.136 Y54.048
+ok
+Sending: G1 X39.136 Y54.048
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X38.557 Y54.49 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X38.557 Y54.49
+ok
+Sending: G1 X38.554 Y54.451
+ok
+Sending: G1 X38.554 Y54.451
+ok
+Sending: G1 X38.577 Y54.431
+ok
+Sending: G1 X38.577 Y54.431
+ok
+Sending: G1 X38.608 Y54.431
+ok
+Sending: G1 X38.608 Y54.431
+ok
+Sending: G1 X38.632 Y54.459
+ok
+Sending: G1 X38.632 Y54.459
+ok
+Sending: G1 X38.601 Y54.49
+ok
+Sending: G1 X38.601 Y54.49
+ok
+Sending: G1 X38.557 Y54.49
+ok
+Sending: G1 X38.557 Y54.49
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X12.303 Y24.599 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X17.543 Y29.272
+ok
+Sending: G1 X20.367 Y19.846
+ok
+Sending: G1 X20.367 Y19.846
+ok
+Sending: G1 X20.454 Y19.622
+ok
+Sending: G1 X20.572 Y19.428
+ok
+Sending: G1 X20.714 Y19.263
+ok
+Sending: G1 X20.878 Y19.129
+ok
+Sending: G1 X21.058 Y19.025
+ok
+Sending: G1 X21.251 Y18.951
+ok
+Sending: G1 X21.452 Y18.907
+ok
+Sending: G1 X21.657 Y18.894
+ok
+Sending: G1 X21.862 Y18.91
+ok
+Sending: G1 X22.062 Y18.957
+ok
+Sending: G1 X22.254 Y19.035
+ok
+Sending: G1 X22.433 Y19.142
+ok
+Sending: G1 X22.595 Y19.281
+ok
+Sending: G1 X22.735 Y19.45
+ok
+Sending: G1 X22.85 Y19.65
+ok
+Sending: G1 X22.913 Y19.809
+ok
+Sending: G1 X24.753 Y25.367
+ok
+Sending: G1 X27.59 Y22.53
+ok
+Sending: G1 X35.367 Y31.809
+ok
+Sending: G1 X37.937 Y26.402
+ok
+Sending: G1 X42.41 Y30.174
+ok
+Sending: G1 X44.022 Y24.786
+ok
+Sending: G1 X44.022 Y24.786
+ok
+Sending: G1 X44.095 Y24.566
+ok
+Sending: G1 X44.178 Y24.355
+ok
+Sending: G1 X44.271 Y24.153
+ok
+Sending: G1 X44.375 Y23.96
+ok
+Sending: G1 X44.487 Y23.775
+ok
+Sending: G1 X44.609 Y23.6
+ok
+Sending: G1 X44.738 Y23.434
+ok
+Sending: G1 X44.876 Y23.277
+ok
+Sending: G1 X45.021 Y23.129
+ok
+Sending: G1 X45.173 Y22.99
+ok
+Sending: G1 X45.332 Y22.861
+ok
+Sending: G1 X45.496 Y22.741
+ok
+Sending: G1 X45.667 Y22.631
+ok
+Sending: G1 X45.842 Y22.53
+ok
+Sending: G1 X46.022 Y22.439
+ok
+Sending: G1 X46.206 Y22.358
+ok
+Sending: G1 X46.394 Y22.287
+ok
+Sending: G1 X46.585 Y22.225
+ok
+Sending: G1 X46.779 Y22.174
+ok
+Sending: G1 X46.975 Y22.132
+ok
+Sending: G1 X47.173 Y22.101
+ok
+Sending: G1 X47.373 Y22.079
+ok
+Sending: G1 X47.573 Y22.068
+ok
+Sending: G1 X47.774 Y22.067
+ok
+Sending: G1 X47.974 Y22.077
+ok
+Sending: G1 X48.174 Y22.097
+ok
+Sending: G1 X48.374 Y22.128
+ok
+Sending: G1 X48.572 Y22.169
+ok
+Sending: G1 X48.767 Y22.221
+ok
+Sending: G1 X48.961 Y22.284
+ok
+Sending: G1 X49.152 Y22.357
+ok
+Sending: G1 X49.339 Y22.441
+ok
+Sending: G1 X49.523 Y22.537
+ok
+Sending: G1 X49.702 Y22.643
+ok
+Sending: G1 X49.877 Y22.761
+ok
+Sending: G1 X50.047 Y22.889
+ok
+Sending: G1 X50.211 Y23.029
+ok
+Sending: G1 X50.369 Y23.18
+ok
+Sending: G1 X50.52 Y23.343
+ok
+Sending: G1 X50.664 Y23.517
+ok
+Sending: G1 X50.801 Y23.703
+ok
+Sending: G1 X50.821 Y23.732
+ok
+Sending: G1 X50.821 Y23.732
+ok
+Sending: G1 X52.457 Y19.826
+ok
+Sending: G1 X55.594 Y25.367
+ok
+Sending: G1 X55.594 Y25.367
+ok
+Sending: G1 X55.65 Y25.557
+ok
+Sending: G1 X55.706 Y25.747
+ok
+Sending: G1 X55.761 Y25.939
+ok
+Sending: G1 X55.815 Y26.133
+ok
+Sending: G1 X55.87 Y26.328
+ok
+Sending: G1 X55.924 Y26.523
+ok
+Sending: G1 X55.977 Y26.72
+ok
+Sending: G1 X56.03 Y26.919
+ok
+Sending: G1 X56.083 Y27.118
+ok
+Sending: G1 X56.135 Y27.318
+ok
+Sending: G1 X56.186 Y27.52
+ok
+Sending: G1 X56.237 Y27.722
+ok
+Sending: G1 X56.287 Y27.925
+ok
+Sending: G1 X56.337 Y28.129
+ok
+Sending: G1 X56.386 Y28.334
+ok
+Sending: G1 X56.435 Y28.54
+ok
+Sending: G1 X56.482 Y28.747
+ok
+Sending: G1 X56.53 Y28.954
+ok
+Sending: G1 X56.576 Y29.162
+ok
+Sending: G1 X56.622 Y29.371
+ok
+Sending: G1 X56.667 Y29.58
+ok
+Sending: G1 X56.711 Y29.79
+ok
+Sending: G1 X56.755 Y30.001
+ok
+Sending: G1 X56.797 Y30.211
+ok
+Sending: G1 X56.839 Y30.423
+ok
+Sending: G1 X56.88 Y30.635
+ok
+Sending: G1 X56.921 Y30.847
+ok
+Sending: G1 X56.96 Y31.059
+ok
+Sending: G1 X56.998 Y31.272
+ok
+Sending: G1 X57.036 Y31.485
+ok
+Sending: G1 X57.072 Y31.699
+ok
+Sending: G1 X57.108 Y31.912
+ok
+Sending: G1 X57.143 Y32.126
+ok
+Sending: G1 X57.176 Y32.34
+Traceback (most recent call last):
+  File "/Users/merlinhof/Library/Python/3.9/lib/python/site-packages/serial/serialposix.py", line 575, in read
+    buf = os.read(self.fd, size - len(read))
+OSError: [Errno 6] Device not configured
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/merlinhof/Desktop/vectorLaser/backend/./laser.py", line 56, in <module>
+    feedback = ser.readline().decode('utf-8').strip()
+  File "/Users/merlinhof/Library/Python/3.9/lib/python/site-packages/serial/serialposix.py", line 581, in read
+    raise SerialException('read failed: {}'.format(e))
+serial.serialutil.SerialException: read failed: [Errno 6] Device not configured

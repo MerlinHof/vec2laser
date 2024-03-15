@@ -1,0 +1,150 @@
+Connecting...
+Connected!
+Setting: $RST=$
+ok
+Setting: $23=3
+ok
+Setting: $3=3
+ok
+Setting: $30=100
+ok
+Setting: $$
+ok
+Sending: ; Prepare Job
+ok
+Sending: M5 ; Laser Off
+ok
+Sending: G21 ; Millimeter
+ok
+Sending: G90 ; Absolute Positioning
+ok
+Sending: $H ; Homing
+ok
+Sending: G92 X0 Y0 ; Settings Home Point as Zero Point
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X187.907 Y206.32 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X187.907 Y271
+ok
+Sending: G1 X166.347 Y271
+ok
+Sending: G1 X166.347 Y206.32
+ok
+Sending: G1 X148.637 Y206.32
+ok
+Sending: G1 X148.637 Y188.06
+ok
+Sending: G1 X205.617 Y188.06
+ok
+Sending: G1 X205.617 Y206.32
+ok
+Sending: G1 X187.907 Y206.32
+ok
+Sending: G1 X187.907 Y206.32
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X250.827 Y234.59 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X250.827 Y234.59
+ok
+Sending: G1 X249.90459516977154 Y231.92228753157664
+ok
+Sending: G1 X248.49268902466525 Y229.64125013433787
+ok
+Sending: G1 X246.757 Y227.88
+ok
+Sending: G1 X246.757 Y227.88
+ok
+Sending: G1 X244.51254007803098 Y226.45308439794167
+ok
+Sending: G1 X241.96329967001157 Y225.6101322859919
+ok
+Sending: G1 X239.277 Y225.35
+ok
+Sending: G1 X239.277 Y225.35
+ok
+Sending: G1 X236.3544082141902 Y225.6241302379719
+ok
+Sending: G1 X233.80552793057507 Y226.4463685136996
+ok
+Sending: G1 X231.687 Y227.77
+ok
+Sending: G1 X231.687 Y227.77
+ok
+Sending: G1 X229.95406506973328 Y229.68712652098378
+ok
+Sending: G1 X228.72435652143918 Y232.0809869182487
+ok
+Sending: G1 X228.057 Y234.59
+ok
+Sending: G1 X250.827 Y234.59
+ok
+Sending: G1 X250.827 Y234.59
+ok
+Sending: ; Prepare Path
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F1100 ; Feed-Speed in mm/min
+ok
+Sending: G0 X227.507 Y246.14 ; Move to Start Position for Path
+ok
+Sending: ; M4 S85 ; Laser ON
+ok
+Sending: G1 X227.507 Y246.14
+ok
+Sending: G1 X227.7485856651769 Y249.52021967043856
+ok
+Sending: G1 X228.47335394657424 Y252.38648427044964
+ok
+Sending: G1 X229.68132177299177 Y254.73879380003308
+ok
+Sending: G1 X231.37250607322926 Y256.57714825918896
+ok
+Sending: G1 X233.54692377608654 Y257.9015476479173
+ok
+Sending: G1 X236.2045918103634 Y258.71199196621814
+ok
+Sending: G1 X239.34552710485966 Y259.0084812140914
+ok
+Sending: G1 X239.607 Y259.01
+ok
+Sending: G1 X239.607 Y259.01
+ok
+Sending: G1 X242.50893692617103 Y258.71239703593466
+ok
+Sending: G1 X245.05112510300836 Y257.81958814373843
+ok
+Sending: G1 X247.23364481954826 Y256.3315733234114
+ok
+Sending: G1 X249.0565763648271 Y254.24835257495357
+ok
+Sending: G1 X249.397 Y253.73
+Traceback (most recent call last):
+  File "/Users/merlinhof/Library/Python/3.9/lib/python/site-packages/serial/serialposix.py", line 575, in read
+    buf = os.read(self.fd, size - len(read))
+OSError: [Errno 6] Device not configured
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/merlinhof/Desktop/vectorLaser/backend/./laser.py", line 56, in <module>
+    feedback = ser.readline().decode('utf-8').strip()
+  File "/Users/merlinhof/Library/Python/3.9/lib/python/site-packages/serial/serialposix.py", line 581, in read
+    raise SerialException('read failed: {}'.format(e))
+serial.serialutil.SerialException: read failed: [Errno 6] Device not configured

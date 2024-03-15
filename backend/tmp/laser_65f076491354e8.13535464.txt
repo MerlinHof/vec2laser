@@ -1,0 +1,2962 @@
+Connecting...
+Connected!
+Setting: $RST=$
+ok
+Setting: $23=3
+ok
+Setting: $3=3
+ok
+Setting: $30=100
+ok
+Setting: $$
+ok
+Sending: ; Prepare Job
+ok
+Sending: M5 ; Laser Off
+ok
+Sending: G21 ; Millimeter
+ok
+Sending: G90 ; Absolute Positioning
+ok
+Sending: $H ; Homing
+ok
+Sending: G92 X0 Y0 ; Settings Home Point as Zero Point
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X15.291 Y39.171
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X15.585 Y39.171
+ok
+Sending: G1 X15.585 Y39.171
+ok
+Sending: G1 X15.951 Y39.135
+ok
+Sending: G1 X16.18 Y39.067
+ok
+Sending: G1 X16.18 Y39.067
+ok
+Sending: G1 X16.493 Y38.89
+ok
+Sending: G1 X16.617 Y38.779
+ok
+Sending: G1 X16.617 Y38.779
+ok
+Sending: G1 X16.826 Y38.495
+ok
+Sending: G1 X16.892 Y38.348
+ok
+Sending: G1 X16.892 Y38.348
+ok
+Sending: G1 X16.976 Y38.011
+ok
+Sending: G1 X16.99 Y37.793
+ok
+Sending: G1 X16.99 Y37.793
+ok
+Sending: G1 X16.95 Y37.436
+ok
+Sending: G1 X16.892 Y37.244
+ok
+Sending: G1 X16.892 Y37.244
+ok
+Sending: G1 X16.72 Y36.931
+ok
+Sending: G1 X16.611 Y36.806
+ok
+Sending: G1 X16.611 Y36.806
+ok
+Sending: G1 X16.335 Y36.595
+ok
+Sending: G1 X16.173 Y36.519
+ok
+Sending: G1 X16.173 Y36.519
+ok
+Sending: G1 X15.841 Y36.432
+ok
+Sending: G1 X15.585 Y36.414
+ok
+Sending: G1 X15.291 Y36.414
+ok
+Sending: G1 X15.291 Y39.171
+ok
+Sending: G1 X15.291 Y39.171
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X15.291 Y39.171
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X15.585 Y39.171
+ok
+Sending: G1 X15.585 Y39.171
+ok
+Sending: G1 X15.951 Y39.135
+ok
+Sending: G1 X16.18 Y39.067
+ok
+Sending: G1 X16.18 Y39.067
+ok
+Sending: G1 X16.493 Y38.89
+ok
+Sending: G1 X16.617 Y38.779
+ok
+Sending: G1 X16.617 Y38.779
+ok
+Sending: G1 X16.826 Y38.495
+ok
+Sending: G1 X16.892 Y38.348
+ok
+Sending: G1 X16.892 Y38.348
+ok
+Sending: G1 X16.976 Y38.011
+ok
+Sending: G1 X16.99 Y37.793
+ok
+Sending: G1 X16.99 Y37.793
+ok
+Sending: G1 X16.95 Y37.436
+ok
+Sending: G1 X16.892 Y37.244
+ok
+Sending: G1 X16.892 Y37.244
+ok
+Sending: G1 X16.72 Y36.931
+ok
+Sending: G1 X16.611 Y36.806
+ok
+Sending: G1 X16.611 Y36.806
+ok
+Sending: G1 X16.335 Y36.595
+ok
+Sending: G1 X16.173 Y36.519
+ok
+Sending: G1 X16.173 Y36.519
+ok
+Sending: G1 X15.841 Y36.432
+ok
+Sending: G1 X15.585 Y36.414
+ok
+Sending: G1 X15.291 Y36.414
+ok
+Sending: G1 X15.291 Y39.171
+ok
+Sending: G1 X15.291 Y39.171
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X14.011 Y35.33
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X15.905 Y35.33
+ok
+Sending: G1 X15.905 Y35.33
+ok
+Sending: G1 X16.266 Y35.357
+ok
+Sending: G1 X16.608 Y35.439
+ok
+Sending: G1 X16.846 Y35.533
+ok
+Sending: G1 X16.846 Y35.533
+ok
+Sending: G1 X17.163 Y35.704
+ok
+Sending: G1 X17.446 Y35.914
+ok
+Sending: G1 X17.617 Y36.075
+ok
+Sending: G1 X17.617 Y36.075
+ok
+Sending: G1 X17.846 Y36.341
+ok
+Sending: G1 X18.036 Y36.641
+ok
+Sending: G1 X18.139 Y36.859
+ok
+Sending: G1 X18.139 Y36.859
+ok
+Sending: G1 X18.254 Y37.194
+ok
+Sending: G1 X18.316 Y37.542
+ok
+Sending: G1 X18.329 Y37.793
+ok
+Sending: G1 X18.329 Y37.793
+ok
+Sending: G1 X18.303 Y38.147
+ok
+Sending: G1 X18.225 Y38.491
+ok
+Sending: G1 X18.139 Y38.727
+ok
+Sending: G1 X18.139 Y38.727
+ok
+Sending: G1 X17.98 Y39.046
+ok
+Sending: G1 X17.779 Y39.336
+ok
+Sending: G1 X17.623 Y39.511
+ok
+Sending: G1 X17.623 Y39.511
+ok
+Sending: G1 X17.362 Y39.746
+ok
+Sending: G1 X17.067 Y39.943
+ok
+Sending: G1 X16.853 Y40.053
+ok
+Sending: G1 X16.853 Y40.053
+ok
+Sending: G1 X16.524 Y40.174
+ok
+Sending: G1 X16.177 Y40.24
+ok
+Sending: G1 X15.905 Y40.255
+ok
+Sending: G1 X14.011 Y40.255
+ok
+Sending: G1 X14.011 Y35.33
+ok
+Sending: G1 X14.011 Y35.33
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X14.011 Y35.33
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X15.905 Y35.33
+ok
+Sending: G1 X15.905 Y35.33
+ok
+Sending: G1 X16.266 Y35.357
+ok
+Sending: G1 X16.608 Y35.439
+ok
+Sending: G1 X16.846 Y35.533
+ok
+Sending: G1 X16.846 Y35.533
+ok
+Sending: G1 X17.163 Y35.704
+ok
+Sending: G1 X17.446 Y35.914
+ok
+Sending: G1 X17.617 Y36.075
+ok
+Sending: G1 X17.617 Y36.075
+ok
+Sending: G1 X17.846 Y36.341
+ok
+Sending: G1 X18.036 Y36.641
+ok
+Sending: G1 X18.139 Y36.859
+ok
+Sending: G1 X18.139 Y36.859
+ok
+Sending: G1 X18.254 Y37.194
+ok
+Sending: G1 X18.316 Y37.542
+ok
+Sending: G1 X18.329 Y37.793
+ok
+Sending: G1 X18.329 Y37.793
+ok
+Sending: G1 X18.303 Y38.147
+ok
+Sending: G1 X18.225 Y38.491
+ok
+Sending: G1 X18.139 Y38.727
+ok
+Sending: G1 X18.139 Y38.727
+ok
+Sending: G1 X17.98 Y39.046
+ok
+Sending: G1 X17.779 Y39.336
+ok
+Sending: G1 X17.623 Y39.511
+ok
+Sending: G1 X17.623 Y39.511
+ok
+Sending: G1 X17.362 Y39.746
+ok
+Sending: G1 X17.067 Y39.943
+ok
+Sending: G1 X16.853 Y40.053
+ok
+Sending: G1 X16.853 Y40.053
+ok
+Sending: G1 X16.524 Y40.174
+ok
+Sending: G1 X16.177 Y40.24
+ok
+Sending: G1 X15.905 Y40.255
+ok
+Sending: G1 X14.011 Y40.255
+ok
+Sending: G1 X14.011 Y35.33
+ok
+Sending: G1 X14.011 Y35.33
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X21.485 Y38.093
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X21.485 Y38.093
+ok
+Sending: G1 X21.326 Y37.775
+ok
+Sending: G1 X21.243 Y37.695
+ok
+Sending: G1 X21.243 Y37.695
+ok
+Sending: G1 X20.926 Y37.554
+ok
+Sending: G1 X20.799 Y37.545
+ok
+Sending: G1 X20.799 Y37.545
+ok
+Sending: G1 X20.446 Y37.623
+ok
+Sending: G1 X20.348 Y37.688
+ok
+Sending: G1 X20.348 Y37.688
+ok
+Sending: G1 X20.161 Y37.976
+ok
+Sending: G1 X20.132 Y38.093
+ok
+Sending: G1 X21.485 Y38.093
+ok
+Sending: G1 X21.485 Y38.093
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X21.485 Y38.093
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X21.485 Y38.093
+ok
+Sending: G1 X21.326 Y37.775
+ok
+Sending: G1 X21.243 Y37.695
+ok
+Sending: G1 X21.243 Y37.695
+ok
+Sending: G1 X20.926 Y37.554
+ok
+Sending: G1 X20.799 Y37.545
+ok
+Sending: G1 X20.799 Y37.545
+ok
+Sending: G1 X20.446 Y37.623
+ok
+Sending: G1 X20.348 Y37.688
+ok
+Sending: G1 X20.348 Y37.688
+ok
+Sending: G1 X20.161 Y37.976
+ok
+Sending: G1 X20.132 Y38.093
+ok
+Sending: G1 X21.485 Y38.093
+ok
+Sending: G1 X21.485 Y38.093
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X20.1 Y38.779
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X20.1 Y38.779
+ok
+Sending: G1 X20.169 Y39.18
+ok
+Sending: G1 X20.378 Y39.434
+ok
+Sending: G1 X20.725 Y39.54
+ok
+Sending: G1 X20.818 Y39.543
+ok
+Sending: G1 X20.818 Y39.543
+ok
+Sending: G1 X21.169 Y39.458
+ok
+Sending: G1 X21.4 Y39.23
+ok
+Sending: G1 X22.543 Y39.23
+ok
+Sending: G1 X22.543 Y39.23
+ok
+Sending: G1 X22.403 Y39.573
+ok
+Sending: G1 X22.208 Y39.856
+ok
+Sending: G1 X21.958 Y40.078
+ok
+Sending: G1 X21.653 Y40.239
+ok
+Sending: G1 X21.294 Y40.339
+ok
+Sending: G1 X20.879 Y40.379
+ok
+Sending: G1 X20.812 Y40.379
+ok
+Sending: G1 X20.812 Y40.379
+ok
+Sending: G1 X20.445 Y40.354
+ok
+Sending: G1 X20.107 Y40.279
+ok
+Sending: G1 X20.035 Y40.255
+ok
+Sending: G1 X20.035 Y40.255
+ok
+Sending: G1 X19.707 Y40.099
+ok
+Sending: G1 X19.429 Y39.891
+ok
+Sending: G1 X19.427 Y39.89
+ok
+Sending: G1 X19.427 Y39.89
+ok
+Sending: G1 X19.2 Y39.621
+ok
+Sending: G1 X19.042 Y39.328
+ok
+Sending: G1 X19.042 Y39.328
+ok
+Sending: G1 X18.942 Y39
+ok
+Sending: G1 X18.905 Y38.638
+ok
+Sending: G1 X18.904 Y38.596
+ok
+Sending: G1 X18.904 Y38.596
+ok
+Sending: G1 X18.933 Y38.227
+ok
+Sending: G1 X19.017 Y37.894
+ok
+Sending: G1 X19.035 Y37.845
+ok
+Sending: G1 X19.035 Y37.845
+ok
+Sending: G1 X19.199 Y37.523
+ok
+Sending: G1 X19.407 Y37.27
+ok
+Sending: G1 X19.407 Y37.27
+ok
+Sending: G1 X19.683 Y37.057
+ok
+Sending: G1 X19.989 Y36.911
+ok
+Sending: G1 X19.989 Y36.911
+ok
+Sending: G1 X20.316 Y36.82
+ok
+Sending: G1 X20.678 Y36.782
+ok
+Sending: G1 X20.766 Y36.78
+ok
+Sending: G1 X20.766 Y36.78
+ok
+Sending: G1 X21.135 Y36.807
+ok
+Sending: G1 X21.469 Y36.889
+ok
+Sending: G1 X21.53 Y36.911
+ok
+Sending: G1 X21.53 Y36.911
+ok
+Sending: G1 X21.854 Y37.071
+ok
+Sending: G1 X22.105 Y37.277
+ok
+Sending: G1 X22.105 Y37.277
+ok
+Sending: G1 X22.315 Y37.551
+ok
+Sending: G1 X22.464 Y37.871
+ok
+Sending: G1 X22.464 Y37.871
+ok
+Sending: G1 X22.55 Y38.198
+ok
+Sending: G1 X22.587 Y38.56
+ok
+Sending: G1 X22.589 Y38.655
+ok
+Sending: G1 X22.589 Y38.779
+ok
+Sending: G1 X20.1 Y38.779
+ok
+Sending: G1 X20.1 Y38.779
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X20.1 Y38.779
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X20.1 Y38.779
+ok
+Sending: G1 X20.169 Y39.18
+ok
+Sending: G1 X20.378 Y39.434
+ok
+Sending: G1 X20.725 Y39.54
+ok
+Sending: G1 X20.818 Y39.543
+ok
+Sending: G1 X20.818 Y39.543
+ok
+Sending: G1 X21.169 Y39.458
+ok
+Sending: G1 X21.4 Y39.23
+ok
+Sending: G1 X22.543 Y39.23
+ok
+Sending: G1 X22.543 Y39.23
+ok
+Sending: G1 X22.403 Y39.573
+ok
+Sending: G1 X22.208 Y39.856
+ok
+Sending: G1 X21.958 Y40.078
+ok
+Sending: G1 X21.653 Y40.239
+ok
+Sending: G1 X21.294 Y40.339
+ok
+Sending: G1 X20.879 Y40.379
+ok
+Sending: G1 X20.812 Y40.379
+ok
+Sending: G1 X20.812 Y40.379
+ok
+Sending: G1 X20.445 Y40.354
+ok
+Sending: G1 X20.107 Y40.279
+ok
+Sending: G1 X20.035 Y40.255
+ok
+Sending: G1 X20.035 Y40.255
+ok
+Sending: G1 X19.707 Y40.099
+ok
+Sending: G1 X19.429 Y39.891
+ok
+Sending: G1 X19.427 Y39.89
+ok
+Sending: G1 X19.427 Y39.89
+ok
+Sending: G1 X19.2 Y39.621
+ok
+Sending: G1 X19.042 Y39.328
+ok
+Sending: G1 X19.042 Y39.328
+ok
+Sending: G1 X18.942 Y39
+ok
+Sending: G1 X18.905 Y38.638
+ok
+Sending: G1 X18.904 Y38.596
+ok
+Sending: G1 X18.904 Y38.596
+ok
+Sending: G1 X18.933 Y38.227
+ok
+Sending: G1 X19.017 Y37.894
+ok
+Sending: G1 X19.035 Y37.845
+ok
+Sending: G1 X19.035 Y37.845
+ok
+Sending: G1 X19.199 Y37.523
+ok
+Sending: G1 X19.407 Y37.27
+ok
+Sending: G1 X19.407 Y37.27
+ok
+Sending: G1 X19.683 Y37.057
+ok
+Sending: G1 X19.989 Y36.911
+ok
+Sending: G1 X19.989 Y36.911
+ok
+Sending: G1 X20.316 Y36.82
+ok
+Sending: G1 X20.678 Y36.782
+ok
+Sending: G1 X20.766 Y36.78
+ok
+Sending: G1 X20.766 Y36.78
+ok
+Sending: G1 X21.135 Y36.807
+ok
+Sending: G1 X21.469 Y36.889
+ok
+Sending: G1 X21.53 Y36.911
+ok
+Sending: G1 X21.53 Y36.911
+ok
+Sending: G1 X21.854 Y37.071
+ok
+Sending: G1 X22.105 Y37.277
+ok
+Sending: G1 X22.105 Y37.277
+ok
+Sending: G1 X22.315 Y37.551
+ok
+Sending: G1 X22.464 Y37.871
+ok
+Sending: G1 X22.464 Y37.871
+ok
+Sending: G1 X22.55 Y38.198
+ok
+Sending: G1 X22.587 Y38.56
+ok
+Sending: G1 X22.589 Y38.655
+ok
+Sending: G1 X22.589 Y38.779
+ok
+Sending: G1 X20.1 Y38.779
+ok
+Sending: G1 X20.1 Y38.779
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X24.629 Y37.891
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X24.629 Y40.255
+ok
+Sending: G1 X23.446 Y40.255
+ok
+Sending: G1 X23.446 Y37.891
+ok
+Sending: G1 X23.054 Y37.891
+ok
+Sending: G1 X23.054 Y36.904
+ok
+Sending: G1 X23.446 Y36.904
+ok
+Sending: G1 X23.446 Y35.898
+ok
+Sending: G1 X24.629 Y35.898
+ok
+Sending: G1 X24.629 Y36.904
+ok
+Sending: G1 X25.301 Y36.904
+ok
+Sending: G1 X25.301 Y37.891
+ok
+Sending: G1 X24.629 Y37.891
+ok
+Sending: G1 X24.629 Y37.891
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X24.629 Y37.891
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X24.629 Y40.255
+ok
+Sending: G1 X23.446 Y40.255
+ok
+Sending: G1 X23.446 Y37.891
+ok
+Sending: G1 X23.054 Y37.891
+ok
+Sending: G1 X23.054 Y36.904
+ok
+Sending: G1 X23.446 Y36.904
+ok
+Sending: G1 X23.446 Y35.898
+ok
+Sending: G1 X24.629 Y35.898
+ok
+Sending: G1 X24.629 Y36.904
+ok
+Sending: G1 X25.301 Y36.904
+ok
+Sending: G1 X25.301 Y37.891
+ok
+Sending: G1 X24.629 Y37.891
+ok
+Sending: G1 X24.629 Y37.891
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X26.907 Y38.57
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X26.907 Y38.57
+ok
+Sending: G1 X26.966 Y38.877
+ok
+Sending: G1 X26.966 Y38.877
+ok
+Sending: G1 X27.123 Y39.119
+ok
+Sending: G1 X27.123 Y39.119
+ok
+Sending: G1 X27.364 Y39.282
+ok
+Sending: G1 X27.364 Y39.282
+ok
+Sending: G1 X27.671 Y39.341
+ok
+Sending: G1 X27.671 Y39.341
+ok
+Sending: G1 X27.965 Y39.282
+ok
+Sending: G1 X27.965 Y39.282
+ok
+Sending: G1 X28.207 Y39.119
+ok
+Sending: G1 X28.207 Y39.119
+ok
+Sending: G1 X28.37 Y38.877
+ok
+Sending: G1 X28.37 Y38.877
+ok
+Sending: G1 X28.436 Y38.583
+ok
+Sending: G1 X28.436 Y38.583
+ok
+Sending: G1 X28.37 Y38.289
+ok
+Sending: G1 X28.37 Y38.289
+ok
+Sending: G1 X28.207 Y38.041
+ok
+Sending: G1 X28.207 Y38.041
+ok
+Sending: G1 X27.965 Y37.878
+ok
+Sending: G1 X27.965 Y37.878
+ok
+Sending: G1 X27.671 Y37.819
+ok
+Sending: G1 X27.671 Y37.819
+ok
+Sending: G1 X27.364 Y37.878
+ok
+Sending: G1 X27.364 Y37.878
+ok
+Sending: G1 X27.123 Y38.041
+ok
+Sending: G1 X27.123 Y38.041
+ok
+Sending: G1 X26.966 Y38.283
+ok
+Sending: G1 X26.966 Y38.283
+ok
+Sending: G1 X26.907 Y38.57
+ok
+Sending: G1 X26.907 Y38.57
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X26.907 Y38.57
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X26.907 Y38.57
+ok
+Sending: G1 X26.966 Y38.877
+ok
+Sending: G1 X26.966 Y38.877
+ok
+Sending: G1 X27.123 Y39.119
+ok
+Sending: G1 X27.123 Y39.119
+ok
+Sending: G1 X27.364 Y39.282
+ok
+Sending: G1 X27.364 Y39.282
+ok
+Sending: G1 X27.671 Y39.341
+ok
+Sending: G1 X27.671 Y39.341
+ok
+Sending: G1 X27.965 Y39.282
+ok
+Sending: G1 X27.965 Y39.282
+ok
+Sending: G1 X28.207 Y39.119
+ok
+Sending: G1 X28.207 Y39.119
+ok
+Sending: G1 X28.37 Y38.877
+ok
+Sending: G1 X28.37 Y38.877
+ok
+Sending: G1 X28.436 Y38.583
+ok
+Sending: G1 X28.436 Y38.583
+ok
+Sending: G1 X28.37 Y38.289
+ok
+Sending: G1 X28.37 Y38.289
+ok
+Sending: G1 X28.207 Y38.041
+ok
+Sending: G1 X28.207 Y38.041
+ok
+Sending: G1 X27.965 Y37.878
+ok
+Sending: G1 X27.965 Y37.878
+ok
+Sending: G1 X27.671 Y37.819
+ok
+Sending: G1 X27.671 Y37.819
+ok
+Sending: G1 X27.364 Y37.878
+ok
+Sending: G1 X27.364 Y37.878
+ok
+Sending: G1 X27.123 Y38.041
+ok
+Sending: G1 X27.123 Y38.041
+ok
+Sending: G1 X26.966 Y38.283
+ok
+Sending: G1 X26.966 Y38.283
+ok
+Sending: G1 X26.907 Y38.57
+ok
+Sending: G1 X26.907 Y38.57
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X28.396 Y36.904
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X29.585 Y36.904
+ok
+Sending: G1 X29.585 Y40.255
+ok
+Sending: G1 X28.396 Y40.255
+ok
+Sending: G1 X28.396 Y39.883
+ok
+Sending: G1 X28.396 Y39.883
+ok
+Sending: G1 X28.138 Y40.131
+ok
+Sending: G1 X27.83 Y40.289
+ok
+Sending: G1 X27.471 Y40.357
+ok
+Sending: G1 X27.371 Y40.36
+ok
+Sending: G1 X27.371 Y40.36
+ok
+Sending: G1 X27.009 Y40.325
+ok
+Sending: G1 X26.698 Y40.229
+ok
+Sending: G1 X26.698 Y40.229
+ok
+Sending: G1 X26.39 Y40.051
+ok
+Sending: G1 X26.162 Y39.85
+ok
+Sending: G1 X26.162 Y39.85
+ok
+Sending: G1 X25.949 Y39.573
+ok
+Sending: G1 X25.803 Y39.282
+ok
+Sending: G1 X25.803 Y39.282
+ok
+Sending: G1 X25.711 Y38.949
+ok
+Sending: G1 X25.679 Y38.587
+ok
+Sending: G1 X25.679 Y38.57
+ok
+Sending: G1 X25.679 Y38.57
+ok
+Sending: G1 X25.712 Y38.213
+ok
+Sending: G1 X25.803 Y37.891
+ok
+Sending: G1 X25.803 Y37.891
+ok
+Sending: G1 X25.963 Y37.568
+ok
+Sending: G1 X26.149 Y37.322
+ok
+Sending: G1 X26.149 Y37.322
+ok
+Sending: G1 X26.415 Y37.091
+ok
+Sending: G1 X26.678 Y36.944
+ok
+Sending: G1 X26.678 Y36.944
+ok
+Sending: G1 X27.007 Y36.835
+ok
+Sending: G1 X27.358 Y36.8
+ok
+Sending: G1 X27.358 Y36.8
+ok
+Sending: G1 X27.725 Y36.842
+ok
+Sending: G1 X28.051 Y36.967
+ok
+Sending: G1 X28.336 Y37.177
+ok
+Sending: G1 X28.396 Y37.238
+ok
+Sending: G1 X28.396 Y36.904
+ok
+Sending: G1 X28.396 Y36.904
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X28.396 Y36.904
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X29.585 Y36.904
+ok
+Sending: G1 X29.585 Y40.255
+ok
+Sending: G1 X28.396 Y40.255
+ok
+Sending: G1 X28.396 Y39.883
+ok
+Sending: G1 X28.396 Y39.883
+ok
+Sending: G1 X28.138 Y40.131
+ok
+Sending: G1 X27.83 Y40.289
+ok
+Sending: G1 X27.471 Y40.357
+ok
+Sending: G1 X27.371 Y40.36
+ok
+Sending: G1 X27.371 Y40.36
+ok
+Sending: G1 X27.009 Y40.325
+ok
+Sending: G1 X26.698 Y40.229
+ok
+Sending: G1 X26.698 Y40.229
+ok
+Sending: G1 X26.39 Y40.051
+ok
+Sending: G1 X26.162 Y39.85
+ok
+Sending: G1 X26.162 Y39.85
+ok
+Sending: G1 X25.949 Y39.573
+ok
+Sending: G1 X25.803 Y39.282
+ok
+Sending: G1 X25.803 Y39.282
+ok
+Sending: G1 X25.711 Y38.949
+ok
+Sending: G1 X25.679 Y38.587
+ok
+Sending: G1 X25.679 Y38.57
+ok
+Sending: G1 X25.679 Y38.57
+ok
+Sending: G1 X25.712 Y38.213
+ok
+Sending: G1 X25.803 Y37.891
+ok
+Sending: G1 X25.803 Y37.891
+ok
+Sending: G1 X25.963 Y37.568
+ok
+Sending: G1 X26.149 Y37.322
+ok
+Sending: G1 X26.149 Y37.322
+ok
+Sending: G1 X26.415 Y37.091
+ok
+Sending: G1 X26.678 Y36.944
+ok
+Sending: G1 X26.678 Y36.944
+ok
+Sending: G1 X27.007 Y36.835
+ok
+Sending: G1 X27.358 Y36.8
+ok
+Sending: G1 X27.358 Y36.8
+ok
+Sending: G1 X27.725 Y36.842
+ok
+Sending: G1 X28.051 Y36.967
+ok
+Sending: G1 X28.336 Y37.177
+ok
+Sending: G1 X28.396 Y37.238
+ok
+Sending: G1 X28.396 Y36.904
+ok
+Sending: G1 X28.396 Y36.904
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X33.179 Y38.426
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X32.604 Y36.787
+ok
+Sending: G1 X32.029 Y38.426
+ok
+Sending: G1 X33.179 Y38.426
+ok
+Sending: G1 X33.179 Y38.426
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X33.179 Y38.426
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X32.604 Y36.787
+ok
+Sending: G1 X32.029 Y38.426
+ok
+Sending: G1 X33.179 Y38.426
+ok
+Sending: G1 X33.179 Y38.426
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X33.519 Y39.4
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X31.69 Y39.4
+ok
+Sending: G1 X31.396 Y40.255
+ok
+Sending: G1 X30.031 Y40.255
+ok
+Sending: G1 X31.905 Y35.33
+ok
+Sending: G1 X33.303 Y35.33
+ok
+Sending: G1 X35.178 Y40.255
+ok
+Sending: G1 X33.813 Y40.255
+ok
+Sending: G1 X33.519 Y39.4
+ok
+Sending: G1 X33.519 Y39.4
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X33.519 Y39.4
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X31.69 Y39.4
+ok
+Sending: G1 X31.396 Y40.255
+ok
+Sending: G1 X30.031 Y40.255
+ok
+Sending: G1 X31.905 Y35.33
+ok
+Sending: G1 X33.303 Y35.33
+ok
+Sending: G1 X35.178 Y40.255
+ok
+Sending: G1 X33.813 Y40.255
+ok
+Sending: G1 X33.519 Y39.4
+ok
+Sending: G1 X33.519 Y39.4
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X38.369 Y38.59
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X38.369 Y38.59
+ok
+Sending: G1 X38.31 Y38.296
+ok
+Sending: G1 X38.31 Y38.296
+ok
+Sending: G1 X38.153 Y38.048
+ok
+Sending: G1 X38.153 Y38.048
+ok
+Sending: G1 X37.905 Y37.884
+ok
+Sending: G1 X37.905 Y37.884
+ok
+Sending: G1 X37.604 Y37.819
+ok
+Sending: G1 X37.604 Y37.819
+ok
+Sending: G1 X37.311 Y37.878
+ok
+Sending: G1 X37.311 Y37.878
+ok
+Sending: G1 X37.069 Y38.041
+ok
+Sending: G1 X37.069 Y38.041
+ok
+Sending: G1 X36.906 Y38.289
+ok
+Sending: G1 X36.906 Y38.289
+ok
+Sending: G1 X36.847 Y38.583
+ok
+Sending: G1 X36.847 Y38.583
+ok
+Sending: G1 X36.906 Y38.877
+ok
+Sending: G1 X36.906 Y38.877
+ok
+Sending: G1 X37.069 Y39.119
+ok
+Sending: G1 X37.069 Y39.119
+ok
+Sending: G1 X37.311 Y39.282
+ok
+Sending: G1 X37.311 Y39.282
+ok
+Sending: G1 X37.611 Y39.341
+ok
+Sending: G1 X37.611 Y39.341
+ok
+Sending: G1 X37.905 Y39.282
+ok
+Sending: G1 X37.905 Y39.282
+ok
+Sending: G1 X38.14 Y39.119
+ok
+Sending: G1 X38.14 Y39.119
+ok
+Sending: G1 X38.303 Y38.877
+ok
+Sending: G1 X38.303 Y38.877
+ok
+Sending: G1 X38.369 Y38.59
+ok
+Sending: G1 X38.369 Y38.59
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X38.369 Y38.59
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X38.369 Y38.59
+ok
+Sending: G1 X38.31 Y38.296
+ok
+Sending: G1 X38.31 Y38.296
+ok
+Sending: G1 X38.153 Y38.048
+ok
+Sending: G1 X38.153 Y38.048
+ok
+Sending: G1 X37.905 Y37.884
+ok
+Sending: G1 X37.905 Y37.884
+ok
+Sending: G1 X37.604 Y37.819
+ok
+Sending: G1 X37.604 Y37.819
+ok
+Sending: G1 X37.311 Y37.878
+ok
+Sending: G1 X37.311 Y37.878
+ok
+Sending: G1 X37.069 Y38.041
+ok
+Sending: G1 X37.069 Y38.041
+ok
+Sending: G1 X36.906 Y38.289
+ok
+Sending: G1 X36.906 Y38.289
+ok
+Sending: G1 X36.847 Y38.583
+ok
+Sending: G1 X36.847 Y38.583
+ok
+Sending: G1 X36.906 Y38.877
+ok
+Sending: G1 X36.906 Y38.877
+ok
+Sending: G1 X37.069 Y39.119
+ok
+Sending: G1 X37.069 Y39.119
+ok
+Sending: G1 X37.311 Y39.282
+ok
+Sending: G1 X37.311 Y39.282
+ok
+Sending: G1 X37.611 Y39.341
+ok
+Sending: G1 X37.611 Y39.341
+ok
+Sending: G1 X37.905 Y39.282
+ok
+Sending: G1 X37.905 Y39.282
+ok
+Sending: G1 X38.14 Y39.119
+ok
+Sending: G1 X38.14 Y39.119
+ok
+Sending: G1 X38.303 Y38.877
+ok
+Sending: G1 X38.303 Y38.877
+ok
+Sending: G1 X38.369 Y38.59
+ok
+Sending: G1 X38.369 Y38.59
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X36.879 Y41.928
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X35.697 Y41.928
+ok
+Sending: G1 X35.697 Y36.904
+ok
+Sending: G1 X36.879 Y36.904
+ok
+Sending: G1 X36.879 Y37.277
+ok
+Sending: G1 X36.879 Y37.277
+ok
+Sending: G1 X37.136 Y37.03
+ok
+Sending: G1 X37.444 Y36.872
+ok
+Sending: G1 X37.804 Y36.803
+ok
+Sending: G1 X37.911 Y36.8
+ok
+Sending: G1 X37.911 Y36.8
+ok
+Sending: G1 X38.269 Y36.838
+ok
+Sending: G1 X38.578 Y36.944
+ok
+Sending: G1 X38.578 Y36.944
+ok
+Sending: G1 X38.888 Y37.12
+ok
+Sending: G1 X39.12 Y37.322
+ok
+Sending: G1 X39.12 Y37.322
+ok
+Sending: G1 X39.332 Y37.601
+ok
+Sending: G1 X39.473 Y37.891
+ok
+Sending: G1 X39.473 Y37.891
+ok
+Sending: G1 X39.57 Y38.227
+ok
+Sending: G1 X39.603 Y38.585
+ok
+Sending: G1 X39.603 Y38.59
+ok
+Sending: G1 X39.603 Y38.59
+ok
+Sending: G1 X39.57 Y38.95
+ok
+Sending: G1 X39.473 Y39.282
+ok
+Sending: G1 X39.473 Y39.282
+ok
+Sending: G1 X39.311 Y39.601
+ok
+Sending: G1 X39.12 Y39.844
+ok
+Sending: G1 X39.12 Y39.844
+ok
+Sending: G1 X38.854 Y40.075
+ok
+Sending: G1 X38.591 Y40.223
+ok
+Sending: G1 X38.591 Y40.223
+ok
+Sending: G1 X38.258 Y40.328
+ok
+Sending: G1 X37.925 Y40.36
+ok
+Sending: G1 X37.925 Y40.36
+ok
+Sending: G1 X37.557 Y40.319
+ok
+Sending: G1 X37.23 Y40.196
+ok
+Sending: G1 X36.943 Y39.99
+ok
+Sending: G1 X36.879 Y39.929
+ok
+Sending: G1 X36.879 Y41.928
+ok
+Sending: G1 X36.879 Y41.928
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X36.879 Y41.928
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X35.697 Y41.928
+ok
+Sending: G1 X35.697 Y36.904
+ok
+Sending: G1 X36.879 Y36.904
+ok
+Sending: G1 X36.879 Y37.277
+ok
+Sending: G1 X36.879 Y37.277
+ok
+Sending: G1 X37.136 Y37.03
+ok
+Sending: G1 X37.444 Y36.872
+ok
+Sending: G1 X37.804 Y36.803
+ok
+Sending: G1 X37.911 Y36.8
+ok
+Sending: G1 X37.911 Y36.8
+ok
+Sending: G1 X38.269 Y36.838
+ok
+Sending: G1 X38.578 Y36.944
+ok
+Sending: G1 X38.578 Y36.944
+ok
+Sending: G1 X38.888 Y37.12
+ok
+Sending: G1 X39.12 Y37.322
+ok
+Sending: G1 X39.12 Y37.322
+ok
+Sending: G1 X39.332 Y37.601
+ok
+Sending: G1 X39.473 Y37.891
+ok
+Sending: G1 X39.473 Y37.891
+ok
+Sending: G1 X39.57 Y38.227
+ok
+Sending: G1 X39.603 Y38.585
+ok
+Sending: G1 X39.603 Y38.59
+ok
+Sending: G1 X39.603 Y38.59
+ok
+Sending: G1 X39.57 Y38.95
+ok
+Sending: G1 X39.473 Y39.282
+ok
+Sending: G1 X39.473 Y39.282
+ok
+Sending: G1 X39.311 Y39.601
+ok
+Sending: G1 X39.12 Y39.844
+ok
+Sending: G1 X39.12 Y39.844
+ok
+Sending: G1 X38.854 Y40.075
+ok
+Sending: G1 X38.591 Y40.223
+ok
+Sending: G1 X38.591 Y40.223
+ok
+Sending: G1 X38.258 Y40.328
+ok
+Sending: G1 X37.925 Y40.36
+ok
+Sending: G1 X37.925 Y40.36
+ok
+Sending: G1 X37.557 Y40.319
+ok
+Sending: G1 X37.23 Y40.196
+ok
+Sending: G1 X36.943 Y39.99
+ok
+Sending: G1 X36.879 Y39.929
+ok
+Sending: G1 X36.879 Y41.928
+ok
+Sending: G1 X36.879 Y41.928
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X42.949 Y38.59
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X42.949 Y38.59
+ok
+Sending: G1 X42.89 Y38.296
+ok
+Sending: G1 X42.89 Y38.296
+ok
+Sending: G1 X42.733 Y38.048
+ok
+Sending: G1 X42.733 Y38.048
+ok
+Sending: G1 X42.485 Y37.884
+ok
+Sending: G1 X42.485 Y37.884
+ok
+Sending: G1 X42.184 Y37.819
+ok
+Sending: G1 X42.184 Y37.819
+ok
+Sending: G1 X41.891 Y37.878
+ok
+Sending: G1 X41.891 Y37.878
+ok
+Sending: G1 X41.649 Y38.041
+ok
+Sending: G1 X41.649 Y38.041
+ok
+Sending: G1 X41.486 Y38.289
+ok
+Sending: G1 X41.486 Y38.289
+ok
+Sending: G1 X41.427 Y38.583
+ok
+Sending: G1 X41.427 Y38.583
+ok
+Sending: G1 X41.486 Y38.877
+ok
+Sending: G1 X41.486 Y38.877
+ok
+Sending: G1 X41.649 Y39.119
+ok
+Sending: G1 X41.649 Y39.119
+ok
+Sending: G1 X41.891 Y39.282
+ok
+Sending: G1 X41.891 Y39.282
+ok
+Sending: G1 X42.191 Y39.341
+ok
+Sending: G1 X42.191 Y39.341
+ok
+Sending: G1 X42.485 Y39.282
+ok
+Sending: G1 X42.485 Y39.282
+ok
+Sending: G1 X42.72 Y39.119
+ok
+Sending: G1 X42.72 Y39.119
+ok
+Sending: G1 X42.883 Y38.877
+ok
+Sending: G1 X42.883 Y38.877
+ok
+Sending: G1 X42.949 Y38.59
+ok
+Sending: G1 X42.949 Y38.59
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X42.949 Y38.59
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X42.949 Y38.59
+ok
+Sending: G1 X42.89 Y38.296
+ok
+Sending: G1 X42.89 Y38.296
+ok
+Sending: G1 X42.733 Y38.048
+ok
+Sending: G1 X42.733 Y38.048
+ok
+Sending: G1 X42.485 Y37.884
+ok
+Sending: G1 X42.485 Y37.884
+ok
+Sending: G1 X42.184 Y37.819
+ok
+Sending: G1 X42.184 Y37.819
+ok
+Sending: G1 X41.891 Y37.878
+ok
+Sending: G1 X41.891 Y37.878
+ok
+Sending: G1 X41.649 Y38.041
+ok
+Sending: G1 X41.649 Y38.041
+ok
+Sending: G1 X41.486 Y38.289
+ok
+Sending: G1 X41.486 Y38.289
+ok
+Sending: G1 X41.427 Y38.583
+ok
+Sending: G1 X41.427 Y38.583
+ok
+Sending: G1 X41.486 Y38.877
+ok
+Sending: G1 X41.486 Y38.877
+ok
+Sending: G1 X41.649 Y39.119
+ok
+Sending: G1 X41.649 Y39.119
+ok
+Sending: G1 X41.891 Y39.282
+ok
+Sending: G1 X41.891 Y39.282
+ok
+Sending: G1 X42.191 Y39.341
+ok
+Sending: G1 X42.191 Y39.341
+ok
+Sending: G1 X42.485 Y39.282
+ok
+Sending: G1 X42.485 Y39.282
+ok
+Sending: G1 X42.72 Y39.119
+ok
+Sending: G1 X42.72 Y39.119
+ok
+Sending: G1 X42.883 Y38.877
+ok
+Sending: G1 X42.883 Y38.877
+ok
+Sending: G1 X42.949 Y38.59
+ok
+Sending: G1 X42.949 Y38.59
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X41.459 Y41.928
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X40.277 Y41.928
+ok
+Sending: G1 X40.277 Y36.904
+ok
+Sending: G1 X41.459 Y36.904
+ok
+Sending: G1 X41.459 Y37.277
+ok
+Sending: G1 X41.459 Y37.277
+ok
+Sending: G1 X41.716 Y37.03
+ok
+Sending: G1 X42.025 Y36.872
+ok
+Sending: G1 X42.384 Y36.803
+ok
+Sending: G1 X42.491 Y36.8
+ok
+Sending: G1 X42.491 Y36.8
+ok
+Sending: G1 X42.849 Y36.838
+ok
+Sending: G1 X43.158 Y36.944
+ok
+Sending: G1 X43.158 Y36.944
+ok
+Sending: G1 X43.468 Y37.12
+ok
+Sending: G1 X43.7 Y37.322
+ok
+Sending: G1 X43.7 Y37.322
+ok
+Sending: G1 X43.912 Y37.601
+ok
+Sending: G1 X44.053 Y37.891
+ok
+Sending: G1 X44.053 Y37.891
+ok
+Sending: G1 X44.15 Y38.227
+ok
+Sending: G1 X44.183 Y38.585
+ok
+Sending: G1 X44.183 Y38.59
+ok
+Sending: G1 X44.183 Y38.59
+ok
+Sending: G1 X44.15 Y38.95
+ok
+Sending: G1 X44.053 Y39.282
+ok
+Sending: G1 X44.053 Y39.282
+ok
+Sending: G1 X43.891 Y39.601
+ok
+Sending: G1 X43.7 Y39.844
+ok
+Sending: G1 X43.7 Y39.844
+ok
+Sending: G1 X43.434 Y40.075
+ok
+Sending: G1 X43.171 Y40.223
+ok
+Sending: G1 X43.171 Y40.223
+ok
+Sending: G1 X42.838 Y40.328
+ok
+Sending: G1 X42.505 Y40.36
+ok
+Sending: G1 X42.505 Y40.36
+ok
+Sending: G1 X42.137 Y40.319
+ok
+Sending: G1 X41.81 Y40.196
+ok
+Sending: G1 X41.523 Y39.99
+ok
+Sending: G1 X41.459 Y39.929
+ok
+Sending: G1 X41.459 Y41.928
+ok
+Sending: G1 X41.459 Y41.928
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X41.459 Y41.928
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X40.277 Y41.928
+ok
+Sending: G1 X40.277 Y36.904
+ok
+Sending: G1 X41.459 Y36.904
+ok
+Sending: G1 X41.459 Y37.277
+ok
+Sending: G1 X41.459 Y37.277
+ok
+Sending: G1 X41.716 Y37.03
+ok
+Sending: G1 X42.025 Y36.872
+ok
+Sending: G1 X42.384 Y36.803
+ok
+Sending: G1 X42.491 Y36.8
+ok
+Sending: G1 X42.491 Y36.8
+ok
+Sending: G1 X42.849 Y36.838
+ok
+Sending: G1 X43.158 Y36.944
+ok
+Sending: G1 X43.158 Y36.944
+ok
+Sending: G1 X43.468 Y37.12
+ok
+Sending: G1 X43.7 Y37.322
+ok
+Sending: G1 X43.7 Y37.322
+ok
+Sending: G1 X43.912 Y37.601
+ok
+Sending: G1 X44.053 Y37.891
+ok
+Sending: G1 X44.053 Y37.891
+ok
+Sending: G1 X44.15 Y38.227
+ok
+Sending: G1 X44.183 Y38.585
+ok
+Sending: G1 X44.183 Y38.59
+ok
+Sending: G1 X44.183 Y38.59
+ok
+Sending: G1 X44.15 Y38.95
+ok
+Sending: G1 X44.053 Y39.282
+ok
+Sending: G1 X44.053 Y39.282
+ok
+Sending: G1 X43.891 Y39.601
+ok
+Sending: G1 X43.7 Y39.844
+ok
+Sending: G1 X43.7 Y39.844
+ok
+Sending: G1 X43.434 Y40.075
+ok
+Sending: G1 X43.171 Y40.223
+ok
+Sending: G1 X43.171 Y40.223
+ok
+Sending: G1 X42.838 Y40.328
+ok
+Sending: G1 X42.505 Y40.36
+ok
+Sending: G1 X42.505 Y40.36
+ok
+Sending: G1 X42.137 Y40.319
+ok
+Sending: G1 X41.81 Y40.196
+ok
+Sending: G1 X41.523 Y39.99
+ok
+Sending: G1 X41.459 Y39.929
+ok
+Sending: G1 X41.459 Y41.928
+ok
+Sending: G1 X41.459 Y41.928
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X47.078 Y37.767
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X47.078 Y37.767
+ok
+Sending: G1 X46.734 Y37.634
+ok
+Sending: G1 X46.438 Y37.597
+ok
+Sending: G1 X46.438 Y37.597
+ok
+Sending: G1 X46.17 Y37.662
+ok
+Sending: G1 X46.17 Y37.662
+ok
+Sending: G1 X46.072 Y37.838
+ok
+Sending: G1 X46.072 Y37.838
+ok
+Sending: G1 X46.085 Y37.936
+ok
+Sending: G1 X46.085 Y37.936
+ok
+Sending: G1 X46.157 Y38.002
+ok
+Sending: G1 X46.157 Y38.002
+ok
+Sending: G1 X46.32 Y38.061
+ok
+Sending: G1 X46.32 Y38.061
+ok
+Sending: G1 X46.608 Y38.126
+ok
+Sending: G1 X46.608 Y38.126
+ok
+Sending: G1 X46.984 Y38.24
+ok
+Sending: G1 X47.268 Y38.412
+ok
+Sending: G1 X47.339 Y38.479
+ok
+Sending: G1 X47.339 Y38.479
+ok
+Sending: G1 X47.523 Y38.769
+ok
+Sending: G1 X47.581 Y39.119
+ok
+Sending: G1 X47.581 Y39.119
+ok
+Sending: G1 X47.531 Y39.476
+ok
+Sending: G1 X47.464 Y39.648
+ok
+Sending: G1 X47.464 Y39.648
+ok
+Sending: G1 X47.26 Y39.936
+ok
+Sending: G1 X47.137 Y40.046
+ok
+Sending: G1 X47.137 Y40.046
+ok
+Sending: G1 X46.838 Y40.216
+ok
+Sending: G1 X46.634 Y40.288
+ok
+Sending: G1 X46.634 Y40.288
+ok
+Sending: G1 X46.298 Y40.36
+ok
+Sending: G1 X45.987 Y40.379
+ok
+Sending: G1 X45.987 Y40.379
+ok
+Sending: G1 X45.645 Y40.355
+ok
+Sending: G1 X45.306 Y40.281
+ok
+Sending: G1 X44.969 Y40.158
+ok
+Sending: G1 X44.648 Y39.994
+ok
+Sending: G1 X45.079 Y39.158
+ok
+Sending: G1 X45.079 Y39.158
+ok
+Sending: G1 X45.421 Y39.354
+ok
+Sending: G1 X45.75 Y39.467
+ok
+Sending: G1 X46.02 Y39.498
+ok
+Sending: G1 X46.02 Y39.498
+ok
+Sending: G1 X46.288 Y39.426
+ok
+Sending: G1 X46.288 Y39.426
+ok
+Sending: G1 X46.392 Y39.243
+ok
+Sending: G1 X46.392 Y39.243
+ok
+Sending: G1 X46.373 Y39.138
+ok
+Sending: G1 X46.373 Y39.138
+ok
+Sending: G1 X46.307 Y39.06
+ok
+Sending: G1 X46.307 Y39.06
+ok
+Sending: G1 X46.151 Y38.995
+ok
+Sending: G1 X46.151 Y38.995
+ok
+Sending: G1 X45.889 Y38.929
+ok
+Sending: G1 X45.889 Y38.929
+ok
+Sending: G1 X45.488 Y38.818
+ok
+Sending: G1 X45.201 Y38.671
+ok
+Sending: G1 X45.119 Y38.603
+ok
+Sending: G1 X45.119 Y38.603
+ok
+Sending: G1 X44.948 Y38.314
+ok
+Sending: G1 X44.903 Y37.995
+ok
+Sending: G1 X44.903 Y37.995
+ok
+Sending: G1 X44.952 Y37.637
+ok
+Sending: G1 X45.008 Y37.492
+ok
+Sending: G1 X45.008 Y37.492
+ok
+Sending: G1 X45.206 Y37.2
+ok
+Sending: G1 X45.308 Y37.107
+ok
+Sending: G1 X45.308 Y37.107
+ok
+Sending: G1 X45.605 Y36.929
+ok
+Sending: G1 X45.778 Y36.865
+ok
+Sending: G1 X45.778 Y36.865
+ok
+Sending: G1 X46.114 Y36.796
+ok
+Sending: G1 X46.399 Y36.78
+ok
+Sending: G1 X46.399 Y36.78
+ok
+Sending: G1 X46.752 Y36.803
+ok
+Sending: G1 X47.099 Y36.869
+ok
+Sending: G1 X47.439 Y36.981
+ok
+Sending: G1 X47.477 Y36.996
+ok
+Sending: G1 X47.078 Y37.767
+ok
+Sending: G1 X47.078 Y37.767
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X47.078 Y37.767
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X47.078 Y37.767
+ok
+Sending: G1 X46.734 Y37.634
+ok
+Sending: G1 X46.438 Y37.597
+ok
+Sending: G1 X46.438 Y37.597
+ok
+Sending: G1 X46.17 Y37.662
+ok
+Sending: G1 X46.17 Y37.662
+ok
+Sending: G1 X46.072 Y37.838
+ok
+Sending: G1 X46.072 Y37.838
+ok
+Sending: G1 X46.085 Y37.936
+ok
+Sending: G1 X46.085 Y37.936
+ok
+Sending: G1 X46.157 Y38.002
+ok
+Sending: G1 X46.157 Y38.002
+ok
+Sending: G1 X46.32 Y38.061
+ok
+Sending: G1 X46.32 Y38.061
+ok
+Sending: G1 X46.608 Y38.126
+ok
+Sending: G1 X46.608 Y38.126
+ok
+Sending: G1 X46.984 Y38.24
+ok
+Sending: G1 X47.268 Y38.412
+ok
+Sending: G1 X47.339 Y38.479
+ok
+Sending: G1 X47.339 Y38.479
+ok
+Sending: G1 X47.523 Y38.769
+ok
+Sending: G1 X47.581 Y39.119
+ok
+Sending: G1 X47.581 Y39.119
+ok
+Sending: G1 X47.531 Y39.476
+ok
+Sending: G1 X47.464 Y39.648
+ok
+Sending: G1 X47.464 Y39.648
+ok
+Sending: G1 X47.26 Y39.936
+ok
+Sending: G1 X47.137 Y40.046
+ok
+Sending: G1 X47.137 Y40.046
+ok
+Sending: G1 X46.838 Y40.216
+ok
+Sending: G1 X46.634 Y40.288
+ok
+Sending: G1 X46.634 Y40.288
+ok
+Sending: G1 X46.298 Y40.36
+ok
+Sending: G1 X45.987 Y40.379
+ok
+Sending: G1 X45.987 Y40.379
+ok
+Sending: G1 X45.645 Y40.355
+ok
+Sending: G1 X45.306 Y40.281
+ok
+Sending: G1 X44.969 Y40.158
+ok
+Sending: G1 X44.648 Y39.994
+ok
+Sending: G1 X45.079 Y39.158
+ok
+Sending: G1 X45.079 Y39.158
+ok
+Sending: G1 X45.421 Y39.354
+ok
+Sending: G1 X45.75 Y39.467
+ok
+Sending: G1 X46.02 Y39.498
+ok
+Sending: G1 X46.02 Y39.498
+ok
+Sending: G1 X46.288 Y39.426
+ok
+Sending: G1 X46.288 Y39.426
+ok
+Sending: G1 X46.392 Y39.243
+ok
+Sending: G1 X46.392 Y39.243
+ok
+Sending: G1 X46.373 Y39.138
+ok
+Sending: G1 X46.373 Y39.138
+ok
+Sending: G1 X46.307 Y39.06
+ok
+Sending: G1 X46.307 Y39.06
+ok
+Sending: G1 X46.151 Y38.995
+ok
+Sending: G1 X46.151 Y38.995
+ok
+Sending: G1 X45.889 Y38.929
+ok
+Sending: G1 X45.889 Y38.929
+ok
+Sending: G1 X45.488 Y38.818
+ok
+Sending: G1 X45.201 Y38.671
+ok
+Sending: G1 X45.119 Y38.603
+ok
+Sending: G1 X45.119 Y38.603
+ok
+Sending: G1 X44.948 Y38.314
+ok
+Sending: G1 X44.903 Y37.995
+ok
+Sending: G1 X44.903 Y37.995
+ok
+Sending: G1 X44.952 Y37.637
+ok
+Sending: G1 X45.008 Y37.492
+ok
+Sending: G1 X45.008 Y37.492
+ok
+Sending: G1 X45.206 Y37.2
+ok
+Sending: G1 X45.308 Y37.107
+ok
+Sending: G1 X45.308 Y37.107
+ok
+Sending: G1 X45.605 Y36.929
+ok
+Sending: G1 X45.778 Y36.865
+ok
+Sending: G1 X45.778 Y36.865
+ok
+Sending: G1 X46.114 Y36.796
+ok
+Sending: G1 X46.399 Y36.78
+ok
+Sending: G1 X46.399 Y36.78
+ok
+Sending: G1 X46.752 Y36.803
+ok
+Sending: G1 X47.099 Y36.869
+ok
+Sending: G1 X47.439 Y36.981
+ok
+Sending: G1 X47.477 Y36.996
+ok
+Sending: G1 X47.078 Y37.767
+ok
+Sending: G1 X47.078 Y37.767
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X7.708 Y30
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X47.292 Y30
+ok
+Sending: G1 X47.292 Y30
+ok
+Sending: G1 X47.312 Y30
+ok
+Sending: G1 X47.369 Y30.002
+ok
+Sending: G1 X47.461 Y30.005
+ok
+Sending: G1 X47.586 Y30.012
+ok
+Sending: G1 X47.742 Y30.024
+ok
+Sending: G1 X47.925 Y30.042
+ok
+Sending: G1 X48.135 Y30.067
+ok
+Sending: G1 X48.368 Y30.1
+ok
+Sending: G1 X48.622 Y30.142
+ok
+Sending: G1 X48.895 Y30.195
+ok
+Sending: G1 X49.184 Y30.26
+ok
+Sending: G1 X49.488 Y30.337
+ok
+Sending: G1 X49.803 Y30.428
+ok
+Sending: G1 X50.128 Y30.535
+ok
+Sending: G1 X50.46 Y30.658
+ok
+Sending: G1 X50.796 Y30.799
+ok
+Sending: G1 X51.135 Y30.958
+ok
+Sending: G1 X51.474 Y31.137
+ok
+Sending: G1 X51.811 Y31.338
+ok
+Sending: G1 X52.143 Y31.56
+ok
+Sending: G1 X52.469 Y31.806
+ok
+Sending: G1 X52.785 Y32.076
+ok
+Sending: G1 X53.089 Y32.373
+ok
+Sending: G1 X53.379 Y32.696
+ok
+Sending: G1 X53.653 Y33.047
+ok
+Sending: G1 X53.909 Y33.428
+ok
+Sending: G1 X54.143 Y33.838
+ok
+Sending: G1 X54.354 Y34.281
+ok
+Sending: G1 X54.54 Y34.756
+ok
+Sending: G1 X54.697 Y35.265
+ok
+Sending: G1 X54.824 Y35.81
+ok
+Sending: G1 X54.919 Y36.39
+ok
+Sending: G1 X54.978 Y37.008
+ok
+Sending: G1 X55 Y37.665
+ok
+Sending: G1 X55 Y37.708
+ok
+Sending: G1 X55 Y37.708
+ok
+Sending: G1 X55 Y37.708
+ok
+Sending: G1 X55 Y37.727
+ok
+Sending: G1 X54.998 Y37.784
+ok
+Sending: G1 X54.995 Y37.877
+ok
+Sending: G1 X54.988 Y38.002
+ok
+Sending: G1 X54.976 Y38.157
+ok
+Sending: G1 X54.958 Y38.341
+ok
+Sending: G1 X54.933 Y38.551
+ok
+Sending: G1 X54.9 Y38.784
+ok
+Sending: G1 X54.858 Y39.038
+ok
+Sending: G1 X54.805 Y39.311
+ok
+Sending: G1 X54.74 Y39.6
+ok
+Sending: G1 X54.663 Y39.904
+ok
+Sending: G1 X54.572 Y40.219
+ok
+Sending: G1 X54.465 Y40.544
+ok
+Sending: G1 X54.342 Y40.875
+ok
+Sending: G1 X54.201 Y41.212
+ok
+Sending: G1 X54.042 Y41.551
+ok
+Sending: G1 X53.863 Y41.89
+ok
+Sending: G1 X53.662 Y42.227
+ok
+Sending: G1 X53.44 Y42.559
+ok
+Sending: G1 X53.194 Y42.884
+ok
+Sending: G1 X52.924 Y43.2
+ok
+Sending: G1 X52.627 Y43.505
+ok
+Sending: G1 X52.304 Y43.795
+ok
+Sending: G1 X51.953 Y44.069
+ok
+Sending: G1 X51.572 Y44.324
+ok
+Sending: G1 X51.162 Y44.559
+ok
+Sending: G1 X50.719 Y44.77
+ok
+Sending: G1 X50.244 Y44.955
+ok
+Sending: G1 X49.735 Y45.113
+ok
+Sending: G1 X49.19 Y45.24
+ok
+Sending: G1 X48.61 Y45.334
+ok
+Sending: G1 X47.992 Y45.394
+ok
+Sending: G1 X47.335 Y45.416
+ok
+Sending: G1 X47.292 Y45.416
+ok
+Sending: G1 X7.708 Y45.416
+ok
+Sending: G1 X7.708 Y45.416
+ok
+Sending: G1 X7.688 Y45.415
+ok
+Sending: G1 X7.631 Y45.414
+ok
+Sending: G1 X7.539 Y45.41
+ok
+Sending: G1 X7.414 Y45.403
+ok
+Sending: G1 X7.258 Y45.391
+ok
+Sending: G1 X7.075 Y45.374
+ok
+Sending: G1 X6.865 Y45.349
+ok
+Sending: G1 X6.632 Y45.316
+ok
+Sending: G1 X6.378 Y45.274
+ok
+Sending: G1 X6.105 Y45.221
+ok
+Sending: G1 X5.816 Y45.156
+ok
+Sending: G1 X5.512 Y45.079
+ok
+Sending: G1 X5.197 Y44.987
+ok
+Sending: G1 X4.872 Y44.881
+ok
+Sending: G1 X4.54 Y44.758
+ok
+Sending: G1 X4.204 Y44.617
+ok
+Sending: G1 X3.865 Y44.458
+ok
+Sending: G1 X3.526 Y44.278
+ok
+Sending: G1 X3.189 Y44.078
+ok
+Sending: G1 X2.857 Y43.856
+ok
+Sending: G1 X2.531 Y43.61
+ok
+Sending: G1 X2.215 Y43.339
+ok
+Sending: G1 X1.911 Y43.043
+ok
+Sending: G1 X1.621 Y42.72
+ok
+Sending: G1 X1.347 Y42.369
+ok
+Sending: G1 X1.091 Y41.988
+ok
+Sending: G1 X0.857 Y41.577
+ok
+Sending: G1 X0.646 Y41.135
+ok
+Sending: G1 X0.46 Y40.66
+ok
+Sending: G1 X0.303 Y40.15
+ok
+Sending: G1 X0.176 Y39.606
+ok
+Sending: G1 X0.081 Y39.026
+ok
+Sending: G1 X0.022 Y38.408
+ok
+Sending: G1 X0 Y37.751
+ok
+Sending: G1 X0 Y37.708
+ok
+Sending: G1 X0 Y37.708
+ok
+Sending: G1 X0 Y37.708
+ok
+Sending: G1 X0 Y37.688
+ok
+Sending: G1 X0.002 Y37.631
+ok
+Sending: G1 X0.005 Y37.539
+ok
+Sending: G1 X0.012 Y37.414
+ok
+Sending: G1 X0.024 Y37.258
+ok
+Sending: G1 X0.042 Y37.075
+ok
+Sending: G1 X0.067 Y36.865
+ok
+Sending: G1 X0.1 Y36.632
+ok
+Sending: G1 X0.142 Y36.378
+ok
+Sending: G1 X0.195 Y36.105
+ok
+Sending: G1 X0.26 Y35.816
+ok
+Sending: G1 X0.337 Y35.512
+ok
+Sending: G1 X0.428 Y35.197
+ok
+Sending: G1 X0.535 Y34.872
+ok
+Sending: G1 X0.658 Y34.54
+ok
+Sending: G1 X0.799 Y34.204
+ok
+Sending: G1 X0.958 Y33.865
+ok
+Sending: G1 X1.137 Y33.526
+ok
+Sending: G1 X1.338 Y33.189
+ok
+Sending: G1 X1.56 Y32.857
+ok
+Sending: G1 X1.806 Y32.531
+ok
+Sending: G1 X2.076 Y32.215
+ok
+Sending: G1 X2.373 Y31.911
+ok
+Sending: G1 X2.696 Y31.621
+ok
+Sending: G1 X3.047 Y31.347
+ok
+Sending: G1 X3.428 Y31.091
+ok
+Sending: G1 X3.838 Y30.857
+ok
+Sending: G1 X4.281 Y30.646
+ok
+Sending: G1 X4.756 Y30.46
+ok
+Sending: G1 X5.265 Y30.303
+ok
+Sending: G1 X5.81 Y30.176
+ok
+Sending: G1 X6.39 Y30.081
+ok
+Sending: G1 X7.008 Y30.022
+ok
+Sending: G1 X7.665 Y30
+ok
+Sending: G1 X7.708 Y30
+ok
+Sending: G1 X7.708 Y30
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X7.708 Y30
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X47.292 Y30
+ok
+Sending: G1 X47.292 Y30
+ok
+Sending: G1 X47.312 Y30
+ok
+Sending: G1 X47.369 Y30.002
+ok
+Sending: G1 X47.461 Y30.005
+ok
+Sending: G1 X47.586 Y30.012
+ok
+Sending: G1 X47.742 Y30.024
+ok
+Sending: G1 X47.925 Y30.042
+ok
+Sending: G1 X48.135 Y30.067
+ok
+Sending: G1 X48.368 Y30.1
+ok
+Sending: G1 X48.622 Y30.142
+ok
+Sending: G1 X48.895 Y30.195
+ok
+Sending: G1 X49.184 Y30.26
+ok
+Sending: G1 X49.488 Y30.337
+ok
+Sending: G1 X49.803 Y30.428
+ok
+Sending: G1 X50.128 Y30.535
+ok
+Sending: G1 X50.46 Y30.658
+ok
+Sending: G1 X50.796 Y30.799
+ok
+Sending: G1 X51.135 Y30.958
+ok
+Sending: G1 X51.474 Y31.137
+ok
+Sending: G1 X51.811 Y31.338
+ok
+Sending: G1 X52.143 Y31.56
+ok
+Sending: G1 X52.469 Y31.806
+ok
+Sending: G1 X52.785 Y32.076
+ok
+Sending: G1 X53.089 Y32.373
+ok
+Sending: G1 X53.379 Y32.696
+ok
+Sending: G1 X53.653 Y33.047
+ok
+Sending: G1 X53.909 Y33.428
+ok
+Sending: G1 X54.143 Y33.838
+ok
+Sending: G1 X54.354 Y34.281
+ok
+Sending: G1 X54.54 Y34.756
+ok
+Sending: G1 X54.697 Y35.265
+ok
+Sending: G1 X54.824 Y35.81
+ok
+Sending: G1 X54.919 Y36.39
+ok
+Sending: G1 X54.978 Y37.008
+ok
+Sending: G1 X55 Y37.665
+ok
+Sending: G1 X55 Y37.708
+ok
+Sending: G1 X55 Y37.708
+ok
+Sending: G1 X55 Y37.708
+ok
+Sending: G1 X55 Y37.727
+ok
+Sending: G1 X54.998 Y37.784
+ok
+Sending: G1 X54.995 Y37.877
+ok
+Sending: G1 X54.988 Y38.002
+ok
+Sending: G1 X54.976 Y38.157
+ok
+Sending: G1 X54.958 Y38.341
+ok
+Sending: G1 X54.933 Y38.551
+ok
+Sending: G1 X54.9 Y38.784
+ok
+Sending: G1 X54.858 Y39.038
+ok
+Sending: G1 X54.805 Y39.311
+ok
+Sending: G1 X54.74 Y39.6
+ok
+Sending: G1 X54.663 Y39.904
+ok
+Sending: G1 X54.572 Y40.219
+ok
+Sending: G1 X54.465 Y40.544
+ok
+Sending: G1 X54.342 Y40.875
+ok
+Sending: G1 X54.201 Y41.212
+ok
+Sending: G1 X54.042 Y41.551
+ok
+Sending: G1 X53.863 Y41.89
+ok
+Sending: G1 X53.662 Y42.227
+ok
+Sending: G1 X53.44 Y42.559
+ok
+Sending: G1 X53.194 Y42.884
+ok
+Sending: G1 X52.924 Y43.2
+ok
+Sending: G1 X52.627 Y43.505
+ok
+Sending: G1 X52.304 Y43.795
+ok
+Sending: G1 X51.953 Y44.069
+ok
+Sending: G1 X51.572 Y44.324
+ok
+Sending: G1 X51.162 Y44.559
+ok
+Sending: G1 X50.719 Y44.77
+ok
+Sending: G1 X50.244 Y44.955
+ok
+Sending: G1 X49.735 Y45.113
+ok
+Sending: G1 X49.19 Y45.24
+ok
+Sending: G1 X48.61 Y45.334
+ok
+Sending: G1 X47.992 Y45.394
+ok
+Sending: G1 X47.335 Y45.416
+ok
+Sending: G1 X47.292 Y45.416
+ok
+Sending: G1 X7.708 Y45.416
+ok
+Sending: G1 X7.708 Y45.416
+ok
+Sending: G1 X7.688 Y45.415
+ok
+Sending: G1 X7.631 Y45.414
+ok
+Sending: G1 X7.539 Y45.41
+ok
+Sending: G1 X7.414 Y45.403
+ok
+Sending: G1 X7.258 Y45.391
+ok
+Sending: G1 X7.075 Y45.374
+ok
+Sending: G1 X6.865 Y45.349
+ok
+Sending: G1 X6.632 Y45.316
+ok
+Sending: G1 X6.378 Y45.274
+ok
+Sending: G1 X6.105 Y45.221
+ok
+Sending: G1 X5.816 Y45.156
+ok
+Sending: G1 X5.512 Y45.079
+ok
+Sending: G1 X5.197 Y44.987
+ok
+Sending: G1 X4.872 Y44.881
+ok
+Sending: G1 X4.54 Y44.758
+ok
+Sending: G1 X4.204 Y44.617
+ok
+Sending: G1 X3.865 Y44.458
+ok
+Sending: G1 X3.526 Y44.278
+ok
+Sending: G1 X3.189 Y44.078
+ok
+Sending: G1 X2.857 Y43.856
+ok
+Sending: G1 X2.531 Y43.61
+ok
+Sending: G1 X2.215 Y43.339
+ok
+Sending: G1 X1.911 Y43.043
+ok
+Sending: G1 X1.621 Y42.72
+ok
+Sending: G1 X1.347 Y42.369
+ok
+Sending: G1 X1.091 Y41.988
+ok
+Sending: G1 X0.857 Y41.577
+ok
+Sending: G1 X0.646 Y41.135
+ok
+Sending: G1 X0.46 Y40.66
+ok
+Sending: G1 X0.303 Y40.15
+ok
+Sending: G1 X0.176 Y39.606
+ok
+Sending: G1 X0.081 Y39.026
+ok
+Sending: G1 X0.022 Y38.408
+ok
+Sending: G1 X0 Y37.751
+ok
+Sending: G1 X0 Y37.708
+ok
+Sending: G1 X0 Y37.708
+ok
+Sending: G1 X0 Y37.708
+ok
+Sending: G1 X0 Y37.688
+ok
+Sending: G1 X0.002 Y37.631
+ok
+Sending: G1 X0.005 Y37.539
+ok
+Sending: G1 X0.012 Y37.414
+ok
+Sending: G1 X0.024 Y37.258
+ok
+Sending: G1 X0.042 Y37.075
+ok
+Sending: G1 X0.067 Y36.865
+ok
+Sending: G1 X0.1 Y36.632
+ok
+Sending: G1 X0.142 Y36.378
+ok
+Sending: G1 X0.195 Y36.105
+ok
+Sending: G1 X0.26 Y35.816
+ok
+Sending: G1 X0.337 Y35.512
+ok
+Sending: G1 X0.428 Y35.197
+ok
+Sending: G1 X0.535 Y34.872
+ok
+Sending: G1 X0.658 Y34.54
+ok
+Sending: G1 X0.799 Y34.204
+ok
+Sending: G1 X0.958 Y33.865
+ok
+Sending: G1 X1.137 Y33.526
+ok
+Sending: G1 X1.338 Y33.189
+ok
+Sending: G1 X1.56 Y32.857
+ok
+Sending: G1 X1.806 Y32.531
+ok
+Sending: G1 X2.076 Y32.215
+ok
+Sending: G1 X2.373 Y31.911
+ok
+Sending: G1 X2.696 Y31.621
+ok
+Sending: G1 X3.047 Y31.347
+ok
+Sending: G1 X3.428 Y31.091
+ok
+Sending: G1 X3.838 Y30.857
+ok
+Sending: G1 X4.281 Y30.646
+ok
+Sending: G1 X4.756 Y30.46
+ok
+Sending: G1 X5.265 Y30.303
+ok
+Sending: G1 X5.81 Y30.176
+ok
+Sending: G1 X6.39 Y30.081
+ok
+Sending: G1 X7.008 Y30.022
+ok
+Sending: G1 X7.665 Y30
+ok
+Sending: G1 X7.708 Y30
+ok
+Sending: G1 X7.708 Y30
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X6.336 Y35.226
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X6.336 Y35.226
+ok
+Sending: G1 X6.73 Y35.256
+ok
+Sending: G1 X7.105 Y35.344
+ok
+Sending: G1 X7.456 Y35.485
+ok
+Sending: G1 X7.78 Y35.674
+ok
+Sending: G1 X8.07 Y35.907
+ok
+Sending: G1 X8.324 Y36.18
+ok
+Sending: G1 X8.536 Y36.487
+ok
+Sending: G1 X8.701 Y36.825
+ok
+Sending: G1 X8.816 Y37.189
+ok
+Sending: G1 X8.876 Y37.574
+ok
+Sending: G1 X8.884 Y37.773
+ok
+Sending: G1 X8.884 Y37.773
+ok
+Sending: G1 X8.853 Y38.167
+ok
+Sending: G1 X8.766 Y38.542
+ok
+Sending: G1 X8.625 Y38.893
+ok
+Sending: G1 X8.435 Y39.217
+ok
+Sending: G1 X8.202 Y39.507
+ok
+Sending: G1 X7.93 Y39.761
+ok
+Sending: G1 X7.622 Y39.973
+ok
+Sending: G1 X7.284 Y40.138
+ok
+Sending: G1 X6.921 Y40.253
+ok
+Sending: G1 X6.536 Y40.313
+ok
+Sending: G1 X6.336 Y40.321
+ok
+Sending: G1 X6.336 Y40.321
+ok
+Sending: G1 X5.942 Y40.29
+ok
+Sending: G1 X5.567 Y40.203
+ok
+Sending: G1 X5.216 Y40.062
+ok
+Sending: G1 X4.893 Y39.873
+ok
+Sending: G1 X4.602 Y39.639
+ok
+Sending: G1 X4.348 Y39.367
+ok
+Sending: G1 X4.137 Y39.059
+ok
+Sending: G1 X3.971 Y38.721
+ok
+Sending: G1 X3.856 Y38.358
+ok
+Sending: G1 X3.796 Y37.973
+ok
+Sending: G1 X3.789 Y37.773
+ok
+Sending: G1 X3.789 Y37.773
+ok
+Sending: G1 X3.819 Y37.379
+ok
+Sending: G1 X3.907 Y37.004
+ok
+Sending: G1 X4.047 Y36.653
+ok
+Sending: G1 X4.237 Y36.33
+ok
+Sending: G1 X4.47 Y36.039
+ok
+Sending: G1 X4.743 Y35.785
+ok
+Sending: G1 X5.05 Y35.574
+ok
+Sending: G1 X5.388 Y35.408
+ok
+Sending: G1 X5.752 Y35.293
+ok
+Sending: G1 X6.137 Y35.233
+ok
+Sending: G1 X6.336 Y35.226
+ok
+Sending: G1 X6.336 Y35.226
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: G1 F700
+ok
+Sending: G0 X6.336 Y35.226
+ok
+Sending: M4 S85 ; Laser ON
+ok
+Sending: G1 X6.336 Y35.226
+ok
+Sending: G1 X6.73 Y35.256
+ok
+Sending: G1 X7.105 Y35.344
+ok
+Sending: G1 X7.456 Y35.485
+ok
+Sending: G1 X7.78 Y35.674
+ok
+Sending: G1 X8.07 Y35.907
+ok
+Sending: G1 X8.324 Y36.18
+ok
+Sending: G1 X8.536 Y36.487
+ok
+Sending: G1 X8.701 Y36.825
+ok
+Sending: G1 X8.816 Y37.189
+ok
+Sending: G1 X8.876 Y37.574
+ok
+Sending: G1 X8.884 Y37.773
+ok
+Sending: G1 X8.884 Y37.773
+ok
+Sending: G1 X8.853 Y38.167
+ok
+Sending: G1 X8.766 Y38.542
+ok
+Sending: G1 X8.625 Y38.893
+ok
+Sending: G1 X8.435 Y39.217
+ok
+Sending: G1 X8.202 Y39.507
+ok
+Sending: G1 X7.93 Y39.761
+ok
+Sending: G1 X7.622 Y39.973
+ok
+Sending: G1 X7.284 Y40.138
+ok
+Sending: G1 X6.921 Y40.253
+ok
+Sending: G1 X6.536 Y40.313
+ok
+Sending: G1 X6.336 Y40.321
+ok
+Sending: G1 X6.336 Y40.321
+ok
+Sending: G1 X5.942 Y40.29
+ok
+Sending: G1 X5.567 Y40.203
+ok
+Sending: G1 X5.216 Y40.062
+ok
+Sending: G1 X4.893 Y39.873
+ok
+Sending: G1 X4.602 Y39.639
+ok
+Sending: G1 X4.348 Y39.367
+ok
+Sending: G1 X4.137 Y39.059
+ok
+Sending: G1 X3.971 Y38.721
+ok
+Sending: G1 X3.856 Y38.358
+ok
+Sending: G1 X3.796 Y37.973
+ok
+Sending: G1 X3.789 Y37.773
+ok
+Sending: G1 X3.789 Y37.773
+ok
+Sending: G1 X3.819 Y37.379
+ok
+Sending: G1 X3.907 Y37.004
+ok
+Sending: G1 X4.047 Y36.653
+ok
+Sending: G1 X4.237 Y36.33
+ok
+Sending: G1 X4.47 Y36.039
+ok
+Sending: G1 X4.743 Y35.785
+ok
+Sending: G1 X5.05 Y35.574
+ok
+Sending: G1 X5.388 Y35.408
+ok
+Sending: G1 X5.752 Y35.293
+ok
+Sending: G1 X6.137 Y35.233
+ok
+Sending: G1 X6.336 Y35.226
+ok
+Sending: G1 X6.336 Y35.226
+ok
+Sending: ; End Of Job
+ok
+Sending: M5 ; Laser Off
+ok
+Sending: G0 X0 Y0 ; Move to Home Position
+ok

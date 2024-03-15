@@ -1,0 +1,56 @@
+Connecting...
+Connected!
+Setting: $RST=$
+ok
+Setting: $23=3
+ok
+Setting: $3=3
+ok
+Setting: $30=100
+ok
+Setting: $$
+ok
+Sending: ; Prepare Job
+ok
+Sending: M5 ; Laser Off
+ok
+Sending: G21 ; Millimeter
+ok
+Sending: G90 ; Absolute Positioning
+ok
+Sending: $H ; Homing
+ok
+Sending: G92 X0 Y0 ; Settings Home Point as Zero Point
+ok
+Sending: ; Prepare Path
+ok
+Sending: G1 F1300 ; Feed-Speed in mm/min
+ok
+Sending: G0 X85 Y85 ; Move to Start Position for Path
+ok
+Sending: G0 X75 Y75
+ok
+Sending: ; M4 S85 ; Set Laser Power to 85%
+ok
+Sending: ; Laser The Actual Path
+ok
+Sending: G1 X95 Y75
+ok
+Sending: G1 X95 Y95
+ok
+Sending: G1 X75 Y95
+ok
+Sending: G1 X75 Y75
+ok
+Sending: M5 ; Laser OFF
+ok
+Sending: ; Prepare Next Path
+ok
+Sending: ; ...
+ok
+Sending: ; End Of Job
+ok
+Sending: M5 ; Laser Off
+ok
+Sending: G0 X0 Y0 ; Move to Home Position
+ok
