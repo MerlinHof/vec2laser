@@ -8,4 +8,4 @@ Most of the available software for this job is either outdated, paid, Windows-on
 
 ### Installation
 
-To install this software, ... <coming soon>
+To install this software, ..... <coming soon>
