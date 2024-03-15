@@ -6,3 +6,6 @@ Icon?
 
 .env
 .env.local
+
+/backend/data.gcode
+/backend/port.txt
