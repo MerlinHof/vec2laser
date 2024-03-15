@@ -31,7 +31,7 @@ if ($action == "detectorPolling") {
 
 // Start Job
 if ($action == "startJob") {
-   file_put_contents("./data.gcode", $data);
+   file_put_contents("./tmp/data.gcode", $data);
    $processId = uniqid("laser_", true);
    $command = "python3 ./laser.py" . " > ./tmp/" . $processId . ".txt 2>&1 & echo $!";
    exec($command, $output, $retval);

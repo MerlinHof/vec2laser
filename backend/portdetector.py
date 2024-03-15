@@ -15,7 +15,7 @@ def detect_new_port():
           removed_ports = known_ports - current_ports
           if added_ports:
              new_port = next(iter(added_ports))
-             with open("./port.txt", "w") as file:
+             with open("./tmp/port.txt", "w") as file:
                  file.write(new_port)
              print(new_port)
              return new_port

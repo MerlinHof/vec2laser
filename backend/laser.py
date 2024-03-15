@@ -2,7 +2,7 @@ import serial
 import time
 
 # COM-Port und Baudrate anpassen
-with open('port.txt', 'r') as port_file:
+with open('tmp/port.txt', 'r') as port_file:
     com_port = port_file.readline().strip()
 baud_rate = 115200
 
@@ -45,7 +45,7 @@ for command in config_commands:
 time.sleep(0.5)
 
 # GCODE-Datei öffnen und Befehle senden
-with open('data.gcode', 'r') as file:
+with open('./tmp/data.gcode', 'r') as file:
     for line in file:
         l = line.strip() # Entfernen von Leerzeichen und Zeilenumbrüchen
         if l: # Ignoriere leere Zeilen
