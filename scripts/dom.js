@@ -132,8 +132,8 @@ export default class DOM {
    }
    onClick(callback, initial) {
       this.forEvery((elem) => {
-         elem.addEventListener("click", () => {
-            callback(this);
+         elem.addEventListener("click", (event) => {
+            callback(this, event);
          });
          if (initial) callback(this);
       });
@@ -175,7 +175,7 @@ export default class DOM {
       return this;
    }
    static decodeHtmlEntities(str) {
-      if (!str) return;
+      if (!str) return str;
       const entities = {
          "&amp;": "&",
          "&lt;": "<",

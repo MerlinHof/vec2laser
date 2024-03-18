@@ -85,10 +85,9 @@
    color: var(--negativeThemeColor) !important;
    box-shadow: none !important;
 }
-
 @media (prefers-color-scheme: dark) {
    .dialogCloseButton {
-      background-color: transparent;
-      border: 2px solid rgba(255, 255, 255, 0.1);
+      background-color: transparent !important;
+      border: 2px solid rgba(255, 255, 255, 0.1) !important;
    }
 }

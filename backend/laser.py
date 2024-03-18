@@ -1,6 +1,11 @@
 import serial
 import time
 import os
+import sys
+import json
+
+# Get command line arguments
+args = sys.argv[1:]
 
 # Check if tmp/port.txt File exists
 if not os.path.exists('./tmp/port.txt'):
@@ -17,8 +22,6 @@ try:
 except serial.SerialException as e:
     print("Connection Failed: Port doesn't exist")
     exit(1)
-
-# Wait to make sure the Connection is fully established
 time.sleep(0.5)
 
 # GRBL Initialization (Soft-Reset)
@@ -29,19 +32,63 @@ while True:
     line = ser.readline().decode('utf-8').strip()
     if 'Grbl' in line:
         break
-print("Connected!")
 
-# Send GRBL-Configuration Settings (Reset, and then invert homingAxis and operatingAxis and set laser max to 100%)
-config_commands = ['$RST=$', '$23=3', '$3=3', '$30=100']
-for command in config_commands:
-    print(f'Setting: {command}')
-    ser.write(f'{command}\n'.encode())
+# Get Settings
+if args and args[0] == 'getSettings':
+    ser.write(b'$$\n')
     ser.flush()
+    settings_response = []
     while True:
         feedback = ser.readline().decode('utf-8').strip()
-        if feedback.startswith('ok') or feedback.startswith('error'):
-            print(feedback)
+        if feedback.startswith('ok'):
             break
+        settings_response.append(feedback)
+    # Output all settings
+    for setting in settings_response:
+        print(setting)
+    # Close serial connection and exit
+    ser.close()
+    sys.exit(0)
+
+
+# Set Settings
+if args and args[0] == 'setSettings':
+   # Load settings from JSON file
+   with open('./tmp/settings.json', 'r') as json_file:
+       settings_json = json_file.read()
+   try:
+       settings_dict = json.loads(settings_json)
+   except json.JSONDecodeError as e:
+       print(f"Invalid JSON format: {e}")
+       ser.close()
+       sys.exit(1)
+
+   # Generate and send configuration commands based on parsed JSON
+   for setting, value in settings_dict.items():
+       command = f'${setting}={value}'
+       print(f'Setting: {command}')
+       ser.write(f'{command}\n'.encode())
+       ser.flush()
+       while True:
+           feedback = ser.readline().decode('utf-8').strip()
+           if feedback.startswith('ok') or feedback.startswith('error'):
+               print(feedback)
+               break
+   ser.close()
+   sys.exit(0)
+
+# Send GRBL-Configuration Settings
+# Reset Settings, invert homingAxis and operatingAxis, set laser max to 100%)
+# config_commands = ['$RST=$', '$23=3', '$3=3', '$30=100']
+# for command in config_commands:
+#     print(f'Setting: {command}')
+#     ser.write(f'{command}\n'.encode())
+#     ser.flush()
+#     while True:
+#         feedback = ser.readline().decode('utf-8').strip()
+#         if feedback.startswith('ok') or feedback.startswith('error'):
+#             print(feedback)
+#             break
 
 
 # Wait after Configuration before Sending the actual GCODE.

@@ -7,6 +7,7 @@ export default class Dialog {
    isAiFeatureDialog = false;
    imagePath = "";
    selectButtonClicked = () => {};
+   closeButtonClicked = this.close;
    onClose = () => {};
    selectButtonText = "Select";
    closeButtonText = "Close";
@@ -49,16 +50,16 @@ export default class Dialog {
          this.selectButtonClicked();
       });
       this.dialogCloseButton.onClick(() => {
-         this.close();
+         this.closeButtonClicked();
       });
-      this.dialog.onClick((event) => {
+      this.dialog.onClick((_, event) => {
          event.stopPropagation();
       });
    }
 
    show() {
       this.dialogTitle.setText(this.title);
-      if (typeof this.content === "string" && this.content.trim().length > 0) {
+      if (typeof this.content === "string" && this.content.trim().length >= 0) {
          this.dialogContentContainer.append(DOM.create("t").setText(this.content));
       } else if (this.content instanceof Element || this.content instanceof DOM) {
          this.dialogContentContainer.setContent("");

@@ -1,6 +1,6 @@
 import DOM from "./dom.js";
 import Dialog from "./Dialog.js";
-import { generatePreviewGCODE, generateGCODE } from "./gcodeBuilder.js";
+import { generatePreviewGCODE, generateGCODE, cancelGCODE } from "./gcodeBuilder.js";
 import SVGInterpreter from "./svgInterpreter.js";
 
 // Fade in
@@ -11,6 +11,7 @@ setTimeout(() => {
 // Global Variables
 export let selectedLabelIndex;
 export let svginterpreter = new SVGInterpreter();
+let mainButtonStart = true;
 export const settings = {
    vector: {
       name: "Vector",
@@ -40,16 +41,16 @@ export const settings = {
    },
 };
 
-const isDarkMode = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-if (isDarkMode) {
-   settings.parameters.labels[0].color = { r: 200, g: 230, b: 240 };
-}
-
 // Load and parse settings from localStorage "settings"
 const savedSettings = localStorage.getItem("settings");
 if (savedSettings) {
    const parsedSettings = JSON.parse(savedSettings);
    Object.assign(settings, parsedSettings);
+}
+
+const isDarkMode = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+if (isDarkMode) {
+   settings.parameters.labels[0].color = { r: 200, g: 230, b: 240 };
 }
 
 // Build Basic UI
@@ -117,7 +118,7 @@ optionButtonContainer.append(
          }),
       )
       .onClick(() => {
-         // ...
+         readMachineSettings();
       }),
 );
 
@@ -235,21 +236,15 @@ function connectNewDevice() {
    connectDialog.withSelectButton = false;
    connectDialog.closeButtonText = "Cancel";
    connectDialog.show();
-   communicateWithServer("startDetector", "").then((res) => {
-      let interval = setInterval(() => {
-         communicateWithServer("detectorPolling", res.pid).then((res) => {
-            if (res.port?.length > 0) {
-               clearInterval(interval);
-               connectDialog.close();
-               let successDialog = new Dialog();
-               successDialog.title = "Connected";
-               successDialog.content = "A new serial device was detected at " + res.port;
-               successDialog.withSelectButton = false;
-               successDialog.closeButtonText = "Close";
-               successDialog.show();
-            }
-         });
-      }, 500);
+   communicateWithServer("startDetector", "").then((port) => {
+      connectDialog.close();
+      let successDialog = new Dialog();
+      successDialog.title = "Connected";
+      successDialog.imagePath = "/assets/images/success.png";
+      successDialog.content = "A new serial device was detected at " + port;
+      successDialog.withSelectButton = false;
+      successDialog.closeButtonText = "Close";
+      successDialog.show();
    });
 }
 
@@ -306,31 +301,167 @@ function prepareStartButton() {
    });
    DOM.select("mainButton").removeAllEvents();
    DOM.select("mainButton").onClick(() => {
-      const gcode = generateGCODE(svginterpreter.designData, svginterpreter.boundingBox, settings);
-      communicateWithServer("startJob", gcode).then((res) => {
-         console.log(res);
-         let successDialog = new Dialog();
-         successDialog.title = "Lasering";
-         successDialog.content = "Your laser is now lasering. Be patient and don't look into it.";
-         successDialog.selectButtonText = "Cancel Job";
-         successDialog.closeButtonText = "Close";
-         successDialog.show();
-      });
+      if (mainButtonStart) {
+         DOM.select("#mainButton img").attr({
+            src: "/assets/images/stop.png",
+         });
+         const gcode = generateGCODE(svginterpreter.designData, svginterpreter.boundingBox, settings);
+         let confirmDialog = new Dialog();
+         confirmDialog.title = "Be Safe";
+         confirmDialog.imagePath = "/assets/images/fire.png";
+         confirmDialog.content = "Your Laser is about to start lasering. Make sure you wear your laser goggles and work in a ventilated environment to not breathe in the toxic fumes.";
+         confirmDialog.selectButtonText = "Start Laser";
+         confirmDialog.closeButtonText = "Cancel";
+         confirmDialog.show();
+         confirmDialog.selectButtonClicked = () => {
+            confirmDialog.close();
+            communicateWithServer("startJob", gcode);
+         };
+      } else {
+         DOM.select("#mainButton img").attr({
+            src: "/assets/images/play.png",
+         });
+         communicateWithServer("startJob", cancelGCODE);
+      }
+      mainButtonStart = !mainButtonStart;
    });
 }
 
 // Sends Data to the Backend
 async function communicateWithServer(action, data) {
-   let formData = new FormData();
-   formData.append("action", action);
-   formData.append("data", data);
-   let response = await fetch("/backend/controller.php", {
-      method: "POST",
-      body: formData,
+   return new Promise(async (resolve, _) => {
+      let formData = new FormData();
+      formData.append("action", action);
+      formData.append("data", data);
+      let response = await fetch("/backend/controller.php", {
+         method: "POST",
+         body: formData,
+      });
+      let obj = [];
+      if (response.ok) {
+         obj = await response.json();
+      }
+      if (action == "polling") {
+         resolve(obj.data);
+         return;
+      }
+      console.log(obj);
+      let interval = setInterval(() => {
+         communicateWithServer("polling", obj.pid).then((answer) => {
+            if (!answer) return;
+            clearInterval(interval);
+            resolve(answer);
+         });
+      }, 500);
    });
-   let obj = [];
-   if (response.ok) {
-      obj = await response.json();
+}
+
+async function readMachineSettings() {
+   const loadingDialog = new Dialog("loading");
+   loadingDialog.title = "Loading...";
+   loadingDialog.show();
+   communicateWithServer("getSettings", "").then((data) => {
+      loadingDialog.close();
+      const lines = data.split("\n").filter((line) => line.startsWith("$"));
+      let machineSettings = {};
+      lines.forEach((line) => {
+         let parts = line.split("=");
+         if (parts.length === 2) {
+            let key = parts[0].substring(1);
+            let value = parseFloat(parts[1]);
+            machineSettings[key] = value;
+         }
+      });
+      console.log(machineSettings);
+
+      const settingsDialog = new Dialog();
+      settingsDialog.title = "GRBL Settings";
+      settingsDialog.imagePath = "/assets/images/settings.png";
+      settingsDialog.content = createSettingsUI(machineSettings);
+      settingsDialog.selectButtonText = "Save";
+      settingsDialog.closeButtonText = "Reset To Default";
+      settingsDialog.show();
+
+      settingsDialog.selectButtonClicked = () => {
+         const loadingDialog = new Dialog("loading");
+         loadingDialog.title = "Saving...";
+         loadingDialog.show();
+         communicateWithServer("setSettings", JSON.stringify(machineSettings)).then((res) => {
+            console.log(res);
+            loadingDialog.close();
+         });
+      };
+
+      settingsDialog.closeButtonClicked = () => {
+         const loadingDialog = new Dialog("loading");
+         loadingDialog.title = "Resetting...";
+         loadingDialog.show();
+         communicateWithServer("setSettings", JSON.stringify({ RST: "$" })).then((res) => {
+            console.log(res);
+            loadingDialog.close();
+         });
+         settingsDialog.close();
+      };
+   });
+}
+
+// GRBL Settings
+const grblSettings = {
+   0: { name: "Step Pulse Time", unit: "microseconds" },
+   1: { name: "Step Idle Delay", unit: "milliseconds" },
+   2: { name: "Step Port Invert Mask", unit: "" },
+   3: { name: "Direction Port Invert Mask", unit: "" },
+   4: { name: "Step Enable Invert", unit: "boolean" },
+   5: { name: "Limit Pins Invert", unit: "boolean" },
+   6: { name: "Probe Pin Invert", unit: "boolean" },
+   10: { name: "Status Report Mask", unit: "" },
+   11: { name: "Junction Deviation", unit: "mm" },
+   12: { name: "Arc Tolerance", unit: "mm" },
+   13: { name: "Report Inches", unit: "boolean" },
+   20: { name: "Soft Limits", unit: "boolean" },
+   21: { name: "Hard Limits", unit: "boolean" },
+   22: { name: "Homing Cycle", unit: "boolean" },
+   23: { name: "Homing Direction Invert Mask", unit: "" },
+   24: { name: "Homing Feed Rate", unit: "mm/min" },
+   25: { name: "Homing Seek Rate", unit: "mm/min" },
+   26: { name: "Homing Debounce Delay", unit: "milliseconds" },
+   27: { name: "Homing Pull-off", unit: "mm" },
+   30: { name: "Maximum Spindle Speed", unit: "RPM" },
+   31: { name: "Minimum Spindle Speed", unit: "RPM" },
+   32: { name: "Laser Mode", unit: "boolean" },
+   100: { name: "X-axis Steps per Millimeter", unit: "step/mm" },
+   101: { name: "Y-axis Steps per Millimeter", unit: "step/mm" },
+   102: { name: "Z-axis Steps per Millimeter", unit: "step/mm" },
+   110: { name: "X-axis Maximum Rate", unit: "mm/min" },
+   111: { name: "Y-axis Maximum Rate", unit: "mm/min" },
+   112: { name: "Z-axis Maximum Rate", unit: "mm/min" },
+   120: { name: "X-axis Acceleration", unit: "mm/sec^2" },
+   121: { name: "Y-axis Acceleration", unit: "mm/sec^2" },
+   122: { name: "Z-axis Acceleration", unit: "mm/sec^2" },
+   130: { name: "X-axis Maximum Travel", unit: "mm" },
+   131: { name: "Y-axis Maximum Travel", unit: "mm" },
+   132: { name: "Z-axis Maximum Travel", unit: "mm" },
+};
+
+function createSettingsUI(machineSettings) {
+   let settingsUIContainer = DOM.create("div");
+   settingsUIContainer.append(
+      DOM.create("t").setText("Do only edit these settings, if you know exactly, what you are doing. Otherwise it might cause serious damage to your machine.").setStyle({
+         marginBottom: "20px",
+         display: "block",
+      }),
+   );
+
+   for (let key in machineSettings) {
+      let value = machineSettings[key];
+      const setting = grblSettings[key];
+      if (!setting) continue;
+      let inputContainer = createInputElement({ value: value, unit: setting.unit, name: `${setting.name} ($${key})` }, (value) => {
+         machineSettings[key] = parseFloat(value);
+         console.log(machineSettings);
+      });
+      settingsUIContainer.append(inputContainer);
    }
-   return obj;
+
+   return settingsUIContainer;
 }

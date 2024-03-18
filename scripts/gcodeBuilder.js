@@ -1,4 +1,4 @@
-const startGcode = `
+const startGCODE = `
    ; Prepare Job
    M5 ; Laser Off
    G21 ; Millimeter
@@ -6,10 +6,14 @@ const startGcode = `
    $H ; Homing
    G92 X0 Y0 ; Settings Home Point as Zero Point
 `;
-const endGcode = `
+const endGCODE = `
    ; End Of Job
    M5 ; Laser Off
    G0 X0 Y0 ; Move to Home Position
+`;
+export const cancelGCODE = `
+   M5 ; Laser Off
+   $H ; Homing
 `;
 
 // Generate the preview GCODE
@@ -21,7 +25,7 @@ export function generatePreviewGCODE(boundingRect, settings) {
    const width = roundToDecimals(boundingRect.width * scale);
    const height = roundToDecimals(boundingRect.height * scale);
 
-   let gcode = startGcode;
+   let gcode = startGCODE;
 
    // Draw Rect
    for (let i = 0; i < numberOfRounds; i++) {
@@ -42,7 +46,7 @@ export function generateGCODE(data, boundingRect, settings) {
    const scale = settings.positioning.width.value / boundingRect.width;
    const x = parseFloat(settings.positioning.posx.value) || 0;
    const y = parseFloat(settings.positioning.posy.value) || 0;
-   let gcode = startGcode;
+   let gcode = startGCODE;
 
    // Go through data
    for (let label in data) {
@@ -57,7 +61,7 @@ export function generateGCODE(data, boundingRect, settings) {
                   M5 ; Laser OFF
                   G1 F${currentSettings.speed}
                   G0 X${roundToDecimals(x + scale * (path[0] - boundingRect.x))} Y${roundToDecimals(y + scale * (path[1] - boundingRect.y))}
-                  M4 S${currentSettings.power} ; Laser ON
+                  M4 S${currentSettings.power * 10} ; Laser ON
                `;
                for (let j = 2; j < path.length; j += 2) {
                   gcode += `G1 X${roundToDecimals(x + scale * (path[j] - boundingRect.x))} Y${roundToDecimals(y + scale * (path[j + 1] - boundingRect.y))}\n`;
@@ -67,7 +71,7 @@ export function generateGCODE(data, boundingRect, settings) {
       }
    }
 
-   gcode += endGcode;
+   gcode += endGCODE;
    return trimMultilineString(gcode);
 }
 
