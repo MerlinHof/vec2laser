@@ -4,6 +4,11 @@
 $action = $_POST["action"];
 $data = $_POST["data"];
 
+// Create TMP dir if it doesn't exist
+if (!is_dir("./tmp")) {
+   mkdir("./tmp", 0777, true);
+}
+
 // Detect USB Device
 if ($action == "startDetector") {
    $processId = uniqid("process_", true);
