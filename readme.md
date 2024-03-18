@@ -4,7 +4,7 @@ Vec2Laser is a web based front to back laser control software for GRBL laser eng
 
 ### Note
 
-This project is currently in a very early alpha state. This note will be removed, once it's functional and reliable.
+This project is currently in a very early **alpha state**. This note will be _removed_, once it's functional and reliable.
 
 ### Motivation
 
