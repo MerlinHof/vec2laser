@@ -57,7 +57,7 @@ export function generateGCODE(data, boundingRect, settings) {
                   M5 ; Laser OFF
                   G1 F${currentSettings.speed}
                   G0 X${roundToDecimals(x + scale * (path[0] - boundingRect.x))} Y${roundToDecimals(y + scale * (path[1] - boundingRect.y))}
-                  ; M4 S${currentSettings.power} ; Laser ON
+                  M4 S${currentSettings.power} ; Laser ON
                `;
                for (let j = 2; j < path.length; j += 2) {
                   gcode += `G1 X${roundToDecimals(x + scale * (path[j] - boundingRect.x))} Y${roundToDecimals(y + scale * (path[j + 1] - boundingRect.y))}\n`;
