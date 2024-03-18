@@ -6,6 +6,7 @@ export default class Dialog {
    closeOnOutsideClick = true;
    isAiFeatureDialog = false;
    imagePath = "";
+   imageDynamicInvert = false;
    selectButtonClicked = () => {};
    closeButtonClicked = this.close;
    onClose = () => {};
@@ -30,6 +31,7 @@ export default class Dialog {
                height: "40px",
                marginRight: "20px",
                float: "left",
+               filter: "invert(var(--invertValue))",
             });
             this.dialogTitle.setStyle({ marginTop: "2px" });
             this.dialog.append(this.loadingImage);
@@ -75,6 +77,11 @@ export default class Dialog {
       } else {
          this.dialogImage.setStyle({ display: "inline-block" });
          this.dialogImage.attr({ src: this.imagePath });
+         if (this.imageDynamicInvert) {
+            this.dialogImage.setStyle({
+               filter: "invert(var(--invertValue))",
+            });
+         }
       }
       document.body.appendChild(this.dialogContainer.getFirstElement());
       setTimeout(() => {

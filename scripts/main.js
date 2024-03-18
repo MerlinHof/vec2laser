@@ -377,6 +377,7 @@ async function readMachineSettings() {
       const settingsDialog = new Dialog();
       settingsDialog.title = "GRBL Settings";
       settingsDialog.imagePath = "/assets/images/settings.png";
+      settingsDialog.imageDynamicInvert = true;
       settingsDialog.content = createSettingsUI(machineSettings);
       settingsDialog.selectButtonText = "Save";
       settingsDialog.closeButtonText = "Reset To Default";
@@ -410,7 +411,7 @@ const grblSettings = {
    0: { name: "Step Pulse Time", unit: "microseconds" },
    1: { name: "Step Idle Delay", unit: "milliseconds" },
    2: { name: "Step Port Invert Mask", unit: "" },
-   3: { name: "Direction Port Invert Mask", unit: "" },
+   3: { name: "Direction Invert Mask", unit: "" },
    4: { name: "Step Enable Invert", unit: "boolean" },
    5: { name: "Limit Pins Invert", unit: "boolean" },
    6: { name: "Probe Pin Invert", unit: "boolean" },
@@ -426,8 +427,8 @@ const grblSettings = {
    25: { name: "Homing Seek Rate", unit: "mm/min" },
    26: { name: "Homing Debounce Delay", unit: "milliseconds" },
    27: { name: "Homing Pull-off", unit: "mm" },
-   30: { name: "Maximum Spindle Speed", unit: "RPM" },
-   31: { name: "Minimum Spindle Speed", unit: "RPM" },
+   30: { name: "Maximum Laser Value", unit: "" },
+   31: { name: "Minimum Laser Value", unit: "" },
    32: { name: "Laser Mode", unit: "boolean" },
    100: { name: "X-axis Steps per Millimeter", unit: "step/mm" },
    101: { name: "Y-axis Steps per Millimeter", unit: "step/mm" },
