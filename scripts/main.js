@@ -1,6 +1,6 @@
 import DOM from "./dom.js";
 import Dialog from "./Dialog.js";
-import { generatePreviewGCODE, generateGCODE, cancelGCODE } from "./gcodeBuilder.js";
+import { generatePreviewGCODE, generateGCODE } from "./gcodeBuilder.js";
 import SVGInterpreter from "./svgInterpreter.js";
 
 // Fade in
@@ -11,7 +11,6 @@ setTimeout(() => {
 // Global Variables
 export let selectedLabelIndex;
 export let svginterpreter = new SVGInterpreter();
-let mainButtonStart = true;
 export const settings = {
    vector: {
       name: "Vector",
@@ -301,29 +300,18 @@ function prepareStartButton() {
    });
    DOM.select("mainButton").removeAllEvents();
    DOM.select("mainButton").onClick(() => {
-      if (mainButtonStart) {
-         DOM.select("#mainButton img").attr({
-            src: "/assets/images/stop.png",
-         });
-         const gcode = generateGCODE(svginterpreter.designData, svginterpreter.boundingBox, settings);
-         let confirmDialog = new Dialog();
-         confirmDialog.title = "Be Safe";
-         confirmDialog.imagePath = "/assets/images/fire.png";
-         confirmDialog.content = "Your Laser is about to start lasering. Make sure you wear your laser goggles and work in a ventilated environment to not breathe in the toxic fumes.";
-         confirmDialog.selectButtonText = "Start Laser";
-         confirmDialog.closeButtonText = "Cancel";
-         confirmDialog.show();
-         confirmDialog.selectButtonClicked = () => {
-            confirmDialog.close();
-            communicateWithServer("startJob", gcode);
-         };
-      } else {
-         DOM.select("#mainButton img").attr({
-            src: "/assets/images/play.png",
-         });
-         communicateWithServer("startJob", cancelGCODE);
-      }
-      mainButtonStart = !mainButtonStart;
+      const gcode = generateGCODE(svginterpreter.designData, svginterpreter.boundingBox, settings);
+      let confirmDialog = new Dialog();
+      confirmDialog.title = "Be Safe";
+      confirmDialog.imagePath = "/assets/images/fire.png";
+      confirmDialog.content = "Your Laser is about to start lasering. Make sure you wear your laser goggles and work in a ventilated environment to not breathe in the toxic fumes.";
+      confirmDialog.selectButtonText = "Start Laser";
+      confirmDialog.closeButtonText = "Cancel";
+      confirmDialog.show();
+      confirmDialog.selectButtonClicked = () => {
+         confirmDialog.close();
+         communicateWithServer("startJob", gcode);
+      };
    });
 }
 
@@ -358,7 +346,7 @@ async function communicateWithServer(action, data) {
 
 async function readMachineSettings() {
    const loadingDialog = new Dialog("loading");
-   loadingDialog.title = "Loading...";
+   loadingDialog.title = "Reading Settings...";
    loadingDialog.show();
    communicateWithServer("getSettings", "").then((data) => {
       loadingDialog.close();

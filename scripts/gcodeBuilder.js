@@ -11,10 +11,6 @@ const endGCODE = `
    M5 ; Laser Off
    G0 X0 Y0 ; Move to Home Position
 `;
-export const cancelGCODE = `
-   M5 ; Laser Off
-   $H ; Homing
-`;
 
 // Generate the preview GCODE
 export function generatePreviewGCODE(boundingRect, settings) {
