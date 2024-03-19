@@ -12,5 +12,5 @@ Most of the available software for this job is either outdated, paid, Windows-on
 
 ### Installation
 
-To use this software, you need to install python and the python package pyserial. Then simply run the server.py in the backend folder and voila.
+To use this software, you need to install python3 and the python package `pyserial`. Then simply run the `server.py` in the backend folder and voilá.
 (Detailed instructions coming soon)
