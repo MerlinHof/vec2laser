@@ -201,6 +201,7 @@ function createToggleElement(element, toggled = () => {}) {
    return container;
 }
 
+DOM.create("div #divider").appendTo(DOM.select("mainContainer"));
 DOM.create("div #previewContainer").appendTo(DOM.select("mainContainer"));
 DOM.select(".colorLabel").getFirstElement().click();
 
@@ -286,17 +287,15 @@ function prepareStartButton() {
 // Sends Data to the Backend
 async function communicateWithServer(action, data) {
    return new Promise(async (resolve, _) => {
-      let formData = new FormData();
-      formData.append("action", action);
-      formData.append("data", data);
-      let response = await fetch("/backend/controller.php", {
+      let response = await fetch(action, {
          method: "POST",
-         body: formData,
+         body: data,
       });
       let obj = [];
       if (response.ok) {
          obj = await response.json();
       }
+      console.log(obj);
       if (action == "polling") {
          resolve(obj.data);
          return;
@@ -335,7 +334,6 @@ async function readMachineSettings() {
             machineSettings[key] = value;
          }
       });
-      console.log(machineSettings);
 
       const settingsDialog = new Dialog();
       settingsDialog.title = "GRBL Settings";

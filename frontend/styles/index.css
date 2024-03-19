@@ -1,11 +1,6 @@
 @import url("./dialog.css");
 
 @font-face {
-   font-family: "standard";
-   src: url("/assets/fonts/regular.ttf");
-   font-weight: lighter;
-}
-@font-face {
    font-family: "bold";
    src: url("/assets/fonts/medium.ttf");
    font-weight: bolder;
@@ -145,10 +140,15 @@ body {
    display: flex;
    flex-direction: column;
    align-items: center;
-   justify-content: flex-start;
-   border-right: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+#divider {
+   width: 3px;
+   height: 95%;
+   border-radius: 10px;
+   background-color: rgba(0, 0, 0, 0.08);
    @media (prefers-color-scheme: dark) {
-      border-right: 2px solid rgba(255, 255, 255, 0.1);
+      background-color: rgba(255, 255, 255, 0.1);
    }
 }
 

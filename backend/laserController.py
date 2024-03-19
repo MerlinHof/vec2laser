@@ -51,7 +51,6 @@ if args and args[0] == 'getSettings':
 
 # Set Settings
 if args and args[0] == 'setSettings':
-   # Load settings from JSON file
    with open('./tmp/settings.json', 'r') as json_file:
        settings_json = json_file.read()
    try:
@@ -76,19 +75,18 @@ if args and args[0] == 'setSettings':
    sys.exit(0)
 
 
-# Ofen GCODE-File and Send Commands
-with open('./tmp/data.gcode', 'r') as file:
-    for line in file:
-        l = line.strip()
-        if l: # Ignore empty lines
-            print(f'Sending: {l}')
-            ser.write(f'{l}\n'.encode())
-            ser.flush()
-            while True:
-                feedback = ser.readline().decode('utf-8').strip()
-                if feedback.startswith('ok') or feedback.startswith('error'):
-                    print(feedback)
-                    break
-
-# Securely Close Serial Connection
-ser.close()
+# Open GCODE-File and Send Commands
+if args and args[0] == 'startJob':
+   with open('./tmp/data.gcode', 'r') as file:
+      for line in file:
+         l = line.strip()
+         if l: # Ignore empty lines
+               print(f'Sending: {l}')
+               ser.write(f'{l}\n'.encode())
+               ser.flush()
+               while True:
+                  feedback = ser.readline().decode('utf-8').strip()
+                  if feedback.startswith('ok') or feedback.startswith('error'):
+                     print(feedback)
+                     break
+   ser.close()
