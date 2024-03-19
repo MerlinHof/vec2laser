@@ -4,7 +4,7 @@ Vec2Laser is a web based front to back laser control software for GRBL laser eng
 
 ### Note
 
-This project is currently in a very early **alpha state**. This note will be _removed_, once it's functional and reliable.
+This project is currently in an early **alpha state**. This note will be _removed_, once the software works reliably.
 
 ### Motivation
 
@@ -12,4 +12,5 @@ Most of the available software for this job is either outdated, paid, Windows-on
 
 ### Installation
 
-To install this software, ..... <coming soon>
+To use this software, you need to install python and the python package pyserial. Then simply run the server.py in the backend folder and voila.
+(Detailed instructions coming soon)
