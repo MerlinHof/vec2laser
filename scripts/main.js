@@ -50,11 +50,13 @@ if (savedSettings) {
 const isDarkMode = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
 if (isDarkMode) {
    settings.parameters.labels[0].color = { r: 200, g: 230, b: 240 };
+} else {
+   settings.parameters.labels[0].color = { r: 20, g: 40, b: 60 };
 }
 
 // Build Basic UI
 let sideBar = DOM.create("div #sideBar").appendTo(DOM.select("mainContainer")).append(DOM.create("t .title").setText("Vec2Laser"));
-let optionButtonContainer = DOM.create("div #optionButtonContainer").appendTo(sideBar);
+let optionButtonContainer = DOM.create("div").appendTo(sideBar);
 
 optionButtonContainer.append(
    DOM.create("div .imageButton #mainButton")
@@ -72,27 +74,13 @@ optionButtonContainer.append(
    DOM.create("div .imageButton")
       .append(
          DOM.create("img .imageButtonImage").attr({
-            src: "/assets/images/connect.png",
-         }),
-      )
-      .onClick(() => {
-         connectNewDevice();
-      }),
-);
-
-optionButtonContainer.append(
-   DOM.create("div .imageButton")
-      .append(
-         DOM.create("img .imageButtonImage").attr({
             src: "/assets/images/preview.png",
          }),
       )
       .onClick(() => {
          const gcode = generatePreviewGCODE(svginterpreter.boundingBox, settings);
          console.log(gcode);
-         communicateWithServer("startJob", gcode).then((res) => {
-            console.log(res);
-         });
+         communicateWithServer("startJob", gcode);
       }),
 );
 
@@ -227,26 +215,6 @@ previewContainer.appendChild(interactivePreviewSvg);
 // ------------------------------------------------------------------------------------------------------------
 // ------------------------------------------------------------------------------------------------------------
 
-// Connect a new Device
-function connectNewDevice() {
-   let connectDialog = new Dialog();
-   connectDialog.title = "Connect Your Laser";
-   connectDialog.content = "To automatically connect your laser, please unplug it and plug it back in again. You only need to to this once.";
-   connectDialog.withSelectButton = false;
-   connectDialog.closeButtonText = "Cancel";
-   connectDialog.show();
-   communicateWithServer("startDetector", "").then((port) => {
-      connectDialog.close();
-      let successDialog = new Dialog();
-      successDialog.title = "Connected";
-      successDialog.imagePath = "/assets/images/success.png";
-      successDialog.content = "A new serial device was detected at " + port;
-      successDialog.withSelectButton = false;
-      successDialog.closeButtonText = "Close";
-      successDialog.show();
-   });
-}
-
 // Drag & Drop
 document.body.addEventListener("dragover", (event) => {
    event.preventDefault();
@@ -338,6 +306,12 @@ async function communicateWithServer(action, data) {
          communicateWithServer("polling", obj.pid).then((answer) => {
             if (!answer) return;
             clearInterval(interval);
+            console.log(answer);
+            if (answer == "error") {
+               showErrorDialog();
+               resolve(false);
+               return;
+            }
             resolve(answer);
          });
       }, 500);
@@ -350,6 +324,7 @@ async function readMachineSettings() {
    loadingDialog.show();
    communicateWithServer("getSettings", "").then((data) => {
       loadingDialog.close();
+      if (!data) return;
       const lines = data.split("\n").filter((line) => line.startsWith("$"));
       let machineSettings = {};
       lines.forEach((line) => {
@@ -375,8 +350,7 @@ async function readMachineSettings() {
          const loadingDialog = new Dialog("loading");
          loadingDialog.title = "Saving...";
          loadingDialog.show();
-         communicateWithServer("setSettings", JSON.stringify(machineSettings)).then((res) => {
-            console.log(res);
+         communicateWithServer("setSettings", JSON.stringify(machineSettings)).then(() => {
             loadingDialog.close();
          });
       };
@@ -385,8 +359,7 @@ async function readMachineSettings() {
          const loadingDialog = new Dialog("loading");
          loadingDialog.title = "Resetting...";
          loadingDialog.show();
-         communicateWithServer("setSettings", JSON.stringify({ RST: "$" })).then((res) => {
-            console.log(res);
+         communicateWithServer("setSettings", JSON.stringify({ RST: "$" })).then(() => {
             loadingDialog.close();
          });
          settingsDialog.close();
@@ -453,4 +426,12 @@ function createSettingsUI(machineSettings) {
    }
 
    return settingsUIContainer;
+}
+
+function showErrorDialog() {
+   const errorDialog = new Dialog();
+   errorDialog.title = "Error";
+   errorDialog.content = "Something went wrong. Please make sure your laser is connected correctly to your computer.";
+   errorDialog.withSelectButton = false;
+   errorDialog.show();
 }

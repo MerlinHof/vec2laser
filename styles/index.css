@@ -152,14 +152,6 @@ body {
    }
 }
 
-#optionButtonContainer {
-   width: 220px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-wrap: wrap;
-}
-
 .settingsElementContainer {
    margin-bottom: 8px;
    display: flex;

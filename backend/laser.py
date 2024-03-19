@@ -1,37 +1,35 @@
+import serial.tools.list_ports
 import serial
 import time
 import os
 import sys
 import json
 
-# Get command line arguments
+# Auto-Detect GRBL-Port by trying to connect to each available port
+def getGrblConnection():
+   serialConnection = ""
+   for comport in serial.tools.list_ports.comports():
+      try:
+         ser = serial.Serial(comport.device, 115200, timeout=0.1)
+         time.sleep(0.1)
+         ser.write(b'\x18')
+         start_time = time.time()
+         while True:
+            if (time.time() - start_time) > 0.1: break
+            line = ser.readline().decode('utf-8').strip()
+            if 'Grbl' in line:
+               serialConnection = ser
+      except (serial.SerialException, serial.SerialTimeoutException):
+         pass
+   if serialConnection:
+      return serialConnection
+   else:
+      print("error")
+      exit()
+
+# Variables
 args = sys.argv[1:]
-
-# Check if tmp/port.txt File exists
-if not os.path.exists('./tmp/port.txt'):
-   print("error")
-   exit(1)
-
-# Load Port
-with open('tmp/port.txt', 'r') as port_file:
-   com_port = port_file.readline().strip()
-
-# Establish Serial Connection to GRBL-Device
-try:
-   ser = serial.Serial(com_port, 115200)
-except serial.SerialException as e:
-   print("Connection Failed: Port doesn't exist")
-   exit(1)
-time.sleep(0.5)
-
-# GRBL Initialization (Soft-Reset)
-ser.write(b'\x18')
-
-# Wait for GRBL Start Message
-while True:
-   line = ser.readline().decode('utf-8').strip()
-   if 'Grbl' in line:
-      break
+ser = getGrblConnection()
 
 # Get Settings
 if args and args[0] == 'getSettings':
@@ -59,7 +57,7 @@ if args and args[0] == 'setSettings':
    try:
        settings_dict = json.loads(settings_json)
    except json.JSONDecodeError as e:
-       print(f"Invalid JSON format: {e}")
+       print("error")
        ser.close()
        sys.exit(1)
 
