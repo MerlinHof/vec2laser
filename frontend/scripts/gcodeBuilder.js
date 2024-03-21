@@ -59,8 +59,6 @@ export function generateGCODE(pathGroups, boundingRect, settings) {
    // Go through paths and convert them to GCODE
    for (let label in orderedPaths) {
       let currentSettings = settings.parameters.labels[label];
-      //let labelGroup = data[label];
-
       let paths = orderedPaths[label];
       for (let path of paths) {
          for (let subPath of path.points) {
@@ -81,7 +79,6 @@ export function generateGCODE(pathGroups, boundingRect, settings) {
    }
 
    gcode += endGCODE;
-   console.log(trimMultilineString(gcode));
    return trimMultilineString(gcode);
 }
 

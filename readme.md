@@ -1,10 +1,10 @@
 ## Welcome to Vec2Laser
 
-Vec2Laser is a web based front to back laser control software for GRBL laser engravers and cutters. Its backend uses python and php and can be installed on a Raspberry Pi connected to the USB-Port of the laser to even enable wireless control. Or it can all be installed on your laptop to have a complete experience.
+Vec2Laser is a powerful web based laser control software for GRBL laser engravers and cutters.
 
 ### Note
 
-This project is currently in an early **alpha state**. This note will be _removed_, once the software works reliably.
+This project is currently in an early **alpha state**. This note will be _removed_, once the software works reliably and safely.
 
 ### Motivation
 
@@ -12,5 +12,5 @@ Most of the available software for this job is either outdated, paid, Windows-on
 
 ### Installation
 
-To use this software, you need to install python3 and the python package `pyserial`. Then simply run the `server.py` in the backend folder and voilá.
+To use this software, you need to have a working installation of Python3 and the Python package `pyserial`. Then simply run the `server.py` in the backend folder and voilá.
 (Detailed instructions coming soon)
