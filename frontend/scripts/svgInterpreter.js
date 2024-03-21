@@ -3,41 +3,41 @@ import DOM from "./dom.js";
 
 export default class SVGInterpreter {
    boundingBox;
-   designData = {};
+   pathGroups = [];
 
    read(file) {
       let reader = new FileReader();
       reader.onload = (event) => {
          let svgData = new DOMParser().parseFromString(event.target.result, "image/svg+xml");
-         this.designData = this.svgToPaths(svgData);
+         this.pathGroups = this.parseSvg(svgData);
+         console.log(this.pathGroups);
          this.draw();
       };
       reader.readAsText(file);
    }
 
-   svgToPaths(svgData) {
-      let paths = svgData.querySelectorAll("path");
-      let pathArray = Array.from(paths).map((path) => path.getAttribute("d"));
+   parseSvg(svgData) {
+      const paths = Array.from(svgData.querySelectorAll("path")).map((path) => path.getAttribute("d"));
+      const circles = this.extractCircles(svgData);
+      const rects = this.extractRects(svgData);
+      //const images = extractImages(svgData);
 
-      const circleArray = this.circlesToPaths(svgData);
-      const rectArray = this.rectsToPaths(svgData);
-      //const imageArray = imagesToPaths(svgData);
-
-      let combinedPathGroups = pathArray.concat(rectArray).concat(circleArray);
-      combinedPathGroups = combinedPathGroups.filter(Boolean);
-      let designData = [];
-      for (let path of combinedPathGroups) {
-         let pathPoints = this.pathToPointSequence(path);
-         console.log(pathPoints);
-         if (designData[selectedLabelIndex] == undefined) {
-            designData[selectedLabelIndex] = [];
+      const svgElements = paths.concat(rects).concat(circles).filter(Boolean);
+      const pathGroups = [];
+      for (let svgElement of svgElements) {
+         const pointPaths = this.toPointPaths(svgElement);
+         const group = [];
+         for (let points of pointPaths) {
+            const path = new Path(points);
+            path.label = selectedLabelIndex;
+            group.push(path);
          }
-         designData[selectedLabelIndex].push(pathPoints);
+         pathGroups.push(group);
       }
-      return designData;
+      return pathGroups;
    }
 
-   circlesToPaths(svgData) {
+   extractCircles(svgData) {
       let circles = svgData.querySelectorAll("circle");
       return Array.from(circles).map((circle) => {
          let cx = parseFloat(circle.getAttribute("cx"));
@@ -61,7 +61,7 @@ export default class SVGInterpreter {
       });
    }
 
-   rectsToPaths(svgData) {
+   extractRects(svgData) {
       let rects = svgData.querySelectorAll("rect");
       return Array.from(rects).map((rect) => {
          if (!rect.getAttribute("stroke") || rect.getAttribute("stroke") === "none" || rect.getAttribute("stroke") === "transparent") {
@@ -131,7 +131,7 @@ export default class SVGInterpreter {
       });
    }
 
-   imagesToPaths(svgData) {
+   extractImages(svgData) {
       let imageArray = [];
       let patterns = svgData.querySelectorAll("pattern");
       let patternMap = {};
@@ -157,18 +157,6 @@ export default class SVGInterpreter {
                let width = parseFloat(rect.getAttribute("width"));
                let height = parseFloat(rect.getAttribute("height"));
 
-               // Draw a preview rectangle around the image
-               // let previewRect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-               // previewRect.setAttribute("x", x);
-               // previewRect.setAttribute("y", y);
-               // previewRect.setAttribute("width", width);
-               // previewRect.setAttribute("height", height);
-               // previewRect.setAttribute("stroke", "rgba(0, 180, 0, 0.7)");
-               // previewRect.setAttribute("stroke-dasharray", "5, 5");
-               // previewRect.setAttribute("fill", "transparent");
-               // previewRect.setAttribute("pointer-events", "none");
-               // this.interactivePreviewSvg.insertBefore(previewRect, this.interactivePreviewSvg.firstChild);
-
                // Store the image URL for further use
                imageArray.push({ x, y, width, height, imageUrl });
             }
@@ -176,11 +164,12 @@ export default class SVGInterpreter {
       });
    }
 
-   pathToPointSequence(pathString) {
+   toPointPaths(pathString) {
       let commands = pathString.match(/[MmLlHhVvCcSsQqTtAaZz][^MmLlHhVvCcSsQqTtAaZz]*/g);
       if (!commands) return;
       let currentPoint = { x: 0, y: 0 };
       let points = [];
+      // TODO: Update to {x: x, y: 0} syntax for consistency!
       commands.forEach((command) => {
          let type = command.charAt(0);
          let args = command
@@ -262,7 +251,7 @@ export default class SVGInterpreter {
       let controlPoint2 = { x: args[2], y: args[3] };
       let endPoint = { x: args[4], y: args[5] };
 
-      // Sehr grobe Längenschätzung
+      // Very rough length estimation
       let distanceSquared = (dx, dy) => dx * dx + dy * dy;
       let roughLength = Math.sqrt(
          distanceSquared(endPoint.x - startPoint.x, endPoint.y - startPoint.y) +
@@ -284,20 +273,19 @@ export default class SVGInterpreter {
 
    draw() {
       const interactivePreviewSvg = DOM.select("interactivePreviewSvg").getFirstElement();
-      interactivePreviewSvg.textContent = "";
+      interactivePreviewSvg.textContent = ""; // clear
 
-      for (let label in this.designData) {
-         let pathGroup = this.designData[label];
-         for (let path of pathGroup) {
-            if (settings.vector?.groupSelection?.value) {
-               this.drawPath(path, label, interactivePreviewSvg);
-            } else {
-               for (let p of path) {
-                  this.drawPath([p], label, interactivePreviewSvg);
-               }
+      // DRAW
+      for (let pathGroup of this.pathGroups) {
+         if (settings.vector.groupSelection.value) {
+            this.drawPathGroup(pathGroup, interactivePreviewSvg);
+         } else {
+            for (let path of pathGroup) {
+               this.drawPathGroup([path], interactivePreviewSvg);
             }
          }
       }
+
       // Scale SVG to fit the screen
       this.boundingBox = interactivePreviewSvg.getBBox();
       console.log(this.boundingBox);
@@ -317,25 +305,26 @@ export default class SVGInterpreter {
       interactivePreviewSvg.insertBefore(bboxRect, interactivePreviewSvg.firstChild);
    }
 
-   drawPath(path, label, interactivePreviewSvg) {
-      let pathElement = document.createElementNS("http://www.w3.org/2000/svg", "path");
-      let svgString = "";
-      for (let points of path) {
-         svgString += "M " + points[0] + " " + points[1] + " ";
-         for (let j = 2; j < points.length; j += 2) {
-            svgString += "L " + points[j] + " " + points[j + 1] + " ";
-         }
-      }
+   drawPathGroup(pathGroup, interactivePreviewSvg) {
       const labels = settings.parameters.labels;
+      const pathElements = [];
+      let svgString = "";
+      for (let path of pathGroup) {
+         let ggg = path.toSvgString();
+         svgString += ggg;
 
-      pathElement.setAttribute("d", svgString);
-      pathElement.setAttribute("stroke", `rgb(${labels[label].color.r}, ${labels[label].color.g}, ${labels[label].color.b})`);
-      pathElement.setAttribute("stroke-width", "1.5");
-      pathElement.setAttribute("fill", "transparent");
-      pathElement.setAttribute("stroke-linecap", "round");
-      pathElement.setAttribute("stroke-linejoin", "round");
-      pathElement.setAttribute("pointer-events", "none");
-      pathElement.style.transition = "stroke 0.2s ease-in-out, stroke-width 0.1s ease-in-out";
+         let pathElement = document.createElementNS("http://www.w3.org/2000/svg", "path");
+         pathElement.setAttribute("d", ggg);
+         pathElement.setAttribute("stroke", `rgb(${labels[path.label].color.r}, ${labels[path.label].color.g}, ${labels[path.label].color.b})`);
+         pathElement.setAttribute("stroke-width", "1.5");
+         pathElement.setAttribute("fill", "transparent");
+         pathElement.setAttribute("stroke-linecap", "round");
+         pathElement.setAttribute("stroke-linejoin", "round");
+         pathElement.setAttribute("pointer-events", "none");
+         pathElement.style.transition = "stroke 0.2s ease-in-out, stroke-width 0.1s ease-in-out";
+         interactivePreviewSvg.appendChild(pathElement);
+         pathElements.push(pathElement);
+      }
 
       // Hitboxx
       let backgroundPathElement = document.createElementNS("http://www.w3.org/2000/svg", "path");
@@ -347,35 +336,64 @@ export default class SVGInterpreter {
       backgroundPathElement.setAttribute("stroke-linecap", "round");
       backgroundPathElement.setAttribute("stroke-linejoin", "round");
       backgroundPathElement.style.transition = "stroke 0.1s ease-in-out, stroke-width 0.1s ease-in-out";
-      interactivePreviewSvg.insertBefore(backgroundPathElement, interactivePreviewSvg.firstChild);
+      // interactivePreviewSvg.insertBefore(backgroundPathElement, interactivePreviewSvg.firstChild);
+      interactivePreviewSvg.appendChild(backgroundPathElement);
 
+      // Selecting Path
       backgroundPathElement.addEventListener("click", () => {
-         for (let label in this.designData) {
-            let sequences = this.designData[label];
-            let index = sequences.findIndex((seq) => seq.toString() === path.toString());
-            if (index !== -1) {
-               sequences.splice(index, 1);
-            }
+         for (let path of pathGroup) {
+            path.label = selectedLabelIndex;
          }
-         if (this.designData[selectedLabelIndex] == undefined) this.designData[selectedLabelIndex] = [];
-         this.designData[selectedLabelIndex].push(path);
-         pathElement.setAttribute("stroke", `rgb(${labels[selectedLabelIndex].color.r}, ${labels[selectedLabelIndex].color.g}, ${labels[selectedLabelIndex].color.b})`);
-
-         console.log(this.designData);
+         for (let pathElement of pathElements) {
+            pathElement.setAttribute("stroke", `rgb(${labels[selectedLabelIndex].color.r}, ${labels[selectedLabelIndex].color.g}, ${labels[selectedLabelIndex].color.b})`);
+         }
+         console.log(this.pathGroups);
       });
 
       // Hovering Effects
       backgroundPathElement.addEventListener("mouseenter", function () {
-         pathElement.setAttribute("stroke-width", "3");
+         for (let pathElement of pathElements) {
+            pathElement.setAttribute("stroke-width", "3");
+         }
          this.setAttribute("stroke", `rgba(${labels[selectedLabelIndex].color.r}, ${labels[selectedLabelIndex].color.g}, ${labels[selectedLabelIndex].color.b}, 0.2)`);
          this.setAttribute("stroke-width", "20");
       });
       backgroundPathElement.addEventListener("mouseleave", function () {
-         pathElement.setAttribute("stroke-width", "1.5");
+         for (let pathElement of pathElements) {
+            pathElement.setAttribute("stroke-width", "1.5");
+         }
          this.setAttribute("stroke", "transparent");
          this.setAttribute("stroke-width", "10");
       });
+   }
+}
 
-      interactivePreviewSvg.appendChild(pathElement);
+// --------------------------------------------------------------------------------------------
+// Path
+class Path {
+   label = 0;
+   points = [[]];
+   isFilled = false;
+
+   constructor(points) {
+      for (let i = 0; i < points.length; i += 2) {
+         this.points[0].push({ x: points[i], y: points[i + 1] });
+      }
+   }
+
+   fill() {
+      isFilled = true;
+      // ...
+   }
+
+   toSvgString() {
+      let svgString = "";
+      for (let points of this.points) {
+         svgString += `M ${points[0].x} ${points[0].y} `;
+         for (let point of points) {
+            svgString += `L ${point.x} ${point.y} `;
+         }
+      }
+      return svgString;
    }
 }

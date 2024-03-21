@@ -128,8 +128,6 @@ for (let sectionKey in settings) {
       settingsContainer.append(createInputElement(section.posy));
    }
    if (sectionKey == "parameters") {
-      console.log(section);
-      console.log(section.labels);
       settingsContainer.append(createLabelColorElement(section.labels));
       settingsContainer.append(
          createInputElement(section.speed, (value) => {
@@ -269,7 +267,7 @@ function prepareStartButton() {
    });
    DOM.select("mainButton").removeAllEvents();
    DOM.select("mainButton").onClick(() => {
-      const gcode = generateGCODE(svginterpreter.designData, svginterpreter.boundingBox, settings);
+      const gcode = generateGCODE(svginterpreter.pathGroups, svginterpreter.boundingBox, settings);
       let confirmDialog = new Dialog();
       confirmDialog.title = "Be Safe";
       confirmDialog.imagePath = "/assets/images/fire.png";
@@ -295,7 +293,6 @@ async function communicateWithServer(action, data) {
       if (response.ok) {
          obj = await response.json();
       }
-      console.log(obj);
       if (action == "polling") {
          resolve(obj.data);
          return;
@@ -304,8 +301,8 @@ async function communicateWithServer(action, data) {
       let interval = setInterval(() => {
          communicateWithServer("polling", obj.pid).then((answer) => {
             if (!answer) return;
-            clearInterval(interval);
             console.log(answer);
+            clearInterval(interval);
             if (answer == "error") {
                showErrorDialog();
                resolve(false);
@@ -313,7 +310,7 @@ async function communicateWithServer(action, data) {
             }
             resolve(answer);
          });
-      }, 500);
+      }, 200);
    });
 }
 

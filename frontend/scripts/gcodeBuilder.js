@@ -38,29 +38,42 @@ export function generatePreviewGCODE(boundingRect, settings) {
 }
 
 // Generate the actual GCODE
-export function generateGCODE(data, boundingRect, settings) {
+export function generateGCODE(pathGroups, boundingRect, settings) {
    const scale = settings.positioning.width.value / boundingRect.width;
    const x = parseFloat(settings.positioning.posx.value) || 0;
    const y = parseFloat(settings.positioning.posy.value) || 0;
    let gcode = startGCODE;
+   console.log(pathGroups);
+   console.log(scale);
 
-   // Go through data
-   for (let label in data) {
+   // Sort Paths from lowest labelIndex to highest
+   const orderedPaths = {};
+   for (let group of pathGroups) {
+      for (let path of group) {
+         if (!Array.isArray(orderedPaths[path.label])) orderedPaths[path.label] = [];
+         orderedPaths[path.label].push(path);
+      }
+   }
+   console.log(orderedPaths);
+
+   // Go through paths and convert them to GCODE
+   for (let label in orderedPaths) {
       let currentSettings = settings.parameters.labels[label];
-      let labelGroup = data[label];
-      console.log(currentSettings);
+      //let labelGroup = data[label];
 
-      for (let pathGroup of labelGroup) {
-         for (let path of pathGroup) {
-            for (let n = 0; n < currentSettings.passes; n++) {
+      let paths = orderedPaths[label];
+      for (let path of paths) {
+         for (let subPath of path.points) {
+            for (let i = 0; i < currentSettings.passes; i++) {
                gcode += `
+                  ; New Path
                   M5 ; Laser OFF
                   G1 F${currentSettings.speed}
-                  G0 X${roundToDecimals(x + scale * (path[0] - boundingRect.x))} Y${roundToDecimals(y + scale * (path[1] - boundingRect.y))}
+                  G0 X${roundToDecimals(x + scale * (subPath[0].x - boundingRect.x))} Y${roundToDecimals(y + scale * (subPath[0].y - boundingRect.y))}
                   M4 S${currentSettings.power * 10} ; Laser ON
                `;
-               for (let j = 2; j < path.length; j += 2) {
-                  gcode += `G1 X${roundToDecimals(x + scale * (path[j] - boundingRect.x))} Y${roundToDecimals(y + scale * (path[j + 1] - boundingRect.y))}\n`;
+               for (let j = 0; j < subPath.length; j++) {
+                  gcode += `G1 X${roundToDecimals(x + scale * (subPath[j].x - boundingRect.x))} Y${roundToDecimals(y + scale * (subPath[j].y - boundingRect.y))}\n`;
                }
             }
          }
@@ -68,6 +81,7 @@ export function generateGCODE(data, boundingRect, settings) {
    }
 
    gcode += endGCODE;
+   console.log(trimMultilineString(gcode));
    return trimMultilineString(gcode);
 }
 
